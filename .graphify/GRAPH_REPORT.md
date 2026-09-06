@@ -1,7 +1,7 @@
 # Graph Report - .  (2026-09-06)
 
 ## Corpus Check
-- Corpus is ~6.411 words - fits in a single context window. You may not need a graph.
+- Corpus is ~6.378 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 65 nodes · 135 edges · 8 communities detected
@@ -13,9 +13,13 @@
 ## Input Scope
 - Requested: tracked
 - Resolved: tracked (source: cli)
-- Included files: 19 · Candidates: 160
-- Excluded: 0 untracked · 15012 ignored · 0 sensitive · 0 missing committed
+- Included files: 19 · Candidates: 166
+- Excluded: 6 untracked · 15098 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
+
+## Graph Freshness
+- Built from Git commit: `e80ed38`
+- Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `Storefront()` - 8 edges
 2. `QuoteForm()` - 7 edges
@@ -23,7 +27,7 @@
 4. `ProductDetail()` - 6 edges
 5. `QuoteItem` - 6 edges
 6. `colourLabel()` - 6 edges
-7. `Bos Bahan PVC` - 6 edges
+7. `BOSS BAHAN PVC` - 6 edges
 8. `Quotation inquiry` - 6 edges
 9. `Catalog data: 27 groups, 99 variants` - 6 edges
 10. `Runtime contact configuration` - 6 edges
@@ -44,7 +48,7 @@
 
 ### Community 0 - "Deployment and Configuration"
 Cohesion: 0.27
-Nodes (9): Bos Bahan PVC, Compose web service, Runtime contact configuration, Docker localhost review, Graphify project map, GET(), config, Next.js standalone runtime (+1 more)
+Nodes (9): BOSS BAHAN PVC, Compose web service, Runtime contact configuration, Docker localhost review, Graphify project map, GET(), config, Next.js standalone runtime (+1 more)
 
 ### Community 1 - "Facility Media Pipeline"
 Cohesion: 0.24

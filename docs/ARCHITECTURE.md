@@ -1,6 +1,6 @@
-# Bos Bahan PVC architecture
+# BOSS BAHAN PVC architecture
 
-Bos Bahan PVC is a bilingual B2B portfolio and quotation catalog. The customer selects materials and prepares an inquiry; the application has no cart, checkout, payment service, order backend, or inquiry database.
+BOSS BAHAN PVC is a bilingual B2B portfolio and quotation catalog. The customer selects materials and prepares an inquiry; the application has no cart, checkout, payment service, order backend, or inquiry database.
 
 ## Rendering and language
 
@@ -20,7 +20,7 @@ Bos Bahan PVC is a bilingual B2B portfolio and quotation catalog. The customer s
 
 `CapabilityGallery` in `app/capability-gallery.tsx` reads `lib/gallery.json` and presents 11 facility photographs and 6 silent videos. It supports filtering, thumbnails, previous/next navigation and an enlarged dialog. Compressed videos in `public/media` load on selection. Optimized WebP product and facility images are in `public/images`.
 
-The original round logo supplies the header and favicon; the separate rectangular banner is used in the brand section. The generated five-star BOS APPROVED seal sits beside the hero slogan. The generated finished-tarpaulin image is identified as illustrative in product details.
+The original round logo supplies the header and favicon; the separate rectangular banner is used in the brand section. All brand names read BOSS BAHAN PVC. The generated seal sits beside the hero slogan, with BOSS APPROVED on the upper arc and five gold stars on the lower arc. The generated finished-tarpaulin image is identified as illustrative in product details.
 
 `scripts/inspect-assets.py` extracts the original workbook into a local intermediate file. `scripts/prepare-catalog.py` produces the catalog data and optimized product imagery. `scripts/prepare-gallery.py` prepares the facility gallery and compressed videos. These scripts require the owner's original `ASSETS` folder and workbook, which are kept locally and excluded from Git. The committed catalog and optimized public assets are sufficient to run the website.
 

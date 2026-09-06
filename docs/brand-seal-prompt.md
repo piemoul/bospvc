@@ -1,0 +1,7 @@
+# BOSS BAHAN PVC hero seal
+
+Generated with the built-in image tool, using the prior seal as the edit target and the original BOSS round logo as the brand reference. The optimized website asset is `public/images/boss-approved-seal-v2.webp`.
+
+## Final prompt
+
+Use case: precise-object-edit. Edit the existing circular BOSS BAHAN PVC website brand seal. Image 1 is the seal to edit; Image 2 is the canonical original brand-logo reference. Preserve the distinctive curled-sheet gold B monogram, black leather face, champagne-gold metallic styling and double gold rim. Apply exactly these requested corrections: the UPPER inner arc must read "BOSS APPROVED" (B-O-S-S, two S letters); the large brand name beneath the B monogram must read "BOSS" (B-O-S-S, four letters) with "BAHAN PVC" on the next line. Place exactly FIVE gold five-point stars along the LOWER inner arc, below BAHAN PVC. Remove every star from the top and remove the approval text from the bottom. All text must be spelled verbatim, clearly legible at small website sizes. Only three text strings: BOSS APPROVED, BOSS, BAHAN PVC. This is the brand's own approval seal. Output one clean, centered, perfectly circular front-facing badge on a square canvas, the circular rim spans about 92 percent of canvas width and height. Outside the rim use a uniform solid near-black #151a19 background, with no checkerboard pattern. Keep the complete gold rim visible with equal margins. No extra props, ribbons, laurels, logos, captions, watermark or additional text.

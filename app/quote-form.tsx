@@ -10,13 +10,13 @@ export default function QuoteForm({lang,items,setItems,whatsapp,salesEmail}:{lan
   const [inquiry,setInquiry]=useState<Inquiry|null>(null);
   const t=(id:string,en:string)=>lang==='id'?id:en;
   const inquiryText=()=>inquiry?[
-    t('Halo Bos Bahan PVC, mohon penawaran untuk kebutuhan berikut.','Hello Bos Bahan PVC, please provide a quotation for the following requirements.'),'',
+    t('Halo BOSS BAHAN PVC, mohon penawaran untuk kebutuhan berikut.','Hello BOSS BAHAN PVC, please provide a quotation for the following requirements.'),'',
     t('Nama: ','Name: ')+inquiry.name,t('Perusahaan: ','Company: ')+inquiry.company,'Email: '+inquiry.email,t('Telepon: ','Phone: ')+(inquiry.phone||'—'),'',
     ...inquiry.items.map(i=>itemText(i,lang)),'',inquiry.message,'',t('Mohon informasi harga, ketersediaan, dan pengiriman. Terima kasih.','Please advise pricing, availability and delivery options. Thank you.'),
   ].join('\n'):'';
   const download=()=>{
     const url=URL.createObjectURL(new Blob([inquiryText()],{type:'text/plain;charset=utf-8'}));
-    const a=document.createElement('a');a.href=url;a.download='Bos-Bahan-PVC-Inquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    const a=document.createElement('a');a.href=url;a.download='BOSS-BAHAN-PVC-Inquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   };
   function prepare(e:FormEvent<HTMLFormElement>) {
     e.preventDefault();

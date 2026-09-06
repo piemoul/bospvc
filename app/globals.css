@@ -74,7 +74,7 @@ input:focus,select:focus,textarea:focus { outline:2px solid #ac803f; outline-off
 .hero-heading-row {display:grid;grid-template-columns:minmax(0,1fr) clamp(180px,22vw,280px);align-items:center;gap:48px;margin:25px 0 22px}
 .hero-seal {position:relative;width:100%;z-index:2;filter:drop-shadow(0 16px 35px #0008);animation:enter .7s ease both}
 .hero-seal::before {content:'';position:absolute;inset:-25px;z-index:-1;background:radial-gradient(ellipse,#dfba7f24,transparent 66%)}
-.hero-seal img {width:100%;height:auto;display:block;clip-path:ellipse(43.2% 44.6% at 50% 49.3%);transform:scale(1.14)}
+.hero-seal img {width:100%;height:auto;display:block;clip-path:ellipse(45.1% 46.2% at 50.4% 49.3%);transform:scale(1.1)}
 .hero h1 { font-size:clamp(44px,4.7vw,68px); font-weight:700; line-height:1.07; letter-spacing:-.048em; min-width:0; margin:0; }
 .hero h1 span { color:var(--gold); }
 .hero-description { color:#bdc4c0; max-width:500px; line-height:1.8; font-size:16px; }

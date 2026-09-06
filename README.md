@@ -1,4 +1,4 @@
-# Bos Bahan PVC
+# BOSS BAHAN PVC
 
 Bilingual B2B material portfolio and quotation catalog built with Next.js, TypeScript and Tailwind CSS. The visual direction follows the supplied reference's industrial hero, product catalog, capabilities, and inquiry structure using the provided black-and-gold identity.
 
@@ -19,12 +19,12 @@ It binds to this machine's loopback interface. Other Docker applications are una
 Edit `.env` for Docker and `.env.local` for development:
 
 ```dotenv
-SALES_EMAIL=malesmikirbos@gmail.com
-WHATSAPP_NUMBER=6287875749789
+SALES_EMAIL=berkahmultiplastik@gmail.com
+WHATSAPP_NUMBER=6285195518078
 LOCAL_PORT=3036
 ```
 
-The phone number is the development test number. Use international digits without spaces or a leading `+`. Apply contact changes without rebuilding:
+The current WhatsApp contact is +62 851-9551-8078. Use international digits without spaces or a leading `+`. Apply contact changes without rebuilding:
 
 ```powershell
 docker compose up -d --force-recreate
@@ -69,7 +69,7 @@ To refresh the complete map in Codex, invoke `$graphify .`. Use `$graphify . --s
 - Related thickness, size and GSM rows are kept as variants. Groups are organised into automotive, clear/rigid sheets, tarpaulins, interior/household, and bags/textiles.
 - Prices are omitted from the website because this is an inquiry catalog. Ambiguous source dimensions and sales units are marked for confirmation instead of guessed. Availability is subject to confirmation.
 - The original workbook and `ASSETS` files are preserved. Product-specific photos come from the supplied folders and embedded workbook images. The separated `ASSETS/Mika` and `ASSETS/Rigid` directories supply their respective product photos.
-- The round and rectangular brand marks are separated from `ASSETS/LOGO.jpeg`. The round mark is used in the header, favicon, PNG icon and Apple touch icon. The supplied artwork retains its original spelling; the written site brand is **Bos Bahan PVC**.
+- The round and rectangular brand marks are separated from `ASSETS/LOGO.jpeg`. The round mark is used in the header, favicon, PNG icon and Apple touch icon. The supplied artwork retains its original spelling; the written site brand is **BOSS BAHAN PVC**.
 - Photos are converted to WebP and loaded lazily outside the main hero. The header uses a self-hosted Barlow Condensed font. No animation framework, external font request, third-party analytics, or external image hotlink is used.
 - `public/images/product-25-generated.webp` is an illustrative finished-tarpaulin image made with the built-in image generation tool. It is identified as illustrative in the product detail. The original warehouse photography is not generatively altered. The expanded capabilities gallery includes 11 photos and 6 complete, silent video clips (8.5 MB combined), lazy-loaded thumbnails, filters, and an enlarged view. Video assets load only on selection. Run scripts/prepare-gallery.py to refresh the gallery.
 - To reimport after source changes, run `scripts/inspect-assets.py` followed by `scripts/prepare-catalog.py` with Python and Pillow. The preparation script preserves the generated tarpaulin when present. Review product-specific editorial overrides when the workbook changes.
@@ -92,8 +92,6 @@ Built-in image generation was used; its interface does not expose a model-versio
 
 > Use case: product-mockup. Asset type: a single square website catalog product photograph, illustrative finished tarpaulin sheet. Create exactly one photorealistic studio image of a folded finished blue woven polyethylene tarpaulin with a silver reverse, reinforced hems, and metal eyelets. The large sheet is neatly folded into a compact rectangular stack, with one corner unfolded to reveal the silver underside and woven material. Deep navy/royal blue face, cool silver-gray reverse, fine woven polyethylene texture. Neutral light gray seamless studio surface, three-quarter view from slightly above, full product with clean margins, soft diffused lighting and natural contact shadow. One product; no text, logos, watermark, labels, dimension lines, printed size information, claims, props, people, packaging or collage.
 
-The hero's five-star brand seal is saved at `public/images/bos-approved-seal.webp`, generated with the built-in image tool using the supplied round mark as its reference. The original header logo and favicon remain separate. The header wordmark **BOS BAHAN PVC** stays on one line at mobile and desktop sizes. The seal's surrounding background is masked with CSS; the WebP itself is not transparent.
+The hero's revised brand seal is saved at `public/images/boss-approved-seal-v2.webp`, generated with the built-in image tool using the supplied round mark as its reference. It reads **BOSS APPROVED** on the upper arc and has exactly five stars below **BOSS BAHAN PVC**. The original header logo and favicon already use the same BOSS spelling. The header wordmark stays on one line at mobile and desktop sizes.
 
-Seal prompt brief:
-
-> Use case: precise-object-edit. Create a round brand seal based on the supplied original round logo. Preserve the curled gold B monogram, black leather texture and champagne-gold palette. Use the spelling BOS, with three letters. Add a double gold rim and exactly five gold five-point stars along the upper arc. Place a large B monogram above BOS and BAHAN PVC, with BOS APPROVED along the lower arc. This is the brand's own seal; include no external certifications. Square, front-facing composition, transparent outside the circle, legible at 200–280 px. No props, laurels, ribbons or watermarks.
+The [final seal prompt](docs/brand-seal-prompt.md) records the exact spelling, placement and visual constraints.

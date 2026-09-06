@@ -8,8 +8,8 @@
     "hash": "49ac20a8ea3255c732a3fbc5b2b10369"
   },
   "app/layout.tsx": {
-    "mtime": 1788674754110.397,
-    "hash": "b946bd35f46e83828ddd9cb52fb56fdd"
+    "mtime": 1788678337958.7366,
+    "hash": "2966db4d0ab2121a612e9627e07cc72c"
   },
   "app/page-interactions.tsx": {
     "mtime": 1788676763964.6975,
@@ -24,12 +24,12 @@
     "hash": "71603c8b1e9e107c91ba5a4c47e202b3"
   },
   "app/quote-form.tsx": {
-    "mtime": 1788675411498.714,
-    "hash": "e07490723474464982a80bff30a69e9a"
+    "mtime": 1788678428860.4717,
+    "hash": "cae6e4d89af46685fb1f0060c6afd5f0"
   },
   "app/storefront.tsx": {
-    "mtime": 1788676913037.5542,
-    "hash": "4f3eaadc72a06e77e4a42fd159da1dd9"
+    "mtime": 1788678337956.734,
+    "hash": "bcb085f3a7c697730e5e1c7e68693687"
   },
   "lib/catalog.ts": {
     "mtime": 1788675304273.8638,
@@ -40,8 +40,8 @@
     "hash": "4b90cf632a9ff907a1dc0be76d34e026"
   },
   "lib/inquiry.ts": {
-    "mtime": 1788675410912.1587,
-    "hash": "8abaca7f07415255b5abd06658b5a157"
+    "mtime": 1788678337961.449,
+    "hash": "6dd810dc927c26f9cfd7cf0477e225c7"
   },
   "next.config.ts": {
     "mtime": 1788673849614.6223,
@@ -64,15 +64,15 @@
     "hash": "2c98889aad4f5870886dcdf4101ab044"
   },
   "README.md": {
-    "mtime": 1788677768157.5928,
-    "hash": "53726b9506c08170f9724003df0b7ea2"
+    "mtime": 1788678841382.6882,
+    "hash": "90ef3ced90c8b7b20f5e489dfcdb4b50"
   },
   "compose.yaml": {
     "mtime": 1788675071757.558,
     "hash": "e3c04ce1eda3e98ce47a78faf45f383a"
   },
   "docs/ARCHITECTURE.md": {
-    "mtime": 1788677440286.3318,
-    "hash": "6813f7b44b01e09d07e3b14610f2f600"
+    "mtime": 1788678428859.454,
+    "hash": "a9dafb44058aa8f1b1de1e871189aa95"
   }
 }
