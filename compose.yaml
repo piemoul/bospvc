@@ -1,0 +1,16 @@
+name: bos-bahan-pvc
+services:
+  web:
+    build: .
+    image: bos-bahan-pvc:local
+    container_name: bos-bahan-pvc
+    ports:
+      - "127.0.0.1:${LOCAL_PORT:-3036}:3000"
+    environment:
+      SALES_EMAIL: ${SALES_EMAIL:-}
+      WHATSAPP_NUMBER: ${WHATSAPP_NUMBER:-}
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

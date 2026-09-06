@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.work
+ASSETS
+*.xlsx
+.env*
+data
+tests
+scripts
+*.tsbuildinfo
+.graphify
+.agents
+.codex
+docs

@@ -1,0 +1,78 @@
+{
+  "app/api/health/route.ts": {
+    "mtime": 1788674991229.4856,
+    "hash": "2fbf8b021d02def4dac133a979dbd472"
+  },
+  "app/capability-gallery.tsx": {
+    "mtime": 1788675662424.8806,
+    "hash": "49ac20a8ea3255c732a3fbc5b2b10369"
+  },
+  "app/layout.tsx": {
+    "mtime": 1788674754110.397,
+    "hash": "b946bd35f46e83828ddd9cb52fb56fdd"
+  },
+  "app/page-interactions.tsx": {
+    "mtime": 1788676763964.6975,
+    "hash": "59cc23a23d71f63bd3fc8319b8256299"
+  },
+  "app/page.tsx": {
+    "mtime": 1788676763964.6975,
+    "hash": "98d7a76512d1b45e34639f882e3e7b30"
+  },
+  "app/product-detail.tsx": {
+    "mtime": 1788675410911.1614,
+    "hash": "71603c8b1e9e107c91ba5a4c47e202b3"
+  },
+  "app/quote-form.tsx": {
+    "mtime": 1788675411498.714,
+    "hash": "e07490723474464982a80bff30a69e9a"
+  },
+  "app/storefront.tsx": {
+    "mtime": 1788676913037.5542,
+    "hash": "4f3eaadc72a06e77e4a42fd159da1dd9"
+  },
+  "lib/catalog.ts": {
+    "mtime": 1788675304273.8638,
+    "hash": "b36f9abfeaf44b3d4141183819fca2f2"
+  },
+  "lib/colours.ts": {
+    "mtime": 1788675410909.1577,
+    "hash": "4b90cf632a9ff907a1dc0be76d34e026"
+  },
+  "lib/inquiry.ts": {
+    "mtime": 1788675410912.1587,
+    "hash": "8abaca7f07415255b5abd06658b5a157"
+  },
+  "next.config.ts": {
+    "mtime": 1788673849614.6223,
+    "hash": "a75e556c4aefbfa585ec2bd7aedfc2bc"
+  },
+  "postcss.config.mjs": {
+    "mtime": 1788673849614.6223,
+    "hash": "2077692efeb6700dfe6ba644fb544790"
+  },
+  "scripts/inspect-assets.py": {
+    "mtime": 1788673774684.874,
+    "hash": "20b21c0ca9c6075b3076cf444a3edf17"
+  },
+  "scripts/prepare-catalog.py": {
+    "mtime": 1788675303539.999,
+    "hash": "507bc1b54178f23af954385147c22ae9"
+  },
+  "scripts/prepare-gallery.py": {
+    "mtime": 1788675662423.2031,
+    "hash": "2c98889aad4f5870886dcdf4101ab044"
+  },
+  "README.md": {
+    "mtime": 1788677768157.5928,
+    "hash": "53726b9506c08170f9724003df0b7ea2"
+  },
+  "compose.yaml": {
+    "mtime": 1788675071757.558,
+    "hash": "e3c04ce1eda3e98ce47a78faf45f383a"
+  },
+  "docs/ARCHITECTURE.md": {
+    "mtime": 1788677440286.3318,
+    "hash": "6813f7b44b01e09d07e3b14610f2f600"
+  }
+}

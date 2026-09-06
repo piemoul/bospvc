@@ -1,0 +1,172 @@
+[
+  {
+    "type": "image",
+    "src": "/images/facility-overview.webp",
+    "poster": "/images/facility-overview.webp",
+    "thumb": "/images/facility-overview-thumb.webp",
+    "title": {
+      "id": "Area fasilitas & gudang",
+      "en": "Facility & warehouse overview"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/warehouse-racks.webp",
+    "poster": "/images/warehouse-racks.webp",
+    "thumb": "/images/warehouse-racks-thumb.webp",
+    "title": {
+      "id": "Area penyimpanan roll",
+      "en": "Roll storage area"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/production-floor.webp",
+    "poster": "/images/production-floor.webp",
+    "thumb": "/images/production-floor-thumb.webp",
+    "title": {
+      "id": "Area produksi",
+      "en": "Production floor"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/warehouse-inventory.webp",
+    "poster": "/images/warehouse-inventory.webp",
+    "thumb": "/images/warehouse-inventory-thumb.webp",
+    "title": {
+      "id": "Persediaan material",
+      "en": "Material inventory"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/warehouse-walkway.webp",
+    "poster": "/images/warehouse-walkway.webp",
+    "thumb": "/images/warehouse-walkway-thumb.webp",
+    "title": {
+      "id": "Jalur pergudangan",
+      "en": "Warehouse walkway"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/material-racks.webp",
+    "poster": "/images/material-racks.webp",
+    "thumb": "/images/material-racks-thumb.webp",
+    "title": {
+      "id": "Rak material",
+      "en": "Material racks"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/material-range.webp",
+    "poster": "/images/material-range.webp",
+    "thumb": "/images/material-range-thumb.webp",
+    "title": {
+      "id": "Pilihan material tersimpan",
+      "en": "Stored material range"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/wrapped-rolls.webp",
+    "poster": "/images/wrapped-rolls.webp",
+    "thumb": "/images/wrapped-rolls-thumb.webp",
+    "title": {
+      "id": "Penyimpanan roll terkemas",
+      "en": "Wrapped roll storage"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/warehouse-rolls-detail.webp",
+    "poster": "/images/warehouse-rolls-detail.webp",
+    "thumb": "/images/warehouse-rolls-detail-thumb.webp",
+    "title": {
+      "id": "Area bahan pelapis",
+      "en": "Covering materials area"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/inventory-detail.webp",
+    "poster": "/images/inventory-detail.webp",
+    "thumb": "/images/inventory-detail-thumb.webp",
+    "title": {
+      "id": "Detail penyimpanan bahan",
+      "en": "Material storage detail"
+    }
+  },
+  {
+    "type": "image",
+    "src": "/images/roll-selection.webp",
+    "poster": "/images/roll-selection.webp",
+    "thumb": "/images/roll-selection-thumb.webp",
+    "title": {
+      "id": "Ragam bahan dalam roll",
+      "en": "A selection of rolled materials"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-1.mp4",
+    "poster": "/images/facility-video-1.webp",
+    "thumb": "/images/facility-video-1-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 01",
+      "en": "Facility tour 01"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-2.mp4",
+    "poster": "/images/facility-video-2.webp",
+    "thumb": "/images/facility-video-2-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 02",
+      "en": "Facility tour 02"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-3.mp4",
+    "poster": "/images/facility-video-3.webp",
+    "thumb": "/images/facility-video-3-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 03",
+      "en": "Facility tour 03"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-4.mp4",
+    "poster": "/images/facility-video-4.webp",
+    "thumb": "/images/facility-video-4-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 04",
+      "en": "Facility tour 04"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-5.mp4",
+    "poster": "/images/facility-video-5.webp",
+    "thumb": "/images/facility-video-5-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 05",
+      "en": "Facility tour 05"
+    }
+  },
+  {
+    "type": "video",
+    "src": "/media/facility-video-6.mp4",
+    "poster": "/images/facility-video-6.webp",
+    "thumb": "/images/facility-video-6-thumb.webp",
+    "title": {
+      "id": "Tur fasilitas 06",
+      "en": "Facility tour 06"
+    }
+  }
+]

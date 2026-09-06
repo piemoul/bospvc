@@ -1,0 +1,1546 @@
+[
+  {
+    "id": "2",
+    "name": {
+      "id": "Mio Pro 0.9 mm",
+      "en": "Mio Pro 0.9 mm"
+    },
+    "category": "automotive",
+    "code": "Mio (Urat Kecil)",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-2.webp",
+      "/images/product-2-alt-0.webp",
+      "/images/product-2-alt-1.webp",
+      "/images/product-2-alt-2.webp"
+    ],
+    "colors": [
+      "Navy",
+      "Dark Grey",
+      "Light Grey",
+      "Yellow",
+      "Red",
+      "Black",
+      "Canyon Brown",
+      "Cappucino",
+      "Brown"
+    ],
+    "variants": [
+      {
+        "id": "3",
+        "label": "0.9 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 3
+  },
+  {
+    "id": "4",
+    "name": {
+      "id": "Cherokee Pro 0.9 mm",
+      "en": "Cherokee Pro 0.9 mm"
+    },
+    "category": "automotive",
+    "code": "Cherokee (Urat Besar)",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-4.webp"
+    ],
+    "colors": [
+      "Black",
+      "Dark Grey"
+    ],
+    "variants": [
+      {
+        "id": "5",
+        "label": "0.9 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 5
+  },
+  {
+    "id": "12",
+    "name": {
+      "id": "Terpal PE A2",
+      "en": "PE Tarpaulin A2"
+    },
+    "category": "tarpaulin",
+    "code": "PE Tarpaulin A2",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-12.webp"
+    ],
+    "colors": [
+      "Biru & Silver",
+      "Biru Terang & Biru",
+      "Biru & Oren"
+    ],
+    "variants": [
+      {
+        "id": "13",
+        "label": "PE Tarpaulin A2",
+        "length": "2 m",
+        "width": "100.0",
+        "weight": "15.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 13
+  },
+  {
+    "id": "20",
+    "name": {
+      "id": "Mika Rigid",
+      "en": "Rigid Clear Sheet"
+    },
+    "category": "sheet",
+    "code": "Rigid (kaku)",
+    "description": {
+      "id": "Lembaran rigid untuk kemasan, pencetakan, vacuum forming, dan sampul. Tersedia pilihan ketebalan 0.08–0.7 mm.",
+      "en": "Rigid sheets for packaging, printing, vacuum forming and covers, with thickness options from 0.08–0.7 mm."
+    },
+    "images": [
+      "/images/product-20.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "24",
+        "label": "0.08 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "9.0",
+        "status": "listed"
+      },
+      {
+        "id": "25",
+        "label": "0.09 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "10.0",
+        "status": "listed"
+      },
+      {
+        "id": "26",
+        "label": "0.1 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "11.0",
+        "status": "listed"
+      },
+      {
+        "id": "27",
+        "label": "0.11 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "12.0",
+        "status": "listed"
+      },
+      {
+        "id": "28",
+        "label": "0.12 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "13.0",
+        "status": "listed"
+      },
+      {
+        "id": "29",
+        "label": "0.13 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "14.0",
+        "status": "listed"
+      },
+      {
+        "id": "30",
+        "label": "0.14 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "15.0",
+        "status": "listed"
+      },
+      {
+        "id": "31",
+        "label": "0.15 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "16.0",
+        "status": "listed"
+      },
+      {
+        "id": "32",
+        "label": "0.16 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "17.0",
+        "status": "listed"
+      },
+      {
+        "id": "33",
+        "label": "0.17 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "18.0",
+        "status": "listed"
+      },
+      {
+        "id": "34",
+        "label": "0.18 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "19.0",
+        "status": "listed"
+      },
+      {
+        "id": "35",
+        "label": "0.19 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "20.0",
+        "status": "listed"
+      },
+      {
+        "id": "36",
+        "label": "0.2 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "21.0",
+        "status": "listed"
+      },
+      {
+        "id": "37",
+        "label": "0.21 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "22.0",
+        "status": "listed"
+      },
+      {
+        "id": "38",
+        "label": "0.22 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "23.0",
+        "status": "listed"
+      },
+      {
+        "id": "39",
+        "label": "0.23 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "24.0",
+        "status": "listed"
+      },
+      {
+        "id": "40",
+        "label": "0.24 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "25.0",
+        "status": "listed"
+      },
+      {
+        "id": "41",
+        "label": "0.25 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "26.0",
+        "status": "listed"
+      },
+      {
+        "id": "42",
+        "label": "0.26 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "27.0",
+        "status": "listed"
+      },
+      {
+        "id": "43",
+        "label": "0.27 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "28.0",
+        "status": "listed"
+      },
+      {
+        "id": "44",
+        "label": "0.28 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "29.0",
+        "status": "listed"
+      },
+      {
+        "id": "45",
+        "label": "0.29 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "30.0",
+        "status": "listed"
+      },
+      {
+        "id": "46",
+        "label": "0.3 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "31.0",
+        "status": "listed"
+      },
+      {
+        "id": "47",
+        "label": "0.35 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "36.0",
+        "status": "listed"
+      },
+      {
+        "id": "48",
+        "label": "0.4 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "41.0",
+        "status": "listed"
+      },
+      {
+        "id": "49",
+        "label": "0.45 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "46.0",
+        "status": "listed"
+      },
+      {
+        "id": "50",
+        "label": "0.5 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "51.0",
+        "status": "listed"
+      },
+      {
+        "id": "51",
+        "label": "0.6 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "61.0",
+        "status": "listed"
+      },
+      {
+        "id": "52",
+        "label": "0.7 mm",
+        "length": "50.0",
+        "width": "140.0",
+        "weight": "71.0",
+        "status": "listed"
+      }
+    ],
+    "dimensions": "50 m × 140 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 24
+  },
+  {
+    "id": "17",
+    "name": {
+      "id": "Terpal PVC Premium CP",
+      "en": "Premium CP PVC Tarpaulin"
+    },
+    "category": "tarpaulin",
+    "code": "CP",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-17.webp",
+      "/images/product-17-alt-0.webp",
+      "/images/product-17-alt-1.webp",
+      "/images/product-17-alt-2.webp"
+    ],
+    "colors": [
+      "Hijau Hijau",
+      "Hijau Hitam"
+    ],
+    "variants": [
+      {
+        "id": "18",
+        "label": "0.6 mm",
+        "length": "40.0",
+        "width": "150.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 18
+  },
+  {
+    "id": "18",
+    "name": {
+      "id": "Spunbond & Kain Furing",
+      "en": "Spunbond & Lining Fabric"
+    },
+    "category": "fabric",
+    "code": "Spunbound",
+    "description": {
+      "id": "Kain spunbond untuk goodie bag, lapisan tas, dan pelapis sofa. Pilihan gramasi 20, 30, 50, dan 65 GSM.",
+      "en": "Spunbond fabric for goodie bags, bag linings and sofa linings. Available specifications: 20, 30, 50 and 65 GSM."
+    },
+    "images": [
+      "/images/product-18.webp",
+      "/images/product-18-alt-0.webp",
+      "/images/product-18-alt-1.webp",
+      "/images/product-18-alt-2.webp",
+      "/images/product-18-alt-3.webp",
+      "/images/product-18-alt-4.webp",
+      "/images/product-18-alt-5.webp",
+      "/images/product-18-alt-6.webp",
+      "/images/product-18-alt-7.webp",
+      "/images/product-18-alt-8.webp",
+      "/images/product-18-alt-9.webp",
+      "/images/product-18-alt-10.webp",
+      "/images/product-18-alt-11.webp",
+      "/images/product-18-alt-12.webp"
+    ],
+    "colors": [
+      "Multiple colours"
+    ],
+    "variants": [
+      {
+        "id": "19",
+        "label": "20 GSM",
+        "length": "100.0",
+        "width": "160.0",
+        "weight": "3.2",
+        "status": "confirm"
+      },
+      {
+        "id": "20",
+        "label": "30 GSM",
+        "length": "100.0",
+        "width": "160.0",
+        "weight": "4.5",
+        "status": "confirm"
+      },
+      {
+        "id": "21",
+        "label": "50 GSM",
+        "length": "100.0",
+        "width": "160.0",
+        "weight": "8.0",
+        "status": "confirm"
+      },
+      {
+        "id": "22",
+        "label": "65 GSM",
+        "length": "100.0",
+        "width": "160.0",
+        "weight": "10.4",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "100 m × 160 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 19
+  },
+  {
+    "id": "21",
+    "name": {
+      "id": "Mika Bening Lemas",
+      "en": "Flexible Clear PVC"
+    },
+    "category": "sheet",
+    "code": "Mika (Lemes)",
+    "description": {
+      "id": "Mika bening fleksibel untuk kemasan, tas transparan, dan pelapis. Pilihan ketebalan 0.05–0.8 mm, dengan ketersediaan sesuai varian.",
+      "en": "Flexible clear material for packaging, transparent bags and coverings. Thicknesses from 0.05–0.8 mm; availability depends on the variant."
+    },
+    "images": [
+      "/images/product-21.webp",
+      "/images/product-21-alt-0.webp",
+      "/images/product-21-alt-1.webp",
+      "/images/product-21-alt-3.webp",
+      "/images/product-21-alt-4.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "55",
+        "label": "0.05 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "6.0",
+        "status": "listed"
+      },
+      {
+        "id": "56",
+        "label": "0.05 mm · 210 cm / 70 yd",
+        "length": "70 y",
+        "width": "210.0",
+        "weight": "6.0",
+        "status": "listed"
+      },
+      {
+        "id": "57",
+        "label": "0.06 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "7.0",
+        "status": "preorder"
+      },
+      {
+        "id": "58",
+        "label": "0.07 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "8.0",
+        "status": "preorder"
+      },
+      {
+        "id": "59",
+        "label": "0.08 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "9.0",
+        "status": "listed"
+      },
+      {
+        "id": "60",
+        "label": "0.09 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "10.0",
+        "status": "preorder"
+      },
+      {
+        "id": "61",
+        "label": "0.1 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "11.0",
+        "status": "preorder"
+      },
+      {
+        "id": "62",
+        "label": "0.11 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "12.0",
+        "status": "listed"
+      },
+      {
+        "id": "63",
+        "label": "0.12 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "13.0",
+        "status": "preorder"
+      },
+      {
+        "id": "64",
+        "label": "0.13 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "14.0",
+        "status": "preorder"
+      },
+      {
+        "id": "65",
+        "label": "0.14 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "15.0",
+        "status": "preorder"
+      },
+      {
+        "id": "66",
+        "label": "0.15 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "16.0",
+        "status": "listed"
+      },
+      {
+        "id": "67",
+        "label": "0.16 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "17.0",
+        "status": "preorder"
+      },
+      {
+        "id": "68",
+        "label": "0.17 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "18.0",
+        "status": "preorder"
+      },
+      {
+        "id": "69",
+        "label": "0.18 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "19.0",
+        "status": "listed"
+      },
+      {
+        "id": "70",
+        "label": "0.19 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "20.0",
+        "status": "preorder"
+      },
+      {
+        "id": "71",
+        "label": "0.2 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "21.0",
+        "status": "preorder"
+      },
+      {
+        "id": "72",
+        "label": "0.21 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "22.0",
+        "status": "preorder"
+      },
+      {
+        "id": "73",
+        "label": "0.22 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "23.0",
+        "status": "preorder"
+      },
+      {
+        "id": "74",
+        "label": "0.23 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "24.0",
+        "status": "preorder"
+      },
+      {
+        "id": "75",
+        "label": "0.24 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "25.0",
+        "status": "preorder"
+      },
+      {
+        "id": "76",
+        "label": "0.25 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "26.0",
+        "status": "preorder"
+      },
+      {
+        "id": "77",
+        "label": "0.26 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "27.0",
+        "status": "preorder"
+      },
+      {
+        "id": "78",
+        "label": "0.27 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "preorder"
+      },
+      {
+        "id": "79",
+        "label": "0.28 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "29.0",
+        "status": "preorder"
+      },
+      {
+        "id": "80",
+        "label": "0.29 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "30.0",
+        "status": "preorder"
+      },
+      {
+        "id": "81",
+        "label": "0.3 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "31.0",
+        "status": "preorder"
+      },
+      {
+        "id": "82",
+        "label": "0.35 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "32.0",
+        "status": "preorder"
+      },
+      {
+        "id": "83",
+        "label": "0.4 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "41.0",
+        "status": "preorder"
+      },
+      {
+        "id": "84",
+        "label": "0.45 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "46.0",
+        "status": "preorder"
+      },
+      {
+        "id": "85",
+        "label": "0.5 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "51.0",
+        "status": "preorder"
+      },
+      {
+        "id": "86",
+        "label": "0.55 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "56.0",
+        "status": "preorder"
+      },
+      {
+        "id": "87",
+        "label": "0.6 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "61.0",
+        "status": "preorder"
+      },
+      {
+        "id": "88",
+        "label": "0.65 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "66.0",
+        "status": "preorder"
+      },
+      {
+        "id": "89",
+        "label": "0.7 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "71.0",
+        "status": "preorder"
+      },
+      {
+        "id": "90",
+        "label": "0.8 mm",
+        "length": "30.0",
+        "width": "137.0",
+        "weight": "81.0",
+        "status": "preorder"
+      }
+    ],
+    "dimensions": "30 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 53
+  },
+  {
+    "id": "27",
+    "name": {
+      "id": "CK Metalik",
+      "en": "CK Metallic"
+    },
+    "category": "fabric",
+    "code": "CK Metalik",
+    "description": {
+      "id": "Bahan CK Metalik untuk produksi tas dan aksesori. Tersedia dalam pilihan warna untuk kebutuhan konveksi Anda.",
+      "en": "CK Metallic material for bags and accessories, with colour options for your textile production needs."
+    },
+    "images": [
+      "/images/product-27.webp",
+      "/images/product-27-alt-0.webp",
+      "/images/product-27-alt-1.webp",
+      "/images/product-27-alt-2.webp",
+      "/images/product-27-alt-3.webp",
+      "/images/product-27-alt-4.webp",
+      "/images/product-27-alt-5.webp"
+    ],
+    "colors": [
+      "Biru Dongker",
+      "Hijau Botol",
+      "Maroon",
+      "Abu",
+      "Merah Tua",
+      "Salem",
+      "Merah Cabe"
+    ],
+    "variants": [
+      {
+        "id": "103",
+        "label": "CK Metalik",
+        "length": "40 Yard",
+        "width": "137.0",
+        "weight": "30.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 Yard × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 103
+  },
+  {
+    "id": "1",
+    "name": {
+      "id": "Mio Standard 0.55 mm",
+      "en": "Mio Standard 0.55 mm"
+    },
+    "category": "automotive",
+    "code": "L33  Mio Cino",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-1.webp"
+    ],
+    "colors": [
+      "Cappucino"
+    ],
+    "variants": [
+      {
+        "id": "2",
+        "label": "0.55 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 2
+  },
+  {
+    "id": "3",
+    "name": {
+      "id": "Nafa Pro 0.9 mm",
+      "en": "Nafa Pro 0.9 mm"
+    },
+    "category": "automotive",
+    "code": "Spons Nafa",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-3.webp"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "variants": [
+      {
+        "id": "4",
+        "label": "0.9 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 4
+  },
+  {
+    "id": "5",
+    "name": {
+      "id": "Tusuk Jarum Pro 0.9 mm",
+      "en": "Needle Pattern Pro 0.9 mm"
+    },
+    "category": "automotive",
+    "code": "Tusuk Jarum Mobil",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-5.webp"
+    ],
+    "colors": [
+      "Black",
+      "Cappucino",
+      "Red",
+      "Navy",
+      "Brown"
+    ],
+    "variants": [
+      {
+        "id": "6",
+        "label": "0.9 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 6
+  },
+  {
+    "id": "6",
+    "name": {
+      "id": "Kotak Catur 0.7 mm",
+      "en": "Checkerboard 0.7 mm"
+    },
+    "category": "automotive",
+    "code": "Spon Kotak",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-6.webp"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "variants": [
+      {
+        "id": "7",
+        "label": "0.7 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 7
+  },
+  {
+    "id": "7",
+    "name": {
+      "id": "Vario Biji Kopi 0.8 mm",
+      "en": "Vario Coffee Bean 0.8 mm"
+    },
+    "category": "automotive",
+    "code": "Vario / Biji Kopi",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-7.webp"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "variants": [
+      {
+        "id": "8",
+        "label": "0.8 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 8
+  },
+  {
+    "id": "8",
+    "name": {
+      "id": "Big Dot Pro 0.9 mm",
+      "en": "Big Dot Pro 0.9 mm"
+    },
+    "category": "automotive",
+    "code": "Big Dot",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-8.webp"
+    ],
+    "colors": [
+      "Black",
+      "Cappucino",
+      "Red",
+      "Navy",
+      "Brown"
+    ],
+    "variants": [
+      {
+        "id": "9",
+        "label": "0.9 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 9
+  },
+  {
+    "id": "9",
+    "name": {
+      "id": "Amplas Standard 0.7 mm",
+      "en": "Amplas Standard 0.7 mm"
+    },
+    "category": "automotive",
+    "code": "Amplas",
+    "description": {
+      "id": "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+      "en": "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application."
+    },
+    "images": [
+      "/images/product-9.webp"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "variants": [
+      {
+        "id": "10",
+        "label": "0.7 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "28.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 10
+  },
+  {
+    "id": "10",
+    "name": {
+      "id": "Spon Kilat Polos",
+      "en": "Plain Gloss PVC"
+    },
+    "category": "interior",
+    "code": "Spon Kilat",
+    "description": {
+      "id": "PVC berpermukaan mengilap untuk pelapis meja dan lapisan dalam tas. Pilihan warna untuk kebutuhan produksi dan rumah tangga.",
+      "en": "Gloss-finish PVC for table coverings and bag linings, with colour options for production and household use."
+    },
+    "images": [
+      "/images/product-10.webp",
+      "/images/product-10-alt-0.webp",
+      "/images/product-10-alt-1.webp",
+      "/images/product-10-alt-2.webp",
+      "/images/product-10-alt-3.webp",
+      "/images/product-10-alt-4.webp",
+      "/images/product-10-alt-5.webp",
+      "/images/product-10-alt-6.webp"
+    ],
+    "colors": [
+      "Red",
+      "Maroon",
+      "Green",
+      "Black",
+      "Blue",
+      "Navy",
+      "Light Brown",
+      "Med Brown",
+      "Dark Brown"
+    ],
+    "variants": [
+      {
+        "id": "11",
+        "label": "0.5 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "16.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 11
+  },
+  {
+    "id": "11",
+    "name": {
+      "id": "Spon Kilat Kembang",
+      "en": "Floral Gloss PVC"
+    },
+    "category": "interior",
+    "code": "Spon Kembang",
+    "description": {
+      "id": "PVC motif bunga untuk pelapis meja dan lapisan dalam tas. Ketebalan katalog 0.5 mm dengan pilihan warna.",
+      "en": "Floral-pattern PVC for table coverings and bag linings. Listed at 0.5 mm with colour options."
+    },
+    "images": [
+      "/images/product-11.webp",
+      "/images/product-11-alt-0.webp",
+      "/images/product-11-alt-1.webp",
+      "/images/product-11-alt-2.webp"
+    ],
+    "colors": [
+      "Blue",
+      "Orange",
+      "Red",
+      "Green"
+    ],
+    "variants": [
+      {
+        "id": "12",
+        "label": "0.5 mm",
+        "length": "40.0",
+        "width": "137.0",
+        "weight": "16.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "40 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 12
+  },
+  {
+    "id": "13",
+    "name": {
+      "id": "Terpal PE A5",
+      "en": "PE Tarpaulin A5"
+    },
+    "category": "tarpaulin",
+    "code": "PE Tarpaulin A5",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-13.webp"
+    ],
+    "colors": [
+      "Biru & Silver"
+    ],
+    "variants": [
+      {
+        "id": "14",
+        "label": "PE Tarpaulin A5",
+        "length": "2 m",
+        "width": "100.0",
+        "weight": "25.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 14
+  },
+  {
+    "id": "14",
+    "name": {
+      "id": "Terpal PE A12",
+      "en": "PE Tarpaulin A12"
+    },
+    "category": "tarpaulin",
+    "code": "PE Tarpaulin A12",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-14.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "15",
+        "label": "PE Tarpaulin A12",
+        "length": "2 m",
+        "width": "100.0",
+        "weight": "40.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 15
+  },
+  {
+    "id": "15",
+    "name": {
+      "id": "Terpal PE A3",
+      "en": "PE Tarpaulin A3"
+    },
+    "category": "tarpaulin",
+    "code": "PE Tarpaulin A3",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-15.webp"
+    ],
+    "colors": [
+      "Biru & Biru"
+    ],
+    "variants": [
+      {
+        "id": "16",
+        "label": "PE Tarpaulin A3",
+        "length": "2 m",
+        "width": "100.0",
+        "weight": "21-22",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 16
+  },
+  {
+    "id": "16",
+    "name": {
+      "id": "Terpal PVC",
+      "en": "PVC Tarpaulin"
+    },
+    "category": "tarpaulin",
+    "code": "PVC Tarpaulin",
+    "description": {
+      "id": "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+      "en": "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume."
+    },
+    "images": [
+      "/images/product-16.webp"
+    ],
+    "colors": [
+      "Hijau Daun"
+    ],
+    "variants": [
+      {
+        "id": "17",
+        "label": "PVC Tarpaulin",
+        "length": "2 m",
+        "width": "50.0",
+        "weight": "50.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 17
+  },
+  {
+    "id": "19",
+    "name": {
+      "id": "Tafeta Cover Otomotif",
+      "en": "Automotive Cover Taffeta"
+    },
+    "category": "automotive",
+    "code": "Tafeta",
+    "description": {
+      "id": "Bahan tafeta untuk penutup kendaraan. Konsultasikan pilihan warna dan kebutuhan pengadaan Anda.",
+      "en": "Taffeta material for vehicle covers. Discuss colour options and your procurement requirements."
+    },
+    "images": [
+      "/images/product-19.webp"
+    ],
+    "colors": [
+      "Black",
+      "Red",
+      "Royal Blue"
+    ],
+    "variants": [
+      {
+        "id": "23",
+        "label": "Tafeta",
+        "length": "100 yard",
+        "width": "154.0",
+        "weight": "",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "100 yard × 154 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 23
+  },
+  {
+    "id": "22",
+    "name": {
+      "id": "Karpet Lantai Premium",
+      "en": "Premium Floor Covering"
+    },
+    "category": "interior",
+    "code": "Karpet Dasar Lantai Premium",
+    "description": {
+      "id": "Bahan pelapis lantai dengan ketebalan katalog 0.4 mm. Konsultasikan pilihan motif dan ukuran untuk kebutuhan ruang Anda.",
+      "en": "Floor covering material listed at 0.4 mm. Discuss patterns and dimensions to suit your space."
+    },
+    "images": [
+      "/images/product-22.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "91",
+        "label": "0.4 mm",
+        "length": "2.0",
+        "width": "20.0",
+        "weight": "26.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "roll",
+    "sourceRow": 91
+  },
+  {
+    "id": "23",
+    "name": {
+      "id": "Karpet Lantai Ekonomis",
+      "en": "Economy Floor Covering"
+    },
+    "category": "interior",
+    "code": "Karpet Dasar Lantai",
+    "description": {
+      "id": "Bahan pelapis lantai ekonomis dalam pilihan panjang roll. Tanyakan motif dan ketersediaan untuk pengadaan usaha Anda.",
+      "en": "Economy floor covering material in several roll lengths. Inquire about patterns and availability for your business."
+    },
+    "images": [
+      "/images/product-23.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "92",
+        "label": "10 m × 120 cm",
+        "length": "10.0",
+        "width": "120.0",
+        "weight": "6.0",
+        "status": "confirm"
+      },
+      {
+        "id": "93",
+        "label": "12 m × 120 cm",
+        "length": "12.0",
+        "width": "120.0",
+        "weight": "7.0",
+        "status": "confirm"
+      },
+      {
+        "id": "94",
+        "label": "14 m × 120 cm",
+        "length": "14.0",
+        "width": "120.0",
+        "weight": "8.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "10 m × 120 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 92
+  },
+  {
+    "id": "24",
+    "name": {
+      "id": "Nafa Bahan Sampul",
+      "en": "Nafa Cover Material"
+    },
+    "category": "sheet",
+    "code": "Nafa 0.10A",
+    "description": {
+      "id": "Bahan Nafa untuk sampul rapor, map, dan kebutuhan alat tulis. Pilihan spesifikasi 0.10A dan 0.15A.",
+      "en": "Nafa material for report covers, folders and stationery, with 0.10A and 0.15A specification options."
+    },
+    "images": [
+      "/images/product-24.webp",
+      "/images/product-24-alt-0.webp",
+      "/images/product-24-alt-1.webp",
+      "/images/product-24-alt-2.webp",
+      "/images/product-24-alt-3.webp",
+      "/images/product-24-alt-4.webp",
+      "/images/product-24-alt-5.webp",
+      "/images/product-24-alt-6.webp"
+    ],
+    "colors": [
+      "Clear"
+    ],
+    "variants": [
+      {
+        "id": "96",
+        "label": "Nafa 0.10A · 0.06 mm",
+        "length": "45.0",
+        "width": "122.0",
+        "weight": "4.3",
+        "status": "confirm"
+      },
+      {
+        "id": "97",
+        "label": "Nafa 0.15A · 0.08 mm",
+        "length": "45.0",
+        "width": "122.0",
+        "weight": "5.7",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "45 m × 122 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 96
+  },
+  {
+    "id": "25",
+    "name": {
+      "id": "Terpal PE Lembaran",
+      "en": "Ready-made PE Tarpaulin"
+    },
+    "category": "tarpaulin",
+    "code": "Terpal Jadi PE (A2, A5, A3)",
+    "description": {
+      "id": "Terpal PE lembaran untuk kebutuhan penutup. Pilihan ukuran 2 × 3, 3 × 4, 4 × 6, dan 6 × 8 m. Konfirmasikan grade A2, A5, atau A3 saat konsultasi.",
+      "en": "Ready-made PE tarpaulin for covering applications. Size options: 2 × 3, 3 × 4, 4 × 6 and 6 × 8 m. Confirm A2, A5 or A3 grade during your inquiry."
+    },
+    "images": [
+      "/images/product-25-generated.webp",
+      "/images/product-25.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "id": "98",
+        "label": "2 × 3 m",
+        "length": "2x3",
+        "width": "",
+        "weight": "",
+        "status": "confirm"
+      },
+      {
+        "id": "99",
+        "label": "3 × 4 m",
+        "length": "3x4",
+        "width": "",
+        "weight": "",
+        "status": "confirm"
+      },
+      {
+        "id": "100",
+        "label": "4 × 6 m",
+        "length": "4x6",
+        "width": "",
+        "weight": "",
+        "status": "confirm"
+      },
+      {
+        "id": "101",
+        "label": "6 × 8 m",
+        "length": "6x8",
+        "width": "",
+        "weight": "",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "",
+    "needsConfirmation": true,
+    "unit": "piece",
+    "sourceRow": 98
+  },
+  {
+    "id": "26",
+    "name": {
+      "id": "Karpet Peredam 1.3 mm",
+      "en": "Automotive Floor Liner 1.3 mm"
+    },
+    "category": "automotive",
+    "code": "Karpet Peredam",
+    "description": {
+      "id": "Material pelapis dasar lantai mobil dengan ketebalan katalog 1.3 mm. Untuk kebutuhan pemasangan dan pelapisan interior kendaraan.",
+      "en": "Automotive floor lining material listed at 1.3 mm, for vehicle interior installation and covering applications."
+    },
+    "images": [
+      "/images/product-26.webp",
+      "/images/product-26-alt-0.webp"
+    ],
+    "colors": [
+      "Hitam",
+      "Capucinno",
+      "Abu"
+    ],
+    "variants": [
+      {
+        "id": "102",
+        "label": "1.3mm",
+        "length": "25.0",
+        "width": "137.0",
+        "weight": "25.0",
+        "status": "confirm"
+      }
+    ],
+    "dimensions": "25 m × 137 cm",
+    "needsConfirmation": false,
+    "unit": "roll",
+    "sourceRow": 102
+  }
+]
