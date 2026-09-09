@@ -9,7 +9,7 @@ A bilingual portfolio of materials that can be sourced. Customers select specifi
 `app/site-provider.tsx` manages Indonesian/English language and selected inquiry materials across navigation. It persists only validated material selections in sessionStorage. Customer identity fields are not persisted. Language is saved in the `boss-language` cookie and server route metadata uses the same preference.
 
 - `/`: `app/storefront.tsx` composes the three-slide `HeroCarousel`, benefits, About, sourcing steps, selected products, facility gallery and compact contact introduction. Legacy `#products` and `#quote` links redirect to the appropriate route.
-- `/store`: `app/store/store-catalog.tsx` supports category, search and sorting parameters with the Next.js-integrated History API. `ProductCard` renders native links to product pages. Load-more limits initial rendering to 12 groups.
+- `/store`: `app/store/store-catalog.tsx` supports category, search and sorting parameters with the Next.js-integrated History API. `ProductCard` renders native links to product pages and interactive color/photo previews. Load-more limits initial rendering to 12 groups.
 - `/products/[slug]`: the server page awaits Next.js route parameters, validates the slug and URL selections, generates localized metadata and renders `ProductDetail`. Unknown slugs return 404.
 - `/contact`: `ContactPageContent` combines `ContactIntro` with `QuoteForm` and shared inquiry selections.
 
@@ -22,6 +22,8 @@ A bilingual portfolio of materials that can be sourced. Customers select specifi
 The editorial file controls stable slugs, optional brand labels, allowed inquiry units, bilingual extended descriptions and explicit color-to-image mappings. It survives workbook reimports because the preparation script writes only the base catalog. MP TECH starts on 14 explicitly selected groups; Nafa Cover Material remains unlabelled. See `docs/PRODUCT_DATA.md` for editing instructions.
 
 `lib/colours.ts` supplies localized names and swatches. A color selection switches the product image through its mapping; original photo thumbnails remain available. `docs/color-illustrations.json` records references and generation prompts for 32 generated color variants. Provenance stays in maintenance data; customer-facing photos have no illustration badge, as requested by the owner.
+
+`lib/product-preview.ts` derives card choices from exact color mappings and original galleries. `ProductCard` keeps its selected preview in local state and forwards `color` or `photo` in every native detail link. `ProductDetail` validates the photo index before selecting an original image; mapped colors also become inquiry selections. `scripts/prepare-product-previews.py` creates small local photo thumbnails without adding a runtime image-processing dependency.
 
 ## Quotation flow
 

@@ -327,3 +327,14 @@ Arahan lanjutan pemilik menggantikan rancangan kontrol awal: tiga konteks harus 
 Sumber foto beresolusi 3024×4032 atau 4032×3024, diekspor menjadi WebP 720/1800 px. Swipe horizontal bekerja lewat pointer events; gerak vertikal tetap untuk scroll. Setiap CTA konsultasi membawa konteks slide masing-masing. Bahasa Inggris mengikuti pembagian konteks yang sama.
 
 Verifikasi lanjutan: swipe 1 ke 2 ke 3 dan klik dot berhasil; gambar aktif berubah sesuai konteks. Pada lebar 320 px hanya ada tiga kontrol dot, judul dan seal tidak bertumpuk, dan foto responsif 720 px dimuat. Production Docker build lulus.
+
+## 13. Pratinjau warna pada seluruh kartu katalog
+
+Arahan lanjutan pemilik: pilihan warna setiap SKU/kartu harus dapat diklik untuk pratinjau, seperti pada halaman Mio Pro. Komponen kartu bersama di Home dan Store kini menampilkan swatch interaktif untuk seluruh warna yang sudah dipetakan. Foto utama, nama warna dan ketiga tautan detail mengikuti pilihan tersebut.
+
+- Seluruh 27 kelompok diperiksa: 23 mempunyai kontrol pratinjau, dengan 61 pilihan warna dan 28 pilihan foto tambahan.
+- Mika Rigid, Terpal PE A12, Karpet Lantai Premium dan Karpet Lantai Ekonomis masing-masing hanya mempunyai satu foto; tidak ditambahkan warna yang belum tersedia dalam data.
+- Spunbond, Mika Bening, Nafa Sampul dan Terpal PE Lembaran menyediakan foto asli sebagai thumbnail. Daftar panjang bisa diperluas. Thumbnail WebP 96 px menjaga kartu tetap ringan.
+- Setiap pilihan dari 89 kontrol diklik dalam browser; foto, label, status terpilih dan tautan detail cocok. Setiap alternatif dalam satu produk menggunakan sumber foto yang berbeda.
+- Mio Pro Biru dongker berhasil membuka detail dengan `?color=Navy`, foto biru dongker dan warna yang benar pada draf inquiry. Spunbond Foto 3 berhasil membuka detail dengan `?photo=2` dan thumbnail Foto 3 terpilih.
+- Pemeriksaan kartu pada viewport ponsel 410 px tidak menemukan overflow. Build TypeScript/Docker dan audit aset dijalankan kembali untuk perubahan ini.

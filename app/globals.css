@@ -385,3 +385,18 @@ dialog[open] { animation:enter .2s ease; }
 .hero-rev1 .hero-pagination [aria-pressed=true] span { width:8px; background:var(--gold); box-shadow:0 0 0 4px #dfba7f22; }
 .hero-rev1 .hero-photo-label { bottom:43px; max-width:32%; }
 @media(max-width:850px) { .hero-rev1 .hero-shade { background:linear-gradient(90deg,#111b19de,#111b197d),linear-gradient(0deg,#111b19b0,transparent 70%); } }
+
+/* Product cards retain the selected colour or photo in their detail links. */
+.card-preview-options { margin:12px 0 14px; }
+.card-preview-controls { display:flex; flex-wrap:wrap; align-items:center; gap:3px; }
+.card-swatch,.card-photo-option,.card-more-previews { display:grid; place-items:center; width:30px; height:30px; padding:3px; border:1px solid transparent; border-radius:50%; background:transparent; flex-shrink:0; }
+.card-swatch .color-dot { width:19px; height:19px; }
+.card-swatch:hover,.card-photo-option:hover { border-color:#ad9166; }
+.card-swatch[aria-pressed=true],.card-photo-option[aria-pressed=true] { border-color:#9c7132; box-shadow:0 0 0 1px #9c7132; }
+.card-photo-option { width:35px; height:35px; border-radius:5px; border-color:#e4e8e0; }
+.card-photo-option img { width:100%; height:100%; object-fit:cover; border-radius:2px; }
+.card-more-previews { font-size:11px; font-weight:700; color:#8c6731; }
+.card-preview-label { font-size:10px; color:#7f897a; line-height:1.65; min-height:17px; margin-top:8px; overflow-wrap:anywhere; }
+.card-no-options { margin-block:14px; }
+.card-variant-count { font-size:10px; color:#858d81; margin-bottom:13px; }
+@media(max-width:600px) { .card-swatch { width:29px; height:29px; } .card-swatch .color-dot { width:18px; height:18px; } .card-photo-option { width:32px; height:32px; } .card-preview-controls { gap:3px; } }

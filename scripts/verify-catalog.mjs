@@ -5,6 +5,7 @@ const editorial=JSON.parse(fs.readFileSync('lib/product-editorial.json','utf8'))
 const mp=new Set(['1','2','3','4','5','6','7','8','9','17','19','20','21','26']);
 const slugs=new Set();
 let colorCount=0;
+const previewAssets=[];
 for(const p of catalog){
   const e=editorial[p.id];
   assert(e,`Editorial missing for ${p.id}`);
@@ -15,6 +16,14 @@ for(const p of catalog){
   assert(p.variants.length>0);
   assert.equal(new Set(p.variants.map(v=>v.id)).size,p.variants.length);
   for(const lang of ['id','en'])assert(e.details[lang].every(x=>typeof x==='string'&&x.length>0));
+  for(const img of p.images)assert(fs.existsSync('public'+img),`Missing original photo ${img}`);
+  if(p.colors.filter(c=>c!=='Multiple colours').length<=1&&p.images.length>1){
+    for(let i=0;i<p.images.length;i++){
+      const thumbnail=`/images/product-previews/${p.id}-${i}.webp`;
+      assert(fs.existsSync('public'+thumbnail),`Regenerate card thumbnail: ${thumbnail}`);
+      previewAssets.push(thumbnail);
+    }
+  }
   for(const color of p.colors.filter(c=>c!=='Multiple colours'))assert(e.colorImages[color],`Missing photo ${p.id}: ${color}`);
   for(const [color,img] of Object.entries(e.colorImages)){
     assert(p.colors.includes(color),`Unknown color ${p.id}: ${color}`);
@@ -25,7 +34,7 @@ for(const p of catalog){
 assert.equal(catalog.length,27);
 assert.equal(catalog.reduce((n,p)=>n+p.variants.length,0),99);
 assert.equal(JSON.parse(fs.readFileSync('docs/color-illustrations.json','utf8')).images.length,32);
-console.log(`Catalog valid: ${catalog.length} groups, 99 variants, ${mp.size} MP TECH labels, ${colorCount} color mappings.`);
+console.log(`Catalog valid: ${catalog.length} groups, 99 variants, ${mp.size} MP TECH labels, ${colorCount} color mappings and ${previewAssets.length} card thumbnails.`);
 const liveArg=process.argv.indexOf('--live-url');
 if(liveArg!==-1){
   const base=new URL(process.argv[liveArg+1]);
@@ -41,5 +50,8 @@ if(liveArg!==-1){
   for(const entry of JSON.parse(fs.readFileSync('docs/color-illustrations.json','utf8')).images){
     assert.equal((await fetch(new URL(entry.output.replace('public/','/'),base),{method:'HEAD'})).status,200,entry.output);
   }
-  console.log('Live checks passed: 30 routes, unknown-product 404, English contact, health and 32 generated assets.');
+  for(const thumbnail of previewAssets){
+    assert.equal((await fetch(new URL(thumbnail,base),{method:'HEAD'})).status,200,thumbnail);
+  }
+  console.log(`Live checks passed: 30 routes, unknown-product 404, English contact, health, 32 generated assets and ${previewAssets.length} card thumbnails.`);
 }

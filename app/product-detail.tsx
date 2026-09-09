@@ -6,6 +6,7 @@ import { ArrowRight, ChevronDown, Mail, Layers3 } from 'lucide-react';
 import { categoryName, productHref, validQuantity, type Product, type QuoteItem, type RequestUnit } from '@/lib/catalog';
 import { mailLink, chatLink, productInquiry } from '@/lib/inquiry';
 import { colourLabel, colourSwatch } from '@/lib/colours';
+import { validPhotoIndex } from '@/lib/product-preview';
 import { useSite } from './site-provider';
 import WhatsAppIcon from './whatsapp-icon';
 
@@ -16,7 +17,7 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
   const [color,setColor]=useState(p.colors.includes(initialSelection.color)?initialSelection.color:'');
   const [unit,setUnit]=useState<RequestUnit>(p.allowedUnits.includes(initialSelection.unit as RequestUnit)?initialSelection.unit as RequestUnit:p.allowedUnits[0]);
   const [quantity,setQuantity]=useState(1);
-  const [photo,setPhoto]=useState<number|null>(null);
+  const [photo,setPhoto]=useState<number|null>(validPhotoIndex(p,initialSelection.photo));
   const [origin,setOrigin]=useState('');
   useEffect(()=>setOrigin(window.location.origin),[]);
   const variant=p.variants.find(v=>v.id===variantId)!;

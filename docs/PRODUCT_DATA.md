@@ -28,6 +28,20 @@ Existing material photographs are retained. Thirty-two generated color variants 
 
 Spunbond's source only lists `Multiple colours`, so the gallery and consultation remain available without inventing a named color list. Clear-sheet products use the supplied Mika and Rigid assets.
 
+### Card previews
+
+Every named color with a `colorImages` mapping appears as a clickable swatch on its product card, both on Home and in Store. Selecting it updates the photo and all detail links with `?color=`. Product detail opens that color, which also carries into the inquiry.
+
+Groups with at most one named color and multiple original photos also expose photo thumbnails. Longer lists expand on request; `?photo=` opens the chosen original image in product detail. Photos without a confirmed color mapping remain numbered photos. Single-photo groups do not invent color choices. Currently the catalog provides 61 color selections and 28 additional photo selections across 23 groups; the remaining four groups have one photo each.
+
+After adding or replacing original gallery photos, regenerate the lightweight 96 px WebP thumbnails from the committed images:
+
+```powershell
+python scripts/prepare-product-previews.py
+```
+
+This requires Pillow. Commit the generated files under `public/images/product-previews/` with the catalog change. `scripts/verify-catalog.mjs` checks the thumbnail files and, in live mode, their HTTP responses.
+
 ## Verify and review
 
 ```powershell
