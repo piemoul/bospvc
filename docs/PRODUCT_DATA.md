@@ -34,7 +34,9 @@ Every named color with a `colorImages` mapping appears as a clickable swatch on 
 
 Groups with at most one named color and multiple original photos also expose photo thumbnails. Longer lists expand on request; `?photo=` opens the chosen original image in product detail. Photos without a confirmed color mapping remain numbered photos. Single-photo groups do not invent color choices. Currently the catalog provides 61 color selections and 28 additional photo selections across 23 groups; the remaining four groups have one photo each.
 
-After adding or replacing original gallery photos, regenerate the lightweight 96 px WebP thumbnails from the committed images:
+Product detail also provides a row of image swatches for every mapped color, alongside the original-photo navigation. Clicking a color thumbnail synchronizes the main image, color dropdown and inquiry. The row scrolls horizontally on narrow screens. There are 61 color thumbnails and 75 original-gallery thumbnails.
+
+After adding or replacing original gallery photos or color mappings, regenerate the lightweight 96 px WebP thumbnails from the committed images:
 
 ```powershell
 python scripts/prepare-product-previews.py

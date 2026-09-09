@@ -17,13 +17,16 @@ for(const p of catalog){
   assert.equal(new Set(p.variants.map(v=>v.id)).size,p.variants.length);
   for(const lang of ['id','en'])assert(e.details[lang].every(x=>typeof x==='string'&&x.length>0));
   for(const img of p.images)assert(fs.existsSync('public'+img),`Missing original photo ${img}`);
-  if(p.colors.filter(c=>c!=='Multiple colours').length<=1&&p.images.length>1){
-    for(let i=0;i<p.images.length;i++){
-      const thumbnail=`/images/product-previews/${p.id}-${i}.webp`;
-      assert(fs.existsSync('public'+thumbnail),`Regenerate card thumbnail: ${thumbnail}`);
-      previewAssets.push(thumbnail);
-    }
+  for(let i=0;i<p.images.length;i++){
+    const thumbnail=`/images/product-previews/${p.id}-${i}.webp`;
+    assert(fs.existsSync('public'+thumbnail),`Regenerate gallery thumbnail: ${thumbnail}`);
+    previewAssets.push(thumbnail);
   }
+  p.colors.filter(c=>c!=='Multiple colours').forEach((color,i)=>{
+    const thumbnail=`/images/product-previews/${p.id}-color-${i}.webp`;
+    assert(fs.existsSync('public'+thumbnail),`Regenerate color thumbnail for ${color}: ${thumbnail}`);
+    previewAssets.push(thumbnail);
+  });
   for(const color of p.colors.filter(c=>c!=='Multiple colours'))assert(e.colorImages[color],`Missing photo ${p.id}: ${color}`);
   for(const [color,img] of Object.entries(e.colorImages)){
     assert(p.colors.includes(color),`Unknown color ${p.id}: ${color}`);
@@ -34,7 +37,7 @@ for(const p of catalog){
 assert.equal(catalog.length,27);
 assert.equal(catalog.reduce((n,p)=>n+p.variants.length,0),99);
 assert.equal(JSON.parse(fs.readFileSync('docs/color-illustrations.json','utf8')).images.length,32);
-console.log(`Catalog valid: ${catalog.length} groups, 99 variants, ${mp.size} MP TECH labels, ${colorCount} color mappings and ${previewAssets.length} card thumbnails.`);
+console.log(`Catalog valid: ${catalog.length} groups, 99 variants, ${mp.size} MP TECH labels, ${colorCount} color mappings and ${previewAssets.length} preview thumbnails.`);
 const liveArg=process.argv.indexOf('--live-url');
 if(liveArg!==-1){
   const base=new URL(process.argv[liveArg+1]);
@@ -53,5 +56,5 @@ if(liveArg!==-1){
   for(const thumbnail of previewAssets){
     assert.equal((await fetch(new URL(thumbnail,base),{method:'HEAD'})).status,200,thumbnail);
   }
-  console.log(`Live checks passed: 30 routes, unknown-product 404, English contact, health, 32 generated assets and ${previewAssets.length} card thumbnails.`);
+  console.log(`Live checks passed: 30 routes, unknown-product 404, English contact, health, 32 generated assets and ${previewAssets.length} preview thumbnails.`);
 }

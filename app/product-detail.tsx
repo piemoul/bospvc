@@ -6,7 +6,7 @@ import { ArrowRight, ChevronDown, Mail, Layers3 } from 'lucide-react';
 import { categoryName, productHref, validQuantity, type Product, type QuoteItem, type RequestUnit } from '@/lib/catalog';
 import { mailLink, chatLink, productInquiry } from '@/lib/inquiry';
 import { colourLabel, colourSwatch } from '@/lib/colours';
-import { validPhotoIndex } from '@/lib/product-preview';
+import { productPreviews, validPhotoIndex } from '@/lib/product-preview';
 import { useSite } from './site-provider';
 import WhatsAppIcon from './whatsapp-icon';
 
@@ -22,6 +22,7 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
   useEffect(()=>setOrigin(window.location.origin),[]);
   const variant=p.variants.find(v=>v.id===variantId)!;
   const colorImage=color?p.colorImages[color]:undefined;
+  const colorPreviews=productPreviews(p).filter(option=>option.color);
   const image=photo!==null?p.images[photo]:colorImage?.src??p.images[0];
   const dimensions=!p.needsConfirmation&&variant.length&&variant.width?`${variant.length.replace(/\.0\b/g,'')}${/^[\d.]+$/.test(variant.length)?' m':''} × ${variant.width.replace(/\.0\b/g,'')} cm`:'';
   const item:QuoteItem={productId:p.id,variantId,color,quantity,unit};
@@ -34,7 +35,8 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
     <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">{t('Beranda','Home')}</Link><span>/</span><Link href="/store">{t('Katalog','Catalog')}</Link><span>/</span><span>{p.name[lang]}</span></nav>
     <div className="product-detail-layout">
       <div className="product-visual"><div className="product-main-photo"><img src={image} alt={`${p.name[lang]}${color&&photo===null?' — '+colourLabel(color,lang):''}`} width="900" height="900" fetchPriority="high"/></div>
-        {p.images.length>1&&<div className="detail-thumbs" aria-label={t('Foto material asli','Original material photos')}>{p.images.map((src,i)=><button type="button" key={src} aria-label={`${t('Foto','Photo')} ${i+1}`} aria-pressed={photo===i||(!color&&photo===null&&i===0)} onClick={()=>setPhoto(i)}><img src={src} alt="" width="66" height="66"/></button>)}</div>}
+        {colorPreviews.length>0&&<div className="detail-colour-navigation"><p className="detail-gallery-label">{t('Pilihan warna','Colour options')}</p><div className="detail-colour-thumbs" role="group" aria-label={t('Pratinjau warna','Colour previews')}>{colorPreviews.map(option=><button type="button" key={option.key} title={colourLabel(option.color!,lang)} aria-label={`${t('Pratinjau','Preview')} ${colourLabel(option.color!,lang)}`} aria-pressed={photo===null&&color===option.color} onClick={()=>{setColor(option.color!);setPhoto(null);}}><img src={option.thumb} alt="" width="96" height="96" loading="lazy"/><span className="detail-swatch-name"><span className="color-dot" style={{background:colourSwatch(option.color!)}}/>{colourLabel(option.color!,lang)}</span></button>)}</div></div>}
+        {p.images.length>1&&<div className="detail-original-navigation"><p className="detail-gallery-label">{t('Foto material','Material photos')}</p><div className="detail-thumbs" role="group" aria-label={t('Foto material asli','Original material photos')}>{p.images.map((src,i)=><button type="button" key={src} aria-label={`${t('Foto','Photo')} ${i+1}`} aria-pressed={photo===i||(!color&&photo===null&&i===0)} onClick={()=>setPhoto(i)}><img src={`/images/product-previews/${p.id}-${i}.webp`} alt="" width="66" height="66" loading="lazy"/></button>)}</div></div>}
         <p className="photo-caption" role="status">{t('Konfirmasikan warna dan spesifikasi akhir bersama tim sesuai kebutuhan Anda.','Confirm the final colour and specifications with our team for your requirements.')}</p>
       </div>
       <div className="product-information"><div className="product-labels">{p.label&&<span className="brand-badge">{p.label}</span>}<Link href={`/store?category=${p.category}`} className="eyebrow">{categoryName(p.category,lang)}</Link></div><h1>{p.name[lang]}</h1><p className="product-code">{p.code}</p><p className="product-summary">{p.description[lang]}</p>

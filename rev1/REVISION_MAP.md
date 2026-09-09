@@ -338,3 +338,9 @@ Arahan lanjutan pemilik: pilihan warna setiap SKU/kartu harus dapat diklik untuk
 - Setiap pilihan dari 89 kontrol diklik dalam browser; foto, label, status terpilih dan tautan detail cocok. Setiap alternatif dalam satu produk menggunakan sumber foto yang berbeda.
 - Mio Pro Biru dongker berhasil membuka detail dengan `?color=Navy`, foto biru dongker dan warna yang benar pada draf inquiry. Spunbond Foto 3 berhasil membuka detail dengan `?photo=2` dan thumbnail Foto 3 terpilih.
 - Pemeriksaan kartu pada viewport ponsel 410 px tidak menemukan overflow. Build TypeScript/Docker dan audit aset dijalankan kembali untuk perubahan ini.
+
+## 14. Navigasi swatch pada halaman detail
+
+Arahan lanjutan pemilik memperjelas bahwa halaman detail juga harus menyediakan navigasi swatch gambar seperti Mio Pro. Setiap warna yang mempunyai pemetaan foto kini muncul sebagai thumbnail berlabel di bawah foto utama, termasuk ketiga kombinasi warna Terpal PE A2. Klik thumbnail menyelaraskan foto utama, dropdown warna dan warna dalam inquiry. Foto material asli tetap memiliki baris navigasi tersendiri.
+
+Verifikasi: seluruh 27 halaman detail dibuka dan seluruh 61 swatch diklik. Gambar, label terpilih, dropdown dan isi draf WhatsApp sesuai, tanpa pengiriman pesan. Pergantian dari dropdown ke swatch, dari foto asli kembali ke warna, serta bahasa Inggris juga lulus. Baris thumbnail dapat digeser horizontal pada ponsel tanpa memperlebar halaman. Total 136 thumbnail WebP lokal (61 warna dan 75 foto asli) tersedia dan lolos pemeriksaan HTTP, bersama semua route produk. TypeScript dan production Docker build lulus.

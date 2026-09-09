@@ -4,7 +4,7 @@ export type ProductPreview = { key: string; src: string; color?: string; photo?:
 
 export function productPreviews(product: Product): ProductPreview[] {
   const colors = product.colors.filter(color => color !== 'Multiple colours' && product.colorImages[color]);
-  const options: ProductPreview[] = colors.map(color => ({ key: `color:${color}`, color, src: product.colorImages[color].src }));
+  const options: ProductPreview[] = colors.map((color, index) => ({ key: `color:${color}`, color, src: product.colorImages[color].src, thumb: `/images/product-previews/${product.id}-color-${index}.webp` }));
   if (colors.length <= 1 && product.images.length > 1) {
     product.images.forEach((src, photo) => {
       if (options.some(option => option.src === src)) return;

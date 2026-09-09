@@ -23,7 +23,7 @@ The editorial file controls stable slugs, optional brand labels, allowed inquiry
 
 `lib/colours.ts` supplies localized names and swatches. A color selection switches the product image through its mapping; original photo thumbnails remain available. `docs/color-illustrations.json` records references and generation prompts for 32 generated color variants. Provenance stays in maintenance data; customer-facing photos have no illustration badge, as requested by the owner.
 
-`lib/product-preview.ts` derives card choices from exact color mappings and original galleries. `ProductCard` keeps its selected preview in local state and forwards `color` or `photo` in every native detail link. `ProductDetail` validates the photo index before selecting an original image; mapped colors also become inquiry selections. `scripts/prepare-product-previews.py` creates small local photo thumbnails without adding a runtime image-processing dependency.
+`lib/product-preview.ts` derives card choices from exact color mappings and original galleries. `ProductCard` keeps its selected preview in local state and forwards `color` or `photo` in every native detail link. `ProductDetail` validates the photo index before selecting an original image and exposes a row of color-image swatches. Swatch clicks synchronize its image, dropdown and inquiry color. Original photos remain in their own thumbnail row. `scripts/prepare-product-previews.py` creates small local thumbnails for every color and gallery image without adding a runtime image-processing dependency.
 
 ## Quotation flow
 

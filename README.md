@@ -95,6 +95,8 @@ The portfolio shows material specifications that can be sourced; it contains no 
 
 Home and Store cards support clickable color/photo previews. All 61 named color choices and 28 additional photo choices update the card image and carry the selection into the product detail URL. Four single-photo groups keep their existing preview. Run `python scripts/prepare-product-previews.py` after updating original gallery images; the verification script checks the generated thumbnails.
 
+Every product detail page also offers image swatches for its mapped colors. Clicking a swatch updates the main photo, color dropdown and inquiry selection. Original-photo navigation stays available, and both rows use small local WebP thumbnails.
+
 ## Generated image prompt
 
 Built-in image generation was used; its interface does not expose a model-version selector, so a specific GPT Image version was not independently verified.
