@@ -3,18 +3,19 @@
   "multigraph": false,
   "graph": {
     "community_labels": {
-      "0": "Quotation and Contact Drafts",
-      "1": "Shared Brand and State",
+      "0": "Shared Brand Experience",
+      "1": "Product Preview Navigation",
       "2": "Portfolio Rules and Deployment",
-      "3": "Localized Route Metadata",
-      "4": "Home and Facility Media",
-      "5": "Catalog Browsing",
-      "6": "Workbook Asset Preparation",
-      "7": "Tailwind Build Processing"
+      "3": "Homepage and Facility Media",
+      "4": "Catalog and Material Selection",
+      "5": "Localized Route Configuration",
+      "6": "Quotation Draft Composition",
+      "7": "Workbook and Asset Import",
+      "8": "CSS Build Configuration"
     },
-    "built_from_commit": "923e1b3798244d100a300d0cf27aab6d9932c90e"
+    "built_from_commit": "be41e15e88b6fd4051c3e07436fdaae859f54cfc"
   },
-  "topology_signature": "n=107;e=242;app_capability_gallery,app_capability_gallery_capabilitygallery,app_contact_intro,app_contact_intro_contactintro,app_hero_carousel,app_hero_carousel_herocarousel,app_layout,app_layout_metadata,app_layout_rootlayout,app_not_found,app_not_found_notfound,app_page,app_page_interactions,app_page_interactions_pageinteractions,app_page_page,app_page_viewport,app_product_card,app_product_card_productcard,app_product_detail,app_product_detail_productdetail,app_quote_form,app_quote_form_inquiry,app_quote_form_quoteform,app_site_provider,app_site_provider_sitecontext,app_site_provider_siteprovider,app_site_provider_sitestate,app_site_provider_usesite,app_site_shell,app_site_shell_siteshell,app_storefront,app_storefront_storefront,app_whatsapp_icon,app_whatsapp_icon_whatsappicon,architecture_brand_identity,architecture_contact_drafts,architecture_facility_media,architecture_inquiry_portfolio,architecture_inquiry_session,architecture_language_preference,architecture_runtime_config,architecture_shared_routes,compose_web,contact_contact_content,contact_contact_content_contactpagecontent,contact_page,contact_page_contactpage,contact_page_generatemetadata,health_route,health_route_get,lib_catalog,lib_catalog_categories,lib_catalog_category,lib_catalog_categoryname,lib_catalog_colorimage,lib_catalog_lang,lib_catalog_overrides,lib_catalog_product,lib_catalog_producteditorial,lib_catalog_producthref,lib_catalog_products,lib_catalog_quoteitem,lib_catalog_requestunit,lib_catalog_validquantity,lib_catalog_validquoteitem,lib_catalog_variant,lib_colours,lib_colours_colourlabel,lib_colours_colours,lib_colours_colourswatch,lib_inquiry,lib_inquiry_chatlink,lib_inquiry_itemtext,lib_inquiry_maillink,lib_inquiry_productinquiry,lib_site_config,lib_site_config_getsiteconfig,next_config,next_config_config,postcss_config,product_data_color_mapping,product_data_editorial,product_data_generation_policy,product_data_import,product_data_labels,product_data_units,readme_graphify_tooling,readme_local_deployment,revision_complete_mapping,revision_form_requirements,revision_responsive_hero,revision_stock_decision,revision_verification,scripts_inspect_assets,scripts_prepare_catalog,scripts_prepare_catalog_rationale_1,scripts_prepare_catalog_save,scripts_prepare_gallery,slug_page,slug_page_generatemetadata,slug_page_productpage,slug_page_props,store_page,store_page_generatemetadata,store_page_storepage,store_store_catalog,store_store_catalog_storecatalog|app_capability_gallery\tapp_capability_gallery_capabilitygallery\tcontains;app_capability_gallery\tapp_storefront\timports_from;app_capability_gallery\tarchitecture_facility_media\treferences;app_capability_gallery\tlib_catalog\timports_from;app_capability_gallery\tlib_catalog_lang\timports;app_contact_intro\tapp_contact_intro_contactintro\tcontains;app_contact_intro\tapp_site_provider\timports_from;app_contact_intro\tapp_site_provider_usesite\timports;app_contact_intro\tapp_storefront\timports_from;app_contact_intro\tapp_whatsapp_icon\timports_from;app_contact_intro\tcontact_contact_content\timports_from;app_contact_intro\tlib_inquiry\timports_from;app_contact_intro\tlib_inquiry_chatlink\timports;app_hero_carousel\tapp_hero_carousel_herocarousel\tcontains;app_hero_carousel\tapp_site_provider\timports_from;app_hero_carousel\tapp_site_provider_usesite\timports;app_hero_carousel\tapp_storefront\timports_from;app_hero_carousel\tapp_whatsapp_icon\timports_from;app_hero_carousel\tarchitecture_brand_identity\treferences;app_hero_carousel\tlib_inquiry\timports_from;app_hero_carousel\tlib_inquiry_chatlink\timports;app_hero_carousel\trevision_responsive_hero\treferences;app_layout\tapp_layout_metadata\tcontains;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tapp_site_provider\timports_from;app_layout\tapp_site_provider_siteprovider\timports;app_layout\tapp_site_shell\timports_from;app_layout\tarchitecture_shared_routes\treferences;app_layout\tlib_site_config\timports_from;app_layout\tlib_site_config_getsiteconfig\timports;app_layout_metadata\tarchitecture_brand_identity\treferences;app_layout_metadata\treadme_local_deployment\treferences;app_not_found\tapp_not_found_notfound\tcontains;app_not_found\tapp_site_provider\timports_from;app_not_found\tapp_site_provider_usesite\timports;app_page\tapp_page_interactions\timports_from;app_page\tapp_page_page\tcontains;app_page\tapp_page_viewport\tcontains;app_page\tapp_storefront\timports_from;app_page_interactions\tapp_page_interactions_pageinteractions\tcontains;app_page_interactions\trevision_responsive_hero\treferences;app_product_card\tapp_product_card_productcard\tcontains;app_product_card\tapp_site_provider\timports_from;app_product_card\tapp_site_provider_usesite\timports;app_product_card\tapp_storefront\timports_from;app_product_card\tlib_catalog\timports_from;app_product_card\tlib_catalog_categoryname\timports;app_product_card\tlib_catalog_product\timports;app_product_card\tlib_catalog_producthref\timports;app_product_card\tlib_colours\timports_from;app_product_card\tlib_colours_colourlabel\timports;app_product_card\tlib_colours_colourswatch\timports;app_product_card\tproduct_data_labels\treferences;app_product_card\tstore_store_catalog\timports_from;app_product_detail\tapp_product_detail_productdetail\tcontains;app_product_detail\tapp_site_provider\timports_from;app_product_detail\tapp_site_provider_usesite\timports;app_product_detail\tapp_whatsapp_icon\timports_from;app_product_detail\tarchitecture_contact_drafts\treferences;app_product_detail\tarchitecture_inquiry_session\tshares_data_with;app_product_detail\tlib_catalog\timports_from;app_product_detail\tlib_catalog_categoryname\timports;app_product_detail\tlib_catalog_product\timports;app_product_detail\tlib_catalog_producthref\timports;app_product_detail\tlib_catalog_quoteitem\timports;app_product_detail\tlib_catalog_requestunit\timports;app_product_detail\tlib_catalog_validquantity\timports;app_product_detail\tlib_colours\timports_from;app_product_detail\tlib_colours_colourlabel\timports;app_product_detail\tlib_colours_colourswatch\timports;app_product_detail\tlib_inquiry\timports_from;app_product_detail\tlib_inquiry_chatlink\timports;app_product_detail\tlib_inquiry_maillink\timports;app_product_detail\tlib_inquiry_productinquiry\timports;app_product_detail\tproduct_data_color_mapping\treferences;app_product_detail\tproduct_data_labels\treferences;app_product_detail\tproduct_data_units\treferences;app_product_detail\tslug_page\timports_from;app_quote_form\tapp_quote_form_inquiry\tcontains;app_quote_form\tapp_quote_form_quoteform\tcontains;app_quote_form\tapp_whatsapp_icon\timports_from;app_quote_form\tarchitecture_contact_drafts\treferences;app_quote_form\tarchitecture_inquiry_session\tshares_data_with;app_quote_form\tcontact_contact_content\timports_from;app_quote_form\tlib_catalog\timports_from;app_quote_form\tlib_catalog_lang\timports;app_quote_form\tlib_catalog_producthref\timports;app_quote_form\tlib_catalog_products\timports;app_quote_form\tlib_catalog_quoteitem\timports;app_quote_form\tlib_catalog_requestunit\timports;app_quote_form\tlib_catalog_validquoteitem\timports;app_quote_form\tlib_colours\timports_from;app_quote_form\tlib_colours_colourlabel\timports;app_quote_form\tlib_inquiry\timports_from;app_quote_form\tlib_inquiry_chatlink\timports;app_quote_form\tlib_inquiry_itemtext\timports;app_quote_form\tlib_inquiry_maillink\timports;app_quote_form\tproduct_data_units\treferences;app_quote_form\trevision_form_requirements\trationale_for;app_site_provider\tapp_site_provider_sitecontext\tcontains;app_site_provider\tapp_site_provider_siteprovider\tcontains;app_site_provider\tapp_site_provider_sitestate\tcontains;app_site_provider\tapp_site_provider_usesite\tcontains;app_site_provider\tapp_site_shell\timports_from;app_site_provider\tapp_storefront\timports_from;app_site_provider\tarchitecture_inquiry_session\tshares_data_with;app_site_provider\tarchitecture_language_preference\treferences;app_site_provider\tarchitecture_runtime_config\treferences;app_site_provider\tcontact_contact_content\timports_from;app_site_provider\tlib_catalog\timports_from;app_site_provider\tlib_catalog_lang\timports;app_site_provider\tlib_catalog_products\timports;app_site_provider\tlib_catalog_quoteitem\timports;app_site_provider\tlib_catalog_validquoteitem\timports;app_site_provider\tstore_store_catalog\timports_from;app_site_provider_usesite\tapp_site_shell\timports;app_site_provider_usesite\tapp_storefront\timports;app_site_provider_usesite\tcontact_contact_content\timports;app_site_provider_usesite\tstore_store_catalog\timports;app_site_shell\tapp_site_shell_siteshell\tcontains;app_site_shell\tapp_whatsapp_icon\timports_from;app_site_shell\tarchitecture_brand_identity\treferences;app_site_shell\tarchitecture_shared_routes\treferences;app_site_shell\tlib_inquiry\timports_from;app_site_shell\tlib_inquiry_chatlink\timports;app_storefront\tapp_storefront_storefront\tcontains;app_storefront\tarchitecture_shared_routes\treferences;app_storefront\tlib_catalog\timports_from;app_storefront\tlib_catalog_products\timports;app_storefront\trevision_responsive_hero\treferences;app_whatsapp_icon\tapp_whatsapp_icon_whatsappicon\tcontains;architecture_contact_drafts\tarchitecture_inquiry_portfolio\treferences;architecture_contact_drafts\tlib_inquiry\treferences;architecture_contact_drafts\trevision_form_requirements\trationale_for;architecture_contact_drafts\trevision_verification\treferences;architecture_facility_media\tscripts_prepare_gallery\treferences;architecture_inquiry_portfolio\tarchitecture_shared_routes\treferences;architecture_inquiry_portfolio\tproduct_data_editorial\treferences;architecture_inquiry_portfolio\trevision_stock_decision\trationale_for;architecture_inquiry_session\tlib_catalog_validquoteitem\tshares_data_with;architecture_language_preference\tcontact_page_generatemetadata\treferences;architecture_language_preference\tlib_site_config\treferences;architecture_language_preference\tslug_page_generatemetadata\treferences;architecture_language_preference\tstore_page_generatemetadata\treferences;architecture_runtime_config\tlib_inquiry_chatlink\treferences;architecture_runtime_config\tlib_inquiry_maillink\treferences;architecture_runtime_config\tlib_site_config_getsiteconfig\treferences;architecture_shared_routes\tcontact_contact_content\treferences;architecture_shared_routes\treadme_graphify_tooling\treferences;architecture_shared_routes\trevision_complete_mapping\treferences;architecture_shared_routes\tslug_page\treferences;architecture_shared_routes\tstore_store_catalog\treferences;compose_web\treadme_local_deployment\treferences;contact_contact_content\tcontact_contact_content_contactpagecontent\tcontains;contact_contact_content\tcontact_page\timports_from;contact_page\tcontact_page_contactpage\tcontains;contact_page\tcontact_page_generatemetadata\tcontains;contact_page\tlib_site_config\timports_from;contact_page\tlib_site_config_getsiteconfig\timports;health_route\thealth_route_get\tcontains;health_route_get\treadme_local_deployment\treferences;lib_catalog\tlib_catalog_categories\tcontains;lib_catalog\tlib_catalog_category\tcontains;lib_catalog\tlib_catalog_categoryname\tcontains;lib_catalog\tlib_catalog_colorimage\tcontains;lib_catalog\tlib_catalog_lang\tcontains;lib_catalog\tlib_catalog_overrides\tcontains;lib_catalog\tlib_catalog_product\tcontains;lib_catalog\tlib_catalog_producteditorial\tcontains;lib_catalog\tlib_catalog_producthref\tcontains;lib_catalog\tlib_catalog_products\tcontains;lib_catalog\tlib_catalog_quoteitem\tcontains;lib_catalog\tlib_catalog_requestunit\tcontains;lib_catalog\tlib_catalog_validquantity\tcontains;lib_catalog\tlib_catalog_validquoteitem\tcontains;lib_catalog\tlib_catalog_variant\tcontains;lib_catalog\tlib_colours\timports_from;lib_catalog\tlib_inquiry\timports_from;lib_catalog\tlib_site_config\timports_from;lib_catalog\tslug_page\timports_from;lib_catalog\tstore_store_catalog\timports_from;lib_catalog_categories\tstore_store_catalog\timports;lib_catalog_categoryname\tstore_store_catalog\timports;lib_catalog_colorimage\tproduct_data_color_mapping\treferences;lib_catalog_lang\tlib_colours\timports;lib_catalog_lang\tlib_inquiry\timports;lib_catalog_lang\tlib_site_config\timports;lib_catalog_overrides\tproduct_data_editorial\treferences;lib_catalog_producteditorial\tproduct_data_editorial\treferences;lib_catalog_producteditorial\tproduct_data_labels\treferences;lib_catalog_products\tlib_inquiry\timports;lib_catalog_products\tslug_page\timports;lib_catalog_products\tstore_store_catalog\timports;lib_catalog_quoteitem\tlib_inquiry\timports;lib_catalog_requestunit\tproduct_data_units\treferences;lib_catalog_validquantity\tlib_catalog_validquoteitem\tcalls;lib_catalog_validquantity\tproduct_data_units\treferences;lib_colours\tlib_colours_colourlabel\tcontains;lib_colours\tlib_colours_colours\tcontains;lib_colours\tlib_colours_colourswatch\tcontains;lib_colours\tlib_inquiry\timports_from;lib_colours\tproduct_data_color_mapping\treferences;lib_colours_colourlabel\tlib_inquiry\timports;lib_inquiry\tlib_inquiry_chatlink\tcontains;lib_inquiry\tlib_inquiry_itemtext\tcontains;lib_inquiry\tlib_inquiry_maillink\tcontains;lib_inquiry\tlib_inquiry_productinquiry\tcontains;lib_inquiry_itemtext\tlib_inquiry_productinquiry\tcalls;lib_site_config\tlib_site_config_getsiteconfig\tcontains;lib_site_config\tslug_page\timports_from;lib_site_config\tstore_page\timports_from;lib_site_config_getsiteconfig\tslug_page\timports;lib_site_config_getsiteconfig\tstore_page\timports;next_config\tnext_config_config\tcontains;next_config\treadme_local_deployment\treferences;product_data_color_mapping\tproduct_data_editorial\treferences;product_data_color_mapping\tproduct_data_generation_policy\treferences;product_data_color_mapping\trevision_verification\treferences;product_data_editorial\tproduct_data_import\treferences;product_data_editorial\tproduct_data_labels\treferences;product_data_editorial\tproduct_data_units\treferences;product_data_generation_policy\trevision_complete_mapping\treferences;product_data_import\tscripts_inspect_assets\treferences;product_data_import\tscripts_prepare_catalog\treferences;product_data_labels\trevision_complete_mapping\treferences;product_data_labels\trevision_verification\treferences;product_data_units\trevision_verification\treferences;readme_graphify_tooling\trevision_complete_mapping\treferences;readme_local_deployment\trevision_verification\treferences;revision_complete_mapping\trevision_form_requirements\treferences;revision_complete_mapping\trevision_responsive_hero\treferences;revision_complete_mapping\trevision_stock_decision\treferences;revision_complete_mapping\trevision_verification\treferences;scripts_prepare_catalog\tscripts_prepare_catalog_rationale_1\trationale_for;scripts_prepare_catalog\tscripts_prepare_catalog_save\tcontains;slug_page\tslug_page_generatemetadata\tcontains;slug_page\tslug_page_productpage\tcontains;slug_page\tslug_page_props\tcontains;store_page\tstore_page_generatemetadata\tcontains;store_page\tstore_page_storepage\tcontains;store_page\tstore_store_catalog\timports_from;store_store_catalog\tstore_store_catalog_storecatalog\tcontains",
+  "topology_signature": "n=116;e=262;app_capability_gallery,app_capability_gallery_capabilitygallery,app_contact_intro,app_contact_intro_contactintro,app_hero_carousel,app_hero_carousel_herocarousel,app_layout,app_layout_metadata,app_layout_rootlayout,app_not_found,app_not_found_notfound,app_page,app_page_interactions,app_page_interactions_pageinteractions,app_page_page,app_page_viewport,app_product_card,app_product_card_productcard,app_product_detail,app_product_detail_productdetail,app_quote_form,app_quote_form_inquiry,app_quote_form_quoteform,app_site_provider,app_site_provider_sitecontext,app_site_provider_siteprovider,app_site_provider_sitestate,app_site_provider_usesite,app_site_shell,app_site_shell_siteshell,app_storefront,app_storefront_storefront,app_whatsapp_icon,app_whatsapp_icon_whatsappicon,architecture_brand_identity,architecture_contact_drafts,architecture_facility_media,architecture_inquiry_portfolio,architecture_inquiry_session,architecture_language_preference,architecture_product_previews,architecture_runtime_config,architecture_shared_routes,compose_web,contact_contact_content,contact_contact_content_contactpagecontent,contact_page,contact_page_contactpage,contact_page_generatemetadata,health_route,health_route_get,lib_catalog,lib_catalog_categories,lib_catalog_category,lib_catalog_categoryname,lib_catalog_colorimage,lib_catalog_lang,lib_catalog_overrides,lib_catalog_product,lib_catalog_producteditorial,lib_catalog_producthref,lib_catalog_products,lib_catalog_quoteitem,lib_catalog_requestunit,lib_catalog_validquantity,lib_catalog_validquoteitem,lib_catalog_variant,lib_colours,lib_colours_colourlabel,lib_colours_colours,lib_colours_colourswatch,lib_inquiry,lib_inquiry_chatlink,lib_inquiry_itemtext,lib_inquiry_maillink,lib_inquiry_productinquiry,lib_product_preview,lib_product_preview_previewhref,lib_product_preview_productpreview,lib_product_preview_productpreviews,lib_product_preview_validphotoindex,lib_site_config,lib_site_config_getsiteconfig,next_config,next_config_config,postcss_config,product_data_color_mapping,product_data_editorial,product_data_generation_policy,product_data_import,product_data_labels,product_data_preview_assets,product_data_units,readme_graphify_tooling,readme_local_deployment,revision_complete_mapping,revision_form_requirements,revision_responsive_hero,revision_stock_decision,revision_verification,scripts_inspect_assets,scripts_prepare_catalog,scripts_prepare_catalog_rationale_1,scripts_prepare_catalog_save,scripts_prepare_gallery,scripts_prepare_product_previews,scripts_prepare_product_previews_thumbnail,slug_page,slug_page_generatemetadata,slug_page_productpage,slug_page_props,store_page,store_page_generatemetadata,store_page_storepage,store_store_catalog,store_store_catalog_storecatalog|app_capability_gallery\tapp_capability_gallery_capabilitygallery\tcontains;app_capability_gallery\tapp_storefront\timports_from;app_capability_gallery\tarchitecture_facility_media\treferences;app_capability_gallery\tlib_catalog\timports_from;app_capability_gallery\tlib_catalog_lang\timports;app_contact_intro\tapp_contact_intro_contactintro\tcontains;app_contact_intro\tapp_site_provider\timports_from;app_contact_intro\tapp_site_provider_usesite\timports;app_contact_intro\tapp_storefront\timports_from;app_contact_intro\tapp_whatsapp_icon\timports_from;app_contact_intro\tcontact_contact_content\timports_from;app_contact_intro\tlib_inquiry\timports_from;app_contact_intro\tlib_inquiry_chatlink\timports;app_hero_carousel\tapp_hero_carousel_herocarousel\tcontains;app_hero_carousel\tapp_site_provider\timports_from;app_hero_carousel\tapp_site_provider_usesite\timports;app_hero_carousel\tapp_storefront\timports_from;app_hero_carousel\tapp_whatsapp_icon\timports_from;app_hero_carousel\tarchitecture_brand_identity\treferences;app_hero_carousel\tlib_inquiry\timports_from;app_hero_carousel\tlib_inquiry_chatlink\timports;app_hero_carousel\trevision_responsive_hero\treferences;app_layout\tapp_layout_metadata\tcontains;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tapp_site_provider\timports_from;app_layout\tapp_site_provider_siteprovider\timports;app_layout\tapp_site_shell\timports_from;app_layout\tarchitecture_shared_routes\treferences;app_layout\tlib_site_config\timports_from;app_layout\tlib_site_config_getsiteconfig\timports;app_layout_metadata\tarchitecture_brand_identity\treferences;app_layout_metadata\treadme_local_deployment\treferences;app_not_found\tapp_not_found_notfound\tcontains;app_not_found\tapp_site_provider\timports_from;app_not_found\tapp_site_provider_usesite\timports;app_page\tapp_page_interactions\timports_from;app_page\tapp_page_page\tcontains;app_page\tapp_page_viewport\tcontains;app_page\tapp_storefront\timports_from;app_page_interactions\tapp_page_interactions_pageinteractions\tcontains;app_page_interactions\trevision_responsive_hero\treferences;app_product_card\tapp_product_card_productcard\tcontains;app_product_card\tapp_site_provider\timports_from;app_product_card\tapp_site_provider_usesite\timports;app_product_card\tapp_storefront\timports_from;app_product_card\tarchitecture_product_previews\treferences;app_product_card\tlib_catalog\timports_from;app_product_card\tlib_catalog_categoryname\timports;app_product_card\tlib_catalog_product\timports;app_product_card\tlib_colours\timports_from;app_product_card\tlib_colours_colourlabel\timports;app_product_card\tlib_colours_colourswatch\timports;app_product_card\tlib_product_preview\timports_from;app_product_card\tlib_product_preview_previewhref\timports;app_product_card\tlib_product_preview_productpreviews\timports;app_product_card\tproduct_data_labels\treferences;app_product_card\tstore_store_catalog\timports_from;app_product_detail\tapp_product_detail_productdetail\tcontains;app_product_detail\tapp_site_provider\timports_from;app_product_detail\tapp_site_provider_usesite\timports;app_product_detail\tapp_whatsapp_icon\timports_from;app_product_detail\tarchitecture_contact_drafts\treferences;app_product_detail\tarchitecture_inquiry_session\tshares_data_with;app_product_detail\tarchitecture_product_previews\treferences;app_product_detail\tlib_catalog\timports_from;app_product_detail\tlib_catalog_categoryname\timports;app_product_detail\tlib_catalog_product\timports;app_product_detail\tlib_catalog_producthref\timports;app_product_detail\tlib_catalog_quoteitem\timports;app_product_detail\tlib_catalog_requestunit\timports;app_product_detail\tlib_catalog_validquantity\timports;app_product_detail\tlib_colours\timports_from;app_product_detail\tlib_colours_colourlabel\timports;app_product_detail\tlib_colours_colourswatch\timports;app_product_detail\tlib_inquiry\timports_from;app_product_detail\tlib_inquiry_chatlink\timports;app_product_detail\tlib_inquiry_maillink\timports;app_product_detail\tlib_inquiry_productinquiry\timports;app_product_detail\tlib_product_preview\timports_from;app_product_detail\tlib_product_preview_productpreviews\timports;app_product_detail\tlib_product_preview_validphotoindex\timports;app_product_detail\tproduct_data_color_mapping\treferences;app_product_detail\tproduct_data_labels\treferences;app_product_detail\tproduct_data_units\treferences;app_product_detail\tslug_page\timports_from;app_quote_form\tapp_quote_form_inquiry\tcontains;app_quote_form\tapp_quote_form_quoteform\tcontains;app_quote_form\tapp_whatsapp_icon\timports_from;app_quote_form\tarchitecture_contact_drafts\treferences;app_quote_form\tarchitecture_inquiry_session\tshares_data_with;app_quote_form\tcontact_contact_content\timports_from;app_quote_form\tlib_catalog\timports_from;app_quote_form\tlib_catalog_lang\timports;app_quote_form\tlib_catalog_producthref\timports;app_quote_form\tlib_catalog_products\timports;app_quote_form\tlib_catalog_quoteitem\timports;app_quote_form\tlib_catalog_requestunit\timports;app_quote_form\tlib_catalog_validquoteitem\timports;app_quote_form\tlib_colours\timports_from;app_quote_form\tlib_colours_colourlabel\timports;app_quote_form\tlib_inquiry\timports_from;app_quote_form\tlib_inquiry_chatlink\timports;app_quote_form\tlib_inquiry_itemtext\timports;app_quote_form\tlib_inquiry_maillink\timports;app_quote_form\tproduct_data_units\treferences;app_quote_form\trevision_form_requirements\trationale_for;app_site_provider\tapp_site_provider_sitecontext\tcontains;app_site_provider\tapp_site_provider_siteprovider\tcontains;app_site_provider\tapp_site_provider_sitestate\tcontains;app_site_provider\tapp_site_provider_usesite\tcontains;app_site_provider\tapp_site_shell\timports_from;app_site_provider\tapp_storefront\timports_from;app_site_provider\tarchitecture_inquiry_session\tshares_data_with;app_site_provider\tarchitecture_language_preference\treferences;app_site_provider\tarchitecture_runtime_config\treferences;app_site_provider\tcontact_contact_content\timports_from;app_site_provider\tlib_catalog\timports_from;app_site_provider\tlib_catalog_lang\timports;app_site_provider\tlib_catalog_products\timports;app_site_provider\tlib_catalog_quoteitem\timports;app_site_provider\tlib_catalog_validquoteitem\timports;app_site_provider\tstore_store_catalog\timports_from;app_site_provider_usesite\tapp_site_shell\timports;app_site_provider_usesite\tapp_storefront\timports;app_site_provider_usesite\tcontact_contact_content\timports;app_site_provider_usesite\tstore_store_catalog\timports;app_site_shell\tapp_site_shell_siteshell\tcontains;app_site_shell\tapp_whatsapp_icon\timports_from;app_site_shell\tarchitecture_brand_identity\treferences;app_site_shell\tarchitecture_shared_routes\treferences;app_site_shell\tlib_inquiry\timports_from;app_site_shell\tlib_inquiry_chatlink\timports;app_storefront\tapp_storefront_storefront\tcontains;app_storefront\tarchitecture_shared_routes\treferences;app_storefront\tlib_catalog\timports_from;app_storefront\tlib_catalog_products\timports;app_storefront\trevision_responsive_hero\treferences;app_whatsapp_icon\tapp_whatsapp_icon_whatsappicon\tcontains;architecture_contact_drafts\tarchitecture_inquiry_portfolio\treferences;architecture_contact_drafts\tlib_inquiry\treferences;architecture_contact_drafts\trevision_form_requirements\trationale_for;architecture_contact_drafts\trevision_verification\treferences;architecture_facility_media\tscripts_prepare_gallery\treferences;architecture_inquiry_portfolio\tarchitecture_shared_routes\treferences;architecture_inquiry_portfolio\tproduct_data_editorial\treferences;architecture_inquiry_portfolio\trevision_stock_decision\trationale_for;architecture_inquiry_session\tlib_catalog_validquoteitem\tshares_data_with;architecture_language_preference\tcontact_page_generatemetadata\treferences;architecture_language_preference\tlib_site_config\treferences;architecture_language_preference\tslug_page_generatemetadata\treferences;architecture_language_preference\tstore_page_generatemetadata\treferences;architecture_product_previews\tlib_product_preview\treferences;architecture_product_previews\tproduct_data_color_mapping\treferences;architecture_product_previews\tproduct_data_preview_assets\treferences;architecture_product_previews\trevision_verification\treferences;architecture_runtime_config\tlib_inquiry_chatlink\treferences;architecture_runtime_config\tlib_inquiry_maillink\treferences;architecture_runtime_config\tlib_site_config_getsiteconfig\treferences;architecture_shared_routes\tcontact_contact_content\treferences;architecture_shared_routes\treadme_graphify_tooling\treferences;architecture_shared_routes\trevision_complete_mapping\treferences;architecture_shared_routes\tslug_page\treferences;architecture_shared_routes\tstore_store_catalog\treferences;compose_web\treadme_local_deployment\treferences;contact_contact_content\tcontact_contact_content_contactpagecontent\tcontains;contact_contact_content\tcontact_page\timports_from;contact_page\tcontact_page_contactpage\tcontains;contact_page\tcontact_page_generatemetadata\tcontains;contact_page\tlib_site_config\timports_from;contact_page\tlib_site_config_getsiteconfig\timports;health_route\thealth_route_get\tcontains;health_route_get\treadme_local_deployment\treferences;lib_catalog\tlib_catalog_categories\tcontains;lib_catalog\tlib_catalog_category\tcontains;lib_catalog\tlib_catalog_categoryname\tcontains;lib_catalog\tlib_catalog_colorimage\tcontains;lib_catalog\tlib_catalog_lang\tcontains;lib_catalog\tlib_catalog_overrides\tcontains;lib_catalog\tlib_catalog_product\tcontains;lib_catalog\tlib_catalog_producteditorial\tcontains;lib_catalog\tlib_catalog_producthref\tcontains;lib_catalog\tlib_catalog_products\tcontains;lib_catalog\tlib_catalog_quoteitem\tcontains;lib_catalog\tlib_catalog_requestunit\tcontains;lib_catalog\tlib_catalog_validquantity\tcontains;lib_catalog\tlib_catalog_validquoteitem\tcontains;lib_catalog\tlib_catalog_variant\tcontains;lib_catalog\tlib_colours\timports_from;lib_catalog\tlib_inquiry\timports_from;lib_catalog\tlib_product_preview\timports_from;lib_catalog\tlib_site_config\timports_from;lib_catalog\tslug_page\timports_from;lib_catalog\tstore_store_catalog\timports_from;lib_catalog_categories\tstore_store_catalog\timports;lib_catalog_categoryname\tstore_store_catalog\timports;lib_catalog_colorimage\tproduct_data_color_mapping\treferences;lib_catalog_lang\tlib_colours\timports;lib_catalog_lang\tlib_inquiry\timports;lib_catalog_lang\tlib_site_config\timports;lib_catalog_overrides\tproduct_data_editorial\treferences;lib_catalog_product\tlib_product_preview\timports;lib_catalog_producteditorial\tproduct_data_editorial\treferences;lib_catalog_producteditorial\tproduct_data_labels\treferences;lib_catalog_producthref\tlib_product_preview\timports;lib_catalog_products\tlib_inquiry\timports;lib_catalog_products\tslug_page\timports;lib_catalog_products\tstore_store_catalog\timports;lib_catalog_quoteitem\tlib_inquiry\timports;lib_catalog_requestunit\tproduct_data_units\treferences;lib_catalog_validquantity\tlib_catalog_validquoteitem\tcalls;lib_catalog_validquantity\tproduct_data_units\treferences;lib_colours\tlib_colours_colourlabel\tcontains;lib_colours\tlib_colours_colours\tcontains;lib_colours\tlib_colours_colourswatch\tcontains;lib_colours\tlib_inquiry\timports_from;lib_colours\tproduct_data_color_mapping\treferences;lib_colours_colourlabel\tlib_inquiry\timports;lib_inquiry\tlib_inquiry_chatlink\tcontains;lib_inquiry\tlib_inquiry_itemtext\tcontains;lib_inquiry\tlib_inquiry_maillink\tcontains;lib_inquiry\tlib_inquiry_productinquiry\tcontains;lib_inquiry_itemtext\tlib_inquiry_productinquiry\tcalls;lib_product_preview\tlib_product_preview_previewhref\tcontains;lib_product_preview\tlib_product_preview_productpreview\tcontains;lib_product_preview\tlib_product_preview_productpreviews\tcontains;lib_product_preview\tlib_product_preview_validphotoindex\tcontains;lib_site_config\tlib_site_config_getsiteconfig\tcontains;lib_site_config\tslug_page\timports_from;lib_site_config\tstore_page\timports_from;lib_site_config_getsiteconfig\tslug_page\timports;lib_site_config_getsiteconfig\tstore_page\timports;next_config\tnext_config_config\tcontains;next_config\treadme_local_deployment\treferences;product_data_color_mapping\tproduct_data_editorial\treferences;product_data_color_mapping\tproduct_data_generation_policy\treferences;product_data_color_mapping\trevision_verification\treferences;product_data_editorial\tproduct_data_import\treferences;product_data_editorial\tproduct_data_labels\treferences;product_data_editorial\tproduct_data_units\treferences;product_data_generation_policy\trevision_complete_mapping\treferences;product_data_import\tscripts_inspect_assets\treferences;product_data_import\tscripts_prepare_catalog\treferences;product_data_labels\trevision_complete_mapping\treferences;product_data_labels\trevision_verification\treferences;product_data_preview_assets\tscripts_prepare_product_previews\treferences;product_data_units\trevision_verification\treferences;readme_graphify_tooling\trevision_complete_mapping\treferences;readme_local_deployment\trevision_verification\treferences;revision_complete_mapping\trevision_form_requirements\treferences;revision_complete_mapping\trevision_responsive_hero\treferences;revision_complete_mapping\trevision_stock_decision\treferences;revision_complete_mapping\trevision_verification\treferences;scripts_prepare_catalog\tscripts_prepare_catalog_rationale_1\trationale_for;scripts_prepare_catalog\tscripts_prepare_catalog_save\tcontains;scripts_prepare_product_previews\tscripts_prepare_product_previews_thumbnail\tcontains;slug_page\tslug_page_generatemetadata\tcontains;slug_page\tslug_page_productpage\tcontains;slug_page\tslug_page_props\tcontains;store_page\tstore_page_generatemetadata\tcontains;store_page\tstore_page_storepage\tcontains;store_page\tstore_store_catalog\timports_from;store_store_catalog\tstore_store_catalog_storecatalog\tcontains",
   "nodes": [
     {
       "id": "health_route",
@@ -42,8 +43,8 @@
       "file_type": "code",
       "source_file": "app/capability-gallery.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Provides the facility photo and video gallery with filters and an enlarged view."
     },
     {
@@ -52,8 +53,8 @@
       "file_type": "code",
       "source_file": "app/capability-gallery.tsx",
       "source_location": "L7",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Provides the facility photo and video gallery with filters and an enlarged view."
     },
     {
@@ -62,8 +63,8 @@
       "file_type": "code",
       "source_file": "app/contact-intro.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders the bilingual consultation introduction and direct WhatsApp link."
     },
     {
@@ -72,8 +73,8 @@
       "file_type": "code",
       "source_file": "app/contact-intro.tsx",
       "source_location": "L7",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders the bilingual consultation introduction and direct WhatsApp link."
     },
     {
@@ -82,8 +83,8 @@
       "file_type": "code",
       "source_file": "app/contact/contact-content.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Connects the contact page introduction and quote form to shared site state."
     },
     {
@@ -92,8 +93,8 @@
       "file_type": "code",
       "source_file": "app/contact/contact-content.tsx",
       "source_location": "L7",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Connects the contact page introduction and quote form to shared site state."
     },
     {
@@ -102,8 +103,8 @@
       "file_type": "code",
       "source_file": "app/contact/page.tsx",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Serves the separate contact route with localized metadata."
     },
     {
@@ -112,8 +113,8 @@
       "file_type": "code",
       "source_file": "app/contact/page.tsx",
       "source_location": "L5",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Generates the localized contact page title and description."
     },
     {
@@ -122,8 +123,8 @@
       "file_type": "code",
       "source_file": "app/contact/page.tsx",
       "source_location": "L9",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Serves the separate contact route with localized metadata."
     },
     {
@@ -132,8 +133,8 @@
       "file_type": "code",
       "source_file": "app/hero-carousel.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Provides three distinct sourcing slides with separate original photos, centered dots and horizontal swipe navigation."
     },
     {
@@ -142,8 +143,8 @@
       "file_type": "code",
       "source_file": "app/hero-carousel.tsx",
       "source_location": "L10",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Provides three distinct sourcing slides with separate original photos, centered dots and horizontal swipe navigation."
     },
     {
@@ -152,8 +153,8 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Wraps all routes with validated configuration, shared state, navigation and brand metadata."
     },
     {
@@ -162,8 +163,8 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L6",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Defines brand titles, icons and the local noindex policy."
     },
     {
@@ -172,8 +173,8 @@
       "file_type": "code",
       "source_file": "app/layout.tsx",
       "source_location": "L12",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Wraps all routes with validated configuration, shared state, navigation and brand metadata."
     },
     {
@@ -182,8 +183,8 @@
       "file_type": "code",
       "source_file": "app/not-found.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders a bilingual missing-product page with a catalog link."
     },
     {
@@ -192,8 +193,8 @@
       "file_type": "code",
       "source_file": "app/not-found.tsx",
       "source_location": "L4",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders a bilingual missing-product page with a catalog link."
     },
     {
@@ -202,8 +203,8 @@
       "file_type": "code",
       "source_file": "app/page-interactions.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Applies and cleans up the owner's homepage context-menu and zoom restrictions."
     },
     {
@@ -212,8 +213,8 @@
       "file_type": "code",
       "source_file": "app/page-interactions.tsx",
       "source_location": "L5",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Applies and cleans up the owner's homepage context-menu and zoom restrictions."
     },
     {
@@ -222,8 +223,8 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Renders the homepage and its page-specific interaction settings."
     },
     {
@@ -232,8 +233,8 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L5",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Sets homepage-specific viewport scaling preferences."
     },
     {
@@ -242,8 +243,8 @@
       "file_type": "code",
       "source_file": "app/page.tsx",
       "source_location": "L13",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Renders the homepage and its page-specific interaction settings."
     },
     {
@@ -252,19 +253,19 @@
       "file_type": "code",
       "source_file": "app/product-card.tsx",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Catalog Browsing",
-      "description": "Renders a native product link with its optional brand label, photograph and specifications."
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Renders shared catalog cards with clickable color and photo previews linked to product details."
     },
     {
       "id": "app_product_card_productcard",
       "label": "ProductCard()",
       "file_type": "code",
       "source_file": "app/product-card.tsx",
-      "source_location": "L8",
-      "community": 5,
-      "community_name": "Catalog Browsing",
-      "description": "Renders a native product link with its optional brand label, photograph and specifications."
+      "source_location": "L10",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Updates the card photo and native product links when a color or photo preview is selected."
     },
     {
       "id": "app_product_detail",
@@ -272,19 +273,19 @@
       "file_type": "code",
       "source_file": "app/product-detail.tsx",
       "source_location": "L1",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
-      "description": "Lets customers select product specifications, color, quantity and unit before preparing an inquiry."
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Provides material details, synchronized color-image navigation and product-specific inquiry controls."
     },
     {
       "id": "app_product_detail_productdetail",
       "label": "ProductDetail()",
       "file_type": "code",
       "source_file": "app/product-detail.tsx",
-      "source_location": "L12",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
-      "description": "Lets customers select product specifications, color, quantity and unit before preparing an inquiry."
+      "source_location": "L13",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Synchronizes color thumbnails, the main photo and inquiry selections while supporting original-gallery navigation."
     },
     {
       "id": "slug_page",
@@ -292,8 +293,8 @@
       "file_type": "code",
       "source_file": "app/products/[slug]/page.tsx",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Resolves the product slug and validates incoming selections for a direct product landing page."
     },
     {
@@ -302,8 +303,8 @@
       "file_type": "code",
       "source_file": "app/products/[slug]/page.tsx",
       "source_location": "L7",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Defines asynchronous product route and query parameters."
     },
     {
@@ -312,8 +313,8 @@
       "file_type": "code",
       "source_file": "app/products/[slug]/page.tsx",
       "source_location": "L8",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Generates localized title and description for a known product."
     },
     {
@@ -322,8 +323,8 @@
       "file_type": "code",
       "source_file": "app/products/[slug]/page.tsx",
       "source_location": "L15",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Resolves the product slug and validates incoming selections for a direct product landing page."
     },
     {
@@ -332,8 +333,8 @@
       "file_type": "code",
       "source_file": "app/quote-form.tsx",
       "source_location": "L1",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Validates customer requirements and prepares a reviewable WhatsApp or email inquiry draft."
     },
     {
@@ -342,8 +343,8 @@
       "file_type": "code",
       "source_file": "app/quote-form.tsx",
       "source_location": "L10",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Holds customer contact details, requirements and selected materials for the draft review."
     },
     {
@@ -352,8 +353,8 @@
       "file_type": "code",
       "source_file": "app/quote-form.tsx",
       "source_location": "L11",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Validates customer requirements and prepares a reviewable WhatsApp or email inquiry draft."
     },
     {
@@ -362,8 +363,8 @@
       "file_type": "code",
       "source_file": "app/site-provider.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Shares language, contact configuration and validated session material selections across routes."
     },
     {
@@ -372,8 +373,8 @@
       "file_type": "code",
       "source_file": "app/site-provider.tsx",
       "source_location": "L7",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Defines the shared language, contact and material-selection context contract."
     },
     {
@@ -382,8 +383,8 @@
       "file_type": "code",
       "source_file": "app/site-provider.tsx",
       "source_location": "L12",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Carries shared state between the layout and client route components."
     },
     {
@@ -392,8 +393,8 @@
       "file_type": "code",
       "source_file": "app/site-provider.tsx",
       "source_location": "L15",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Shares language, contact configuration and validated session material selections across routes."
     },
     {
@@ -402,8 +403,8 @@
       "file_type": "code",
       "source_file": "app/site-provider.tsx",
       "source_location": "L56",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Returns shared site state and requires an enclosing SiteProvider."
     },
     {
@@ -412,8 +413,8 @@
       "file_type": "code",
       "source_file": "app/site-shell.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders the shared ticker, branded header, navigation, language controls, footer and WhatsApp shortcut."
     },
     {
@@ -422,8 +423,8 @@
       "file_type": "code",
       "source_file": "app/site-shell.tsx",
       "source_location": "L11",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Renders the shared ticker, branded header, navigation, language controls, footer and WhatsApp shortcut."
     },
     {
@@ -432,8 +433,8 @@
       "file_type": "code",
       "source_file": "app/store/page.tsx",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Serves the catalog route with localized metadata and a Suspense boundary."
     },
     {
@@ -442,8 +443,8 @@
       "file_type": "code",
       "source_file": "app/store/page.tsx",
       "source_location": "L6",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Generates the localized catalog page title and description."
     },
     {
@@ -452,8 +453,8 @@
       "file_type": "code",
       "source_file": "app/store/page.tsx",
       "source_location": "L10",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Serves the catalog route with localized metadata and a Suspense boundary."
     },
     {
@@ -462,8 +463,8 @@
       "file_type": "code",
       "source_file": "app/store/store-catalog.tsx",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Filters, searches and sorts catalog products using URL parameters and native product links."
     },
     {
@@ -472,8 +473,8 @@
       "file_type": "code",
       "source_file": "app/store/store-catalog.tsx",
       "source_location": "L10",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Filters, searches and sorts catalog products using URL parameters and native product links."
     },
     {
@@ -482,8 +483,8 @@
       "file_type": "code",
       "source_file": "app/storefront.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Composes the revised Home sections and redirects legacy product and quote fragments."
     },
     {
@@ -492,8 +493,8 @@
       "file_type": "code",
       "source_file": "app/storefront.tsx",
       "source_location": "L13",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Composes the revised Home sections and redirects legacy product and quote fragments."
     },
     {
@@ -502,8 +503,8 @@
       "file_type": "code",
       "source_file": "app/whatsapp-icon.tsx",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Provides the reusable inline WhatsApp symbol for inquiry controls."
     },
     {
@@ -512,8 +513,8 @@
       "file_type": "code",
       "source_file": "app/whatsapp-icon.tsx",
       "source_location": "L3",
-      "community": 1,
-      "community_name": "Shared Brand and State",
+      "community": 0,
+      "community_name": "Shared Brand Experience",
       "description": "Provides the reusable inline WhatsApp symbol for inquiry controls."
     },
     {
@@ -522,8 +523,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Combines imported specifications with editorial overrides and validates inquiry selections."
     },
     {
@@ -532,8 +533,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L3",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Defines the supported Indonesian and English language keys."
     },
     {
@@ -542,8 +543,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L4",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Defines the five material category identifiers."
     },
     {
@@ -552,8 +553,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L5",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Describes an imported specification row and its historical source status."
     },
     {
@@ -562,8 +563,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L6",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Defines roll, metre and piece as supported inquiry unit identifiers."
     },
     {
@@ -592,8 +593,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L9",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Combines imported material specifications with editorial presentation data."
     },
     {
@@ -602,8 +603,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L10",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Represents a selected product, variant, color, quantity and requested unit."
     },
     {
@@ -622,8 +623,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L12",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Exports the merged collection of imported and editorial product records."
     },
     {
@@ -632,8 +633,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L13",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Builds a product route from its stable slug."
     },
     {
@@ -642,8 +643,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L14",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Checks finite quantity limits and requires whole quantities for non-metre units."
     },
     {
@@ -652,8 +653,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L17",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Rejects inquiry selections with invalid products, variants, colors, quantities or units."
     },
     {
@@ -662,8 +663,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L25",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Lists bilingual labels for the five material categories."
     },
     {
@@ -672,8 +673,8 @@
       "file_type": "code",
       "source_file": "lib/catalog.ts",
       "source_location": "L32",
-      "community": 5,
-      "community_name": "Catalog Browsing",
+      "community": 4,
+      "community_name": "Catalog and Material Selection",
       "description": "Returns the category name in the active language."
     },
     {
@@ -682,8 +683,8 @@
       "file_type": "code",
       "source_file": "lib/colours.ts",
       "source_location": "L1",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Provides localized color names and visual swatch values."
     },
     {
@@ -692,8 +693,8 @@
       "file_type": "code",
       "source_file": "lib/colours.ts",
       "source_location": "L2",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Maps imported color terms to Indonesian names, English names and CSS swatches."
     },
     {
@@ -702,8 +703,8 @@
       "file_type": "code",
       "source_file": "lib/colours.ts",
       "source_location": "L20",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Returns a localized color name with an unchanged-text fallback."
     },
     {
@@ -712,8 +713,8 @@
       "file_type": "code",
       "source_file": "lib/colours.ts",
       "source_location": "L21",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
       "description": "Returns the CSS swatch corresponding to a color term."
     },
     {
@@ -722,8 +723,8 @@
       "file_type": "code",
       "source_file": "lib/inquiry.ts",
       "source_location": "L1",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Formats material selections and builds encoded contact draft links."
     },
     {
@@ -732,8 +733,8 @@
       "file_type": "code",
       "source_file": "lib/inquiry.ts",
       "source_location": "L3",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Formats a selected material with specification, quantity, unit and color."
     },
     {
@@ -742,8 +743,8 @@
       "file_type": "code",
       "source_file": "lib/inquiry.ts",
       "source_location": "L10",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Composes a bilingual product quotation request including its optional selected-product URL."
     },
     {
@@ -752,8 +753,8 @@
       "file_type": "code",
       "source_file": "lib/inquiry.ts",
       "source_location": "L13",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Encodes a quotation subject and body into an email draft link."
     },
     {
@@ -762,9 +763,59 @@
       "file_type": "code",
       "source_file": "lib/inquiry.ts",
       "source_location": "L14",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts",
+      "community": 6,
+      "community_name": "Quotation Draft Composition",
       "description": "Encodes an inquiry body into a WhatsApp contact link."
+    },
+    {
+      "id": "lib_product_preview",
+      "label": "product-preview.ts",
+      "file_type": "code",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Derives product color and photo previews and preserves selections in detail links."
+    },
+    {
+      "id": "lib_product_preview_productpreview",
+      "label": "ProductPreview",
+      "file_type": "code",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L3",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Represents a preview image, thumbnail and its color or gallery-photo identity."
+    },
+    {
+      "id": "lib_product_preview_productpreviews",
+      "label": "productPreviews()",
+      "file_type": "code",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L5",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Builds selectable previews from mapped colors and available original material photos."
+    },
+    {
+      "id": "lib_product_preview_previewhref",
+      "label": "previewHref()",
+      "file_type": "code",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L17",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Builds a native product link carrying the selected color or photo index."
+    },
+    {
+      "id": "lib_product_preview_validphotoindex",
+      "label": "validPhotoIndex()",
+      "file_type": "code",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L25",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Accepts only safe nonnegative gallery indexes from incoming product URLs."
     },
     {
       "id": "lib_site_config",
@@ -772,8 +823,8 @@
       "file_type": "code",
       "source_file": "lib/site-config.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Reads the language cookie and validates configured business contact values."
     },
     {
@@ -782,8 +833,8 @@
       "file_type": "code",
       "source_file": "lib/site-config.ts",
       "source_location": "L5",
-      "community": 3,
-      "community_name": "Localized Route Metadata",
+      "community": 5,
+      "community_name": "Localized Route Configuration",
       "description": "Returns the current language and validated email and WhatsApp configuration."
     },
     {
@@ -812,8 +863,8 @@
       "file_type": "code",
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
-      "community": 7,
-      "community_name": "Tailwind Build Processing",
+      "community": 8,
+      "community_name": "CSS Build Configuration",
       "description": "Registers Tailwind's PostCSS processing."
     },
     {
@@ -822,8 +873,8 @@
       "file_type": "code",
       "source_file": "scripts/inspect-assets.py",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Workbook Asset Preparation",
+      "community": 7,
+      "community_name": "Workbook and Asset Import",
       "description": "Inspects source workbook and image assets for catalog preparation."
     },
     {
@@ -832,8 +883,8 @@
       "file_type": "code",
       "source_file": "scripts/prepare-catalog.py",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Workbook Asset Preparation",
+      "community": 7,
+      "community_name": "Workbook and Asset Import",
       "description": "Produces imported catalog data and optimized product images from local source assets."
     },
     {
@@ -842,8 +893,8 @@
       "file_type": "code",
       "source_file": "scripts/prepare-catalog.py",
       "source_location": "L17",
-      "community": 6,
-      "community_name": "Workbook Asset Preparation",
+      "community": 7,
+      "community_name": "Workbook and Asset Import",
       "description": "Exports optimized image files during catalog preparation."
     },
     {
@@ -852,8 +903,8 @@
       "file_type": "rationale",
       "source_file": "scripts/prepare-catalog.py",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Workbook Asset Preparation",
+      "community": 7,
+      "community_name": "Workbook and Asset Import",
       "description": "Documents the preparation script's purpose of creating traceable assets from the source workbook."
     },
     {
@@ -862,9 +913,29 @@
       "file_type": "code",
       "source_file": "scripts/prepare-gallery.py",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Home and Facility Media",
+      "community": 3,
+      "community_name": "Homepage and Facility Media",
       "description": "Prepares the facility gallery catalog and compressed photo and video assets."
+    },
+    {
+      "id": "scripts_prepare_product_previews",
+      "label": "prepare-product-previews.py",
+      "file_type": "code",
+      "source_file": "scripts/prepare-product-previews.py",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Generates small WebP thumbnails for original product galleries and mapped colors."
+    },
+    {
+      "id": "scripts_prepare_product_previews_thumbnail",
+      "label": "thumbnail()",
+      "file_type": "code",
+      "source_file": "scripts/prepare-product-previews.py",
+      "source_location": "L9",
+      "community": 1,
+      "community_name": "Product Preview Navigation",
+      "description": "Normalizes image orientation and exports a 96 px WebP preview."
     },
     {
       "id": "compose_web",
@@ -876,96 +947,6 @@
       "community": 2,
       "community_name": "Portfolio Rules and Deployment",
       "description": "Runs the local Next.js container with contact configuration, health checking and a loopback port binding."
-    },
-    {
-      "id": "product_data_editorial",
-      "label": "Team-managed product editorial",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Stable IDs connect the workbook catalog to a separate editorial file for slugs, units, descriptions, labels and color mappings. Reimport does not overwrite the editorial file.",
-      "description": "Stable IDs connect the workbook catalog to a separate editorial file for slugs, units, descriptions, labels and color mappings.",
-      "community": 2,
-      "community_name": "Portfolio Rules and Deployment"
-    },
-    {
-      "id": "product_data_labels",
-      "label": "Optional MP TECH labels",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Fourteen explicit groups initially receive MP TECH. Empty labels render cleanly; Nafa Cover Material is excluded despite its sheet category.",
-      "description": "Fourteen explicit groups initially receive MP TECH.",
-      "community": 2,
-      "community_name": "Portfolio Rules and Deployment"
-    },
-    {
-      "id": "product_data_units",
-      "label": "Permitted inquiry units",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Automotive groups 1–9 allow roll/metre, ready-made tarpaulins use pieces, and other catalog groups use roll pending consultation.",
-      "description": "Automotive groups 1–9 allow roll/metre, ready-made tarpaulins use pieces, and other catalog groups use roll pending consultation.",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts"
-    },
-    {
-      "id": "product_data_color_mapping",
-      "label": "Explicit color image mapping",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Exact imported color keys choose source photos or optimized generated variants. Thirty-two generated images fill missing options.",
-      "description": "Exact imported color keys choose source photos or optimized generated variants.",
-      "community": 2,
-      "community_name": "Portfolio Rules and Deployment"
-    },
-    {
-      "id": "product_data_generation_policy",
-      "label": "Customer photo display policy",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "The owner requested no illustration badges on generated product photos. Generation references and prompts remain maintenance documentation.",
-      "description": "The owner requested no illustration badges on generated product photos.",
-      "community": 2,
-      "community_name": "Portfolio Rules and Deployment"
-    },
-    {
-      "id": "product_data_import",
-      "label": "Workbook import separation",
-      "file_type": "document",
-      "source_file": "docs/PRODUCT_DATA.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Import scripts write the base catalog and optimized assets; stable IDs preserve separate team editorial data.",
-      "description": "Import scripts write the base catalog and optimized assets; stable IDs preserve separate team editorial data.",
-      "community": 6,
-      "community_name": "Workbook Asset Preparation"
     },
     {
       "id": "architecture_inquiry_portfolio",
@@ -1009,8 +990,8 @@
       "contributor": null,
       "rationale": "The language cookie aligns server metadata with Indonesian or English content across navigation and refresh.",
       "description": "The language cookie aligns server metadata with Indonesian or English content across navigation and refresh.",
-      "community": 3,
-      "community_name": "Localized Route Metadata"
+      "community": 5,
+      "community_name": "Localized Route Configuration"
     },
     {
       "id": "architecture_inquiry_session",
@@ -1024,8 +1005,8 @@
       "contributor": null,
       "rationale": "Only validated material selections persist in sessionStorage. Customer identity fields are not saved.",
       "description": "Only validated material selections persist in sessionStorage.",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts"
+      "community": 4,
+      "community_name": "Catalog and Material Selection"
     },
     {
       "id": "architecture_contact_drafts",
@@ -1039,8 +1020,8 @@
       "contributor": null,
       "rationale": "The form prepares a reviewable summary and encoded WhatsApp or email link; the customer sends the message from their application.",
       "description": "The form prepares a reviewable summary and encoded WhatsApp or email link; the customer sends the message from their application.",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts"
+      "community": 6,
+      "community_name": "Quotation Draft Composition"
     },
     {
       "id": "architecture_facility_media",
@@ -1054,8 +1035,8 @@
       "contributor": null,
       "rationale": "Eleven original photographs and six silent videos provide facility documentation. Videos are selected on demand.",
       "description": "Eleven original photographs and six silent videos provide facility documentation.",
-      "community": 4,
-      "community_name": "Home and Facility Media"
+      "community": 3,
+      "community_name": "Homepage and Facility Media"
     },
     {
       "id": "architecture_brand_identity",
@@ -1069,8 +1050,8 @@
       "contributor": null,
       "rationale": "All deployed marks read BOSS BAHAN PVC; Bos addresses the customer. The hero seal places approval text above and five stars below.",
       "description": "All deployed marks read BOSS BAHAN PVC; Bos addresses the customer.",
-      "community": 1,
-      "community_name": "Shared Brand and State"
+      "community": 0,
+      "community_name": "Shared Brand Experience"
     },
     {
       "id": "architecture_runtime_config",
@@ -1084,8 +1065,98 @@
       "contributor": null,
       "rationale": "Server-side environment validation supplies current business email and WhatsApp configuration through the shared provider.",
       "description": "Server-side environment validation supplies current business email and WhatsApp configuration through the shared provider.",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts"
+      "community": 6,
+      "community_name": "Quotation Draft Composition"
+    },
+    {
+      "id": "product_data_editorial",
+      "label": "Team-managed product editorial",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Stable IDs connect the workbook catalog to a separate editorial file for slugs, units, descriptions, labels and color mappings. Reimport does not overwrite the editorial file.",
+      "description": "Stable IDs connect the workbook catalog to a separate editorial file for slugs, units, descriptions, labels and color mappings.",
+      "community": 2,
+      "community_name": "Portfolio Rules and Deployment"
+    },
+    {
+      "id": "product_data_labels",
+      "label": "Optional MP TECH labels",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Fourteen explicit groups initially receive MP TECH. Empty labels render cleanly; Nafa Cover Material is excluded despite its sheet category.",
+      "description": "Fourteen explicit groups initially receive MP TECH.",
+      "community": 2,
+      "community_name": "Portfolio Rules and Deployment"
+    },
+    {
+      "id": "product_data_units",
+      "label": "Permitted inquiry units",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Automotive groups 1–9 allow roll/metre, ready-made tarpaulins use pieces, and other catalog groups use roll pending consultation.",
+      "description": "Automotive groups 1–9 allow roll/metre, ready-made tarpaulins use pieces, and other catalog groups use roll pending consultation.",
+      "community": 4,
+      "community_name": "Catalog and Material Selection"
+    },
+    {
+      "id": "product_data_color_mapping",
+      "label": "Explicit color image mapping",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Exact imported color keys choose source photos or optimized generated variants. Thirty-two generated images fill missing options.",
+      "description": "Exact imported color keys choose source photos or optimized generated variants.",
+      "community": 2,
+      "community_name": "Portfolio Rules and Deployment"
+    },
+    {
+      "id": "product_data_generation_policy",
+      "label": "Customer photo display policy",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The owner requested no illustration badges on generated product photos. Generation references and prompts remain maintenance documentation.",
+      "description": "The owner requested no illustration badges on generated product photos.",
+      "community": 2,
+      "community_name": "Portfolio Rules and Deployment"
+    },
+    {
+      "id": "product_data_import",
+      "label": "Workbook import separation",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Import scripts write the base catalog and optimized assets; stable IDs preserve separate team editorial data.",
+      "description": "Import scripts write the base catalog and optimized assets; stable IDs preserve separate team editorial data.",
+      "community": 7,
+      "community_name": "Workbook and Asset Import"
     },
     {
       "id": "revision_complete_mapping",
@@ -1129,8 +1200,8 @@
       "contributor": null,
       "rationale": "Three distinct hero contexts use the revised factory pricing, material selection and sourcing/delivery copy, with separate high-resolution original photos, three centered dots and horizontal swipe instead of automatic rotation.",
       "description": "Three distinct hero contexts use the revised factory pricing, material selection and sourcing/delivery copy, with separate high-resolution original photos, three centered dots and horizontal swipe instead of automatic rotation.",
-      "community": 4,
-      "community_name": "Home and Facility Media"
+      "community": 3,
+      "community_name": "Homepage and Facility Media"
     },
     {
       "id": "revision_form_requirements",
@@ -1144,8 +1215,8 @@
       "contributor": null,
       "rationale": "Name, business and material/delivery notes are required. Email is optional, but at least one contact method must be present.",
       "description": "Name, business and material/delivery notes are required.",
-      "community": 0,
-      "community_name": "Quotation and Contact Drafts"
+      "community": 6,
+      "community_name": "Quotation Draft Composition"
     },
     {
       "id": "readme_local_deployment",
@@ -1191,6 +1262,36 @@
       "description": "TypeScript, production build, all 30 page routes, data rules, 32 generated asset responses and browser inquiry flows were checked.",
       "community": 2,
       "community_name": "Portfolio Rules and Deployment"
+    },
+    {
+      "id": "architecture_product_previews",
+      "label": "Synchronized product previews",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Product cards expose mapped colors and original photo previews through native detail links. Product detail color-image swatches synchronize the main photo, dropdown and inquiry while original photos retain separate navigation.",
+      "description": "Product cards expose mapped colors and original photo previews through native detail links.",
+      "community": 1,
+      "community_name": "Product Preview Navigation"
+    },
+    {
+      "id": "product_data_preview_assets",
+      "label": "Preview thumbnail maintenance",
+      "file_type": "document",
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Generate 96 px WebP thumbnails after changing original photos or color mappings. The committed preview assets include 61 color thumbnails and 75 original-gallery thumbnails, verified locally and over HTTP.",
+      "description": "Generate 96 px WebP thumbnails after changing original photos or color mappings.",
+      "community": 1,
+      "community_name": "Product Preview Navigation"
     }
   ],
   "links": [
@@ -1560,7 +1661,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "app_product_card_productcard",
@@ -1572,7 +1673,7 @@
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "app_site_provider",
@@ -1584,7 +1685,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "app_site_provider_usesite",
@@ -1596,7 +1697,7 @@
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_catalog",
@@ -1608,7 +1709,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_catalog_categoryname",
@@ -1620,22 +1721,10 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_catalog_product",
-      "confidence_score": 1
-    },
-    {
-      "source": "app_product_card",
-      "target": "lib_catalog_producthref",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "app/product-card.tsx",
-      "source_location": "L4",
-      "weight": 1,
-      "_src": "app_product_card",
-      "_tgt": "lib_catalog_producthref",
       "confidence_score": 1
     },
     {
@@ -1644,7 +1733,7 @@
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_colours",
@@ -1656,7 +1745,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_colours_colourlabel",
@@ -1668,10 +1757,46 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-card.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1,
       "_src": "app_product_card",
       "_tgt": "lib_colours_colourswatch",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_card",
+      "target": "lib_product_preview",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-card.tsx",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "app_product_card",
+      "_tgt": "lib_product_preview",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_card",
+      "target": "lib_product_preview_previewhref",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-card.tsx",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "app_product_card",
+      "_tgt": "lib_product_preview_previewhref",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_card",
+      "target": "lib_product_preview_productpreviews",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-card.tsx",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "app_product_card",
+      "_tgt": "lib_product_preview_productpreviews",
       "confidence_score": 1
     },
     {
@@ -1680,7 +1805,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/product-detail.tsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1,
       "_src": "app_product_detail",
       "_tgt": "app_product_detail_productdetail",
@@ -1692,7 +1817,7 @@
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "app/product-detail.tsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1,
       "_src": "app_product_detail",
       "_tgt": "app_site_provider",
@@ -1704,7 +1829,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/product-detail.tsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1,
       "_src": "app_product_detail",
       "_tgt": "app_site_provider_usesite",
@@ -1716,7 +1841,7 @@
       "relation": "imports_from",
       "confidence": "EXTRACTED",
       "source_file": "app/product-detail.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1,
       "_src": "app_product_detail",
       "_tgt": "app_whatsapp_icon",
@@ -1888,6 +2013,42 @@
       "weight": 1,
       "_src": "app_product_detail",
       "_tgt": "lib_inquiry_productinquiry",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_detail",
+      "target": "lib_product_preview",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-detail.tsx",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "app_product_detail",
+      "_tgt": "lib_product_preview",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_detail",
+      "target": "lib_product_preview_productpreviews",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-detail.tsx",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "app_product_detail",
+      "_tgt": "lib_product_preview_productpreviews",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_product_detail",
+      "target": "lib_product_preview_validphotoindex",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/product-detail.tsx",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "app_product_detail",
+      "_tgt": "lib_product_preview_validphotoindex",
       "confidence_score": 1
     },
     {
@@ -2623,6 +2784,54 @@
       "_tgt": "store_page_generatemetadata"
     },
     {
+      "source": "architecture_product_previews",
+      "target": "app_product_card",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": null,
+      "_src": "architecture_product_previews",
+      "_tgt": "app_product_card"
+    },
+    {
+      "source": "architecture_product_previews",
+      "target": "app_product_detail",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": null,
+      "_src": "architecture_product_previews",
+      "_tgt": "app_product_detail"
+    },
+    {
+      "source": "architecture_product_previews",
+      "target": "lib_product_preview",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": null,
+      "_src": "architecture_product_previews",
+      "_tgt": "lib_product_preview"
+    },
+    {
+      "source": "architecture_product_previews",
+      "target": "product_data_color_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": null,
+      "_src": "architecture_product_previews",
+      "_tgt": "product_data_color_mapping"
+    },
+    {
       "source": "architecture_runtime_config",
       "target": "app_site_provider",
       "relation": "references",
@@ -3259,6 +3468,90 @@
       "confidence_score": 1
     },
     {
+      "source": "lib_product_preview",
+      "target": "lib_catalog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_catalog",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_catalog_product",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_catalog_product",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_catalog_producthref",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_catalog_producthref",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_product_preview_previewhref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L17",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_product_preview_previewhref",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_product_preview_productpreview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_product_preview_productpreview",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_product_preview_productpreviews",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_product_preview_productpreviews",
+      "confidence_score": 1
+    },
+    {
+      "source": "lib_product_preview",
+      "target": "lib_product_preview_validphotoindex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/product-preview.ts",
+      "source_location": "L25",
+      "weight": 1,
+      "_src": "lib_product_preview",
+      "_tgt": "lib_product_preview_validphotoindex",
+      "confidence_score": 1
+    },
+    {
       "source": "lib_site_config",
       "target": "lib_catalog",
       "relation": "imports_from",
@@ -3485,6 +3778,30 @@
       "source_location": null,
       "_src": "product_data_labels",
       "_tgt": "lib_catalog_producteditorial"
+    },
+    {
+      "source": "product_data_preview_assets",
+      "target": "architecture_product_previews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "_src": "product_data_preview_assets",
+      "_tgt": "architecture_product_previews"
+    },
+    {
+      "source": "product_data_preview_assets",
+      "target": "scripts_prepare_product_previews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "docs/PRODUCT_DATA.md",
+      "source_location": null,
+      "_src": "product_data_preview_assets",
+      "_tgt": "scripts_prepare_product_previews"
     },
     {
       "source": "product_data_units",
@@ -3776,6 +4093,18 @@
     },
     {
       "source": "revision_verification",
+      "target": "architecture_product_previews",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "weight": 1,
+      "source_file": "rev1/REVISION_MAP.md",
+      "source_location": null,
+      "_src": "revision_verification",
+      "_tgt": "architecture_product_previews"
+    },
+    {
+      "source": "revision_verification",
       "target": "product_data_color_mapping",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -3844,6 +4173,18 @@
       "weight": 1,
       "_src": "scripts_prepare_catalog_rationale_1",
       "_tgt": "scripts_prepare_catalog",
+      "confidence_score": 1
+    },
+    {
+      "source": "scripts_prepare_product_previews",
+      "target": "scripts_prepare_product_previews_thumbnail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/prepare-product-previews.py",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "scripts_prepare_product_previews",
+      "_tgt": "scripts_prepare_product_previews_thumbnail",
       "confidence_score": 1
     },
     {

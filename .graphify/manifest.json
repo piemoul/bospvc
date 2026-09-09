@@ -20,8 +20,8 @@
     "hash": "337a2487eec362677f4d04cafdae2179"
   },
   "app/product-detail.tsx": {
-    "mtime": 1788953051320.265,
-    "hash": "ff729cc3800327b4698157a47fccaf84"
+    "mtime": 1788955484826.1157,
+    "hash": "b239d0be1ad213b75ac52f9c6912acc2"
   },
   "app/quote-form.tsx": {
     "mtime": 1788952731318.4211,
@@ -64,16 +64,16 @@
     "hash": "2c98889aad4f5870886dcdf4101ab044"
   },
   "README.md": {
-    "mtime": 1788954350849.601,
-    "hash": "d9af9af50ba231e46f74be6e020d16f9"
+    "mtime": 1788955526544.5444,
+    "hash": "9d52df16d0af34480a4fe66139dcc0ec"
   },
   "compose.yaml": {
     "mtime": 1788675071757.558,
     "hash": "e3c04ce1eda3e98ce47a78faf45f383a"
   },
   "docs/ARCHITECTURE.md": {
-    "mtime": 1788954350850.6074,
-    "hash": "9d296e663283c9b2df5953f1e249b434"
+    "mtime": 1788955526542.4187,
+    "hash": "00ed20a302ec0ffc577e6fe94b4a9a4a"
   },
   "app/contact-intro.tsx": {
     "mtime": 1788953997560.9192,
@@ -96,12 +96,12 @@
     "hash": "788754e96b165939247d3bf8dc105907"
   },
   "app/product-card.tsx": {
-    "mtime": 1788952211708.5574,
-    "hash": "0901f09dd24bf407db324680d6020807"
+    "mtime": 1788954800158.6616,
+    "hash": "e640fb541384e1266027ac2f74ab5f74"
   },
   "app/products/[slug]/page.tsx": {
-    "mtime": 1788952544947.931,
-    "hash": "48067d4f0bbc1fc36738d21f85eb5da7"
+    "mtime": 1788954801513.2786,
+    "hash": "c9b7d3082c89b67f8615415fd45a20d0"
   },
   "app/site-provider.tsx": {
     "mtime": 1788951708590.7786,
@@ -128,11 +128,19 @@
     "hash": "999484e47f22e8b7e4640b56a0366e0f"
   },
   "docs/PRODUCT_DATA.md": {
-    "mtime": 1788953577487.9578,
-    "hash": "6e4f14311653bcf09af16866ff0b9c83"
+    "mtime": 1788955526540.8503,
+    "hash": "848dd531327f394846e33cc5c7e8451c"
   },
   "rev1/REVISION_MAP.md": {
-    "mtime": 1788954477243.555,
-    "hash": "213a06e9e02031c982d7c916a8e8e4a1"
+    "mtime": 1788955691793.2866,
+    "hash": "709d11bf231b9c52ba1557d8c7b4938a"
+  },
+  "lib/product-preview.ts": {
+    "mtime": 1788955484824.1113,
+    "hash": "1a20ca7e0f3a4d2e24fe9b9b1369312c"
+  },
+  "scripts/prepare-product-previews.py": {
+    "mtime": 1788955484825.114,
+    "hash": "d55a2cbbe832ebdb6777017fdba76f46"
   }
 }
