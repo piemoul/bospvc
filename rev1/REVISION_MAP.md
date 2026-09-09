@@ -344,3 +344,14 @@ Arahan lanjutan pemilik: pilihan warna setiap SKU/kartu harus dapat diklik untuk
 Arahan lanjutan pemilik memperjelas bahwa halaman detail juga harus menyediakan navigasi swatch gambar seperti Mio Pro. Setiap warna yang mempunyai pemetaan foto kini muncul sebagai thumbnail berlabel di bawah foto utama, termasuk ketiga kombinasi warna Terpal PE A2. Klik thumbnail menyelaraskan foto utama, dropdown warna dan warna dalam inquiry. Foto material asli tetap memiliki baris navigasi tersendiri.
 
 Verifikasi: seluruh 27 halaman detail dibuka dan seluruh 61 swatch diklik. Gambar, label terpilih, dropdown dan isi draf WhatsApp sesuai, tanpa pengiriman pesan. Pergantian dari dropdown ke swatch, dari foto asli kembali ke warna, serta bahasa Inggris juga lulus. Baris thumbnail dapat digeser horizontal pada ponsel tanpa memperlebar halaman. Total 136 thumbnail WebP lokal (61 warna dan 75 foto asli) tersedia dan lolos pemeriksaan HTTP, bersama semua route produk. TypeScript dan production Docker build lulus.
+
+## 15. Menghapus pilihan warna yang berulang
+
+Arahan pemilik berikutnya menggantikan bagian kontrol warna pada bagian 13–14: katalog yang sudah mempunyai foto pilihan warna tidak perlu menampilkan pilihan warna tambahan, terutama Tas & Konveksi.
+
+- Spunbond (18) dan CK Metalik (27) memakai `previewMode: photos` dalam data editorial. Kartu dan detail menggunakan 14 dan 7 foto asli masing-masing. Dropdown "Beragam warna" dan tujuh preview warna tambahan CK tidak ditampilkan.
+- Produk lain memakai swatch foto sebagai pemilih warna langsung, sehingga dropdown dengan pilihan yang sama dihapus. Foto yang sudah menjadi swatch tidak diulang di baris foto tambahan. Nama warna tanpa foto masih dapat memakai pilihan tersendiri bila kelak ditambahkan ke data.
+- Seluruh foto asli dan pemetaan lama dipertahankan dalam sumber data; nama warna tidak ditebak dari foto yang belum memiliki pemetaan terkonfirmasi. Kartu kini memuat 54 pilihan warna aktif dan 35 pilihan foto.
+- Foto pilihan ikut ke Contact, sesi inquiry dan draf sebagai nomor foto serta URL yang membuka foto tersebut. Dua foto berbeda dari produk yang sama tetap menjadi dua item.
+
+Verifikasi: 27 halaman diperiksa tanpa dropdown warna berulang atau overflow ponsel. Audit seluruh galeri tidak menemukan sumber gambar ganda. CK Foto 3 dan Foto 5 terbawa sebagai dua item berbeda, bertahan setelah refresh dan muncul benar dalam ringkasan draf. Kartu CK Foto 4 membuka detail yang sesuai. Label Inggris, validasi indeks foto, TypeScript, production build dan pemeriksaan HTTP lulus. Data uji dibersihkan dan tidak ada pesan eksternal dikirim.

@@ -17,6 +17,7 @@ Fields:
 - `allowedUnits`: `roll`, `meter`, or `piece` as actually offered for inquiry. Initial automotive groups 1-9 allow roll/metre; group 25 uses piece; other groups use roll pending consultation.
 - `details.id` / `details.en`: first entry is the summary reference; further entries appear under See More. The visible summary itself comes from `description` in the base catalog.
 - `colorImages`: exact color key from `catalog.json` mapped to an image `src` and maintenance `kind` (`original` or `illustration`). Paths begin with `/images/` and refer to files under `public/`. `kind` is maintenance provenance, not a customer-facing badge.
+- `previewMode`: set to `photos` when the original gallery already provides the material/color selection. This hides the extra color-preview set and color dropdown; photo selection is carried into the inquiry by photo number and URL. Spunbond (18) and CK Metallic (27) use this mode. Omit the field for mapped-color previews.
 
 Initial MP TECH IDs: 1-9, 17, 19, 20, 21 and 26. Group 24 (Nafa Cover Material) does not receive it despite sharing the sheet category. Update the business-rule expectations in the verification script when the team intentionally changes these rules.
 
@@ -30,11 +31,13 @@ Spunbond's source only lists `Multiple colours`, so the gallery and consultation
 
 ### Card previews
 
-Every named color with a `colorImages` mapping appears as a clickable swatch on its product card, both on Home and in Store. Selecting it updates the photo and all detail links with `?color=`. Product detail opens that color, which also carries into the inquiry.
+In the default mode, every named color with a `colorImages` mapping appears as a clickable swatch on its product card, both on Home and in Store. Selecting it updates the photo and all detail links with `?color=`. Product detail opens that color, which also carries into the inquiry. Products using `previewMode: photos` offer the original photo thumbnails instead.
 
-Groups with at most one named color and multiple original photos also expose photo thumbnails. Longer lists expand on request; `?photo=` opens the chosen original image in product detail. Photos without a confirmed color mapping remain numbered photos. Single-photo groups do not invent color choices. Currently the catalog provides 61 color selections and 28 additional photo selections across 23 groups; the remaining four groups have one photo each.
+Groups with at most one named color and multiple original photos also expose photo thumbnails. Longer lists expand on request; `?photo=` opens the chosen original image in product detail. Photos without a confirmed color mapping remain numbered photos. Single-photo groups do not invent color choices. The cards provide 54 color selections and 35 photo selections across 23 groups; the remaining four groups have one photo each.
 
-Product detail also provides a row of image swatches for every mapped color, alongside the original-photo navigation. Clicking a color thumbnail synchronizes the main image, color dropdown and inquiry. The row scrolls horizontally on narrow screens. There are 61 color thumbnails and 75 original-gallery thumbnails.
+Product detail uses each mapped color photo once and omits it from the additional original-photo row. Clicking a color thumbnail sets the inquiry color directly, so there is no duplicate color dropdown. A dropdown is reserved for meaningful colors without mapped photos; the generic `Multiple colours` value does not create a selector. Both thumbnail rows scroll on narrow screens. The 61 color mappings and thumbnail files remain in maintenance data, including CK's seven inactive generated previews; 75 original-gallery thumbnails are available.
+
+Photo selections have an optional validated `photo` index in inquiry data. The image, photo number and selection URL carry to Contact and message drafts. Different photos of the same material remain separate inquiry items. Original photos with unconfirmed names are not assigned guessed color names.
 
 After adding or replacing original gallery photos or color mappings, regenerate the lightweight 96 px WebP thumbnails from the committed images:
 

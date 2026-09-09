@@ -9,6 +9,7 @@ const previewAssets=[];
 for(const p of catalog){
   const e=editorial[p.id];
   assert(e,`Editorial missing for ${p.id}`);
+  assert(e.previewMode===undefined||e.previewMode==='photos',`Unknown preview mode: ${p.id}`);
   assert.match(e.slug,/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   assert(!slugs.has(e.slug),`Duplicate slug: ${e.slug}`);slugs.add(e.slug);
   assert.equal(e.label,mp.has(p.id)?'MP TECH':'',`Label ${p.id}`);

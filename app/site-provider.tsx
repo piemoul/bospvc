@@ -46,7 +46,7 @@ export function SiteProvider({ children, initialLang, whatsapp, salesEmail }: { 
   const addItem = (item: QuoteItem) => {
     if (!validQuoteItem(item)) return;
     setItems(current => {
-      const index = current.findIndex(i => i.productId === item.productId && i.variantId === item.variantId && i.color === item.color && i.unit === item.unit);
+      const index = current.findIndex(i => i.productId === item.productId && i.variantId === item.variantId && i.color === item.color && i.unit === item.unit && i.photo === item.photo);
       return index < 0 ? [...current, item].slice(0, 100) : current.map((i, n) => n === index ? { ...i, quantity: Math.min(99999, i.quantity + item.quantity) } : i);
     });
   };

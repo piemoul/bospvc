@@ -93,9 +93,9 @@ The complete team PDF was mapped before implementation in [the revision map](rev
 
 The portfolio shows material specifications that can be sourced; it contains no inventory totals or WMS integration. MP TECH appears only on the 14 approved groups. Thirty-two generated color images fill missing options, with 61 explicit color mappings overall. Original source photos remain in the gallery. Provenance and prompts are in [the image record](docs/color-illustrations.json), while customer-facing photos have no generation label.
 
-Home and Store cards support clickable color/photo previews. All 61 named color choices and 28 additional photo choices update the card image and carry the selection into the product detail URL. Four single-photo groups keep their existing preview. Run `python scripts/prepare-product-previews.py` after updating original gallery images; the verification script checks the generated thumbnails.
+Home and Store cards support clickable color/photo previews. The 54 active color choices and 35 photo choices update the card image and carry the selection into the product detail URL. Four single-photo groups keep their existing preview. Run `python scripts/prepare-product-previews.py` after updating original gallery images; the verification script checks the generated thumbnails.
 
-Every product detail page also offers image swatches for its mapped colors. Clicking a swatch updates the main photo, color dropdown and inquiry selection. Original-photo navigation stays available, and both rows use small local WebP thumbnails.
+Product detail uses mapped-color image swatches as the color selector and removes duplicate dropdowns and gallery photos. Spunbond and CK Metallic use their existing original photos through `previewMode: photos`, without an extra color set. A selected photo carries into Contact and the inquiry as a photo number and direct link. Preview rows use small local WebP thumbnails.
 
 ## Generated image prompt
 

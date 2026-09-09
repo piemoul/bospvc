@@ -5,9 +5,9 @@ export type Category = 'automotive' | 'sheet' | 'tarpaulin' | 'interior' | 'fabr
 export type Variant = { id: string; label: string; length: string; width: string; weight: string; status: string };
 export type RequestUnit = 'roll' | 'meter' | 'piece';
 export type ColorImage = { src: string; kind: 'original' | 'illustration' };
-export type ProductEditorial = { slug: string; label: string; allowedUnits: RequestUnit[]; details: Record<Lang,string[]>; colorImages: Record<string,ColorImage> };
+export type ProductEditorial = { slug: string; label: string; allowedUnits: RequestUnit[]; details: Record<Lang,string[]>; colorImages: Record<string,ColorImage>; previewMode?: 'photos' };
 export type Product = ProductEditorial & { id: string; name: Record<Lang,string>; category: Category; code: string; description: Record<Lang,string>; images: string[]; colors: string[]; variants: Variant[]; dimensions: string; needsConfirmation: boolean; unit: string; sourceRow: number };
-export type QuoteItem = { productId: string; variantId: string; color: string; quantity: number; unit: 'roll' | 'meter' | 'piece' };
+export type QuoteItem = { productId: string; variantId: string; color: string; quantity: number; unit: 'roll' | 'meter' | 'piece'; photo?: number };
 const overrides = editorial as Record<string,ProductEditorial>;
 export const products: Product[] = source.map(p => ({ ...p, ...overrides[p.id] })) as Product[];
 export const productHref = (p: Product) => `/products/${p.slug}`;
@@ -20,7 +20,8 @@ export function validQuoteItem(value: unknown): value is QuoteItem {
   const product = products.find(p => p.id === item.productId);
   return !!product && product.variants.some(v => v.id === item.variantId)
     && product.allowedUnits.includes(item.unit) && validQuantity(item.quantity, item.unit)
-    && typeof item.color === 'string' && (item.color === '' || product.colors.includes(item.color));
+    && typeof item.color === 'string' && (item.color === '' || product.colors.includes(item.color))
+    && (item.photo === undefined || (Number.isSafeInteger(item.photo) && item.photo >= 0 && item.photo < product.images.length));
 }
 export const categories: {id: Category; idLabel: string; enLabel: string}[] = [
   {id:'automotive',idLabel:'Otomotif',enLabel:'Automotive'},

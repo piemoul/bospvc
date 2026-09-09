@@ -23,11 +23,13 @@ The editorial file controls stable slugs, optional brand labels, allowed inquiry
 
 `lib/colours.ts` supplies localized names and swatches. A color selection switches the product image through its mapping; original photo thumbnails remain available. `docs/color-illustrations.json` records references and generation prompts for 32 generated color variants. Provenance stays in maintenance data; customer-facing photos have no illustration badge, as requested by the owner.
 
-`lib/product-preview.ts` derives card choices from exact color mappings and original galleries. `ProductCard` keeps its selected preview in local state and forwards `color` or `photo` in every native detail link. `ProductDetail` validates the photo index before selecting an original image and exposes a row of color-image swatches. Swatch clicks synchronize its image, dropdown and inquiry color. Original photos remain in their own thumbnail row. `scripts/prepare-product-previews.py` creates small local thumbnails for every color and gallery image without adding a runtime image-processing dependency.
+`lib/product-preview.ts` derives card choices from exact color mappings and original galleries. `ProductCard` keeps its selected preview in local state and forwards `color` or `photo` in every native detail link. `ProductDetail` validates the photo index before selecting an original image. Swatches set its image and inquiry color directly, without a duplicate dropdown; original-photo navigation excludes photos already used by color swatches. The editorial `previewMode: photos` uses only the original gallery for Spunbond and CK Metallic. `scripts/prepare-product-previews.py` creates small local thumbnails without adding a runtime image-processing dependency.
 
 ## Quotation flow
 
 `ProductDetail` supports specification, color, quantity and allowed unit selection. Roll and metre requests apply to supported automotive materials, while ready-made tarpaulins use pieces. Selections can open a product-specific WhatsApp/email draft or join the shared inquiry at Contact.
+
+An optional validated `QuoteItem.photo` retains a chosen original photo in the shared session, Contact thumbnail, product link and message draft. The photo number distinguishes requests without inventing color names. `SiteProvider` includes this index when merging equivalent items, so different photos are kept separate.
 
 `QuoteForm` accepts the customer's name, business and required delivery/material notes. Email is optional; at least an email or phone number is required. Selected items remain editable. Submission prepares an on-page review; it does not send anything. `lib/inquiry.ts` formats descriptions and encoded `mailto:`/`wa.me` links, including product URLs with selected specification, unit and color. The customer sends the message in the external application. A text-summary download is also available.
 

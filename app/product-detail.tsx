@@ -6,7 +6,7 @@ import { ArrowRight, ChevronDown, Mail, Layers3 } from 'lucide-react';
 import { categoryName, productHref, validQuantity, type Product, type QuoteItem, type RequestUnit } from '@/lib/catalog';
 import { mailLink, chatLink, productInquiry } from '@/lib/inquiry';
 import { colourLabel, colourSwatch } from '@/lib/colours';
-import { productPreviews, validPhotoIndex } from '@/lib/product-preview';
+import { productPreviews, additionalPhotoPreviews, validPhotoIndex } from '@/lib/product-preview';
 import { useSite } from './site-provider';
 import WhatsAppIcon from './whatsapp-icon';
 
@@ -21,13 +21,17 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
   const [origin,setOrigin]=useState('');
   useEffect(()=>setOrigin(window.location.origin),[]);
   const variant=p.variants.find(v=>v.id===variantId)!;
-  const colorImage=color?p.colorImages[color]:undefined;
+  const colorImage=color&&p.previewMode!=='photos'?p.colorImages[color]:undefined;
   const colorPreviews=productPreviews(p).filter(option=>option.color);
+  const extraPhotos=additionalPhotoPreviews(p);
+  const originalPreviews=extraPhotos.length+colorPreviews.length>1?extraPhotos:[];
+  const unpicturedColors=p.previewMode==='photos'?[]:p.colors.filter(c=>c!=='Multiple colours'&&!p.colorImages[c]);
   const image=photo!==null?p.images[photo]:colorImage?.src??p.images[0];
   const dimensions=!p.needsConfirmation&&variant.length&&variant.width?`${variant.length.replace(/\.0\b/g,'')}${/^[\d.]+$/.test(variant.length)?' m':''} × ${variant.width.replace(/\.0\b/g,'')} cm`:'';
-  const item:QuoteItem={productId:p.id,variantId,color,quantity,unit};
+  const item:QuoteItem={productId:p.id,variantId,color,quantity,unit,...(photo!==null?{photo}:{})};
   const selectionParams=new URLSearchParams({variant:variantId,unit});
   if(color)selectionParams.set('color',color);
+  if(photo!==null)selectionParams.set('photo',String(photo));
   const inquiry=productInquiry(item,lang,`${origin}${productHref(p)}?${selectionParams}`);
   const valid=validQuantity(quantity,unit);
   const changeUnit=(next:RequestUnit)=>{setUnit(next);if(next!=='meter'&&!Number.isInteger(quantity))setQuantity(Math.max(1,Math.ceil(quantity)));};
@@ -36,7 +40,7 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
     <div className="product-detail-layout">
       <div className="product-visual"><div className="product-main-photo"><img src={image} alt={`${p.name[lang]}${color&&photo===null?' — '+colourLabel(color,lang):''}`} width="900" height="900" fetchPriority="high"/></div>
         {colorPreviews.length>0&&<div className="detail-colour-navigation"><p className="detail-gallery-label">{t('Pilihan warna','Colour options')}</p><div className="detail-colour-thumbs" role="group" aria-label={t('Pratinjau warna','Colour previews')}>{colorPreviews.map(option=><button type="button" key={option.key} title={colourLabel(option.color!,lang)} aria-label={`${t('Pratinjau','Preview')} ${colourLabel(option.color!,lang)}`} aria-pressed={photo===null&&color===option.color} onClick={()=>{setColor(option.color!);setPhoto(null);}}><img src={option.thumb} alt="" width="96" height="96" loading="lazy"/><span className="detail-swatch-name"><span className="color-dot" style={{background:colourSwatch(option.color!)}}/>{colourLabel(option.color!,lang)}</span></button>)}</div></div>}
-        {p.images.length>1&&<div className="detail-original-navigation"><p className="detail-gallery-label">{t('Foto material','Material photos')}</p><div className="detail-thumbs" role="group" aria-label={t('Foto material asli','Original material photos')}>{p.images.map((src,i)=><button type="button" key={src} aria-label={`${t('Foto','Photo')} ${i+1}`} aria-pressed={photo===i||(!color&&photo===null&&i===0)} onClick={()=>setPhoto(i)}><img src={`/images/product-previews/${p.id}-${i}.webp`} alt="" width="66" height="66" loading="lazy"/></button>)}</div></div>}
+        {originalPreviews.length>0&&<div className="detail-original-navigation"><p className="detail-gallery-label">{t('Foto material','Material photos')}</p><div className="detail-thumbs" role="group" aria-label={t('Foto material asli','Original material photos')}>{originalPreviews.map(option=><button type="button" key={option.key} aria-label={`${t('Foto','Photo')} ${option.photo!+1}`} aria-pressed={photo===option.photo||(!color&&photo===null&&option.photo===0)} onClick={()=>{setPhoto(option.photo!);if(p.previewMode==='photos')setColor('');}}><img src={option.thumb} alt="" width="66" height="66" loading="lazy"/></button>)}</div></div>}
         <p className="photo-caption" role="status">{t('Konfirmasikan warna dan spesifikasi akhir bersama tim sesuai kebutuhan Anda.','Confirm the final colour and specifications with our team for your requirements.')}</p>
       </div>
       <div className="product-information"><div className="product-labels">{p.label&&<span className="brand-badge">{p.label}</span>}<Link href={`/store?category=${p.category}`} className="eyebrow">{categoryName(p.category,lang)}</Link></div><h1>{p.name[lang]}</h1><p className="product-code">{p.code}</p><p className="product-summary">{p.description[lang]}</p>
@@ -44,7 +48,7 @@ export default function ProductDetail({product:p,initialSelection={}}:{product:P
         <div className="sourcing-note"><Layers3 size={21}/><div><strong>{t('Bahan untuk kebutuhan Anda','Materials for your requirements')}</strong><p>{t('Pilih spesifikasi untuk ditanyakan. Tim kami mengonfirmasi harga, ketersediaan, dan rencana pengadaan.','Choose a specification to inquire about. Our team will confirm pricing, availability and sourcing arrangements.')}</p></div></div>
         <form onSubmit={e=>{e.preventDefault();if(valid){addItem(item);router.push('/contact');}}}>
           <label className="field">{t('Varian / Spesifikasi','Variant / Specification')}<select value={variantId} onChange={e=>setVariantId(e.target.value)}>{p.variants.map(v=><option key={v.id} value={v.id}>{v.label}</option>)}</select></label>
-          {p.colors.length>0&&<label className="field mt-4">{t('Pilihan warna','Colour preference')}<select value={color} onChange={e=>{setColor(e.target.value);setPhoto(null);}}><option value="">{t('Konsultasikan pilihan warna','Discuss colour options')}</option>{p.colors.map(c=><option key={c} value={c}>{colourLabel(c,lang)}</option>)}</select></label>}
+          {unpicturedColors.length>0&&<label className="field mt-4">{t('Pilihan warna lainnya','Other colour options')}<select value={unpicturedColors.includes(color)?color:''} onChange={e=>{setColor(e.target.value);setPhoto(null);}}><option value="">{t('Konsultasikan pilihan warna','Discuss colour options')}</option>{unpicturedColors.map(c=><option key={c} value={c}>{colourLabel(c,lang)}</option>)}</select></label>}
           {color&&<div className="selected-colour"><span className="color-dot" style={{background:colourSwatch(color)}}/>{colourLabel(color,lang)}{colorImage&&photo!==null&&<button type="button" onClick={()=>setPhoto(null)}>{t('Lihat warna pilihan','View selected colour')}</button>}</div>}
           <div className="grid grid-cols-2 gap-4 mt-4"><label className="field">{t('Jumlah kebutuhan','Required quantity')}<input type="number" min={unit==='meter'?0.1:1} max="99999" step={unit==='meter'?0.1:1} required value={Number.isFinite(quantity)?quantity:''} onChange={e=>setQuantity(e.target.valueAsNumber)}/></label><label className="field">{t('Satuan permintaan','Requested unit')}<select value={unit} onChange={e=>changeUnit(e.target.value as RequestUnit)}>{p.allowedUnits.map(u=><option key={u} value={u}>{u==='roll'?'Roll':u==='meter'?t('Meter','Metre'):t('Lembar','Sheet / Piece')}</option>)}</select></label></div>
           <p className="specification-note">{dimensions?`${t('Ukuran katalog','Catalog dimensions')}: ${dimensions}`:t('Ukuran dan satuan penawaran dikonfirmasi sesuai kebutuhan Anda.','Final dimensions and quotation units are confirmed for your requirements.')}</p>

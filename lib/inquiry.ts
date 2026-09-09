@@ -5,7 +5,7 @@ export function itemText(item:QuoteItem,lang:Lang) {
   const v=p?.variants.find(v=>v.id===item.variantId);
   if(!p||!v)return '';
   const unit=item.unit==='piece'?(lang==='id'?'lembar':'pieces'):item.unit==='meter'?(lang==='id'?'meter':'metres'):'roll';
-  return [p.name[lang],v.label,`${item.quantity} ${unit}`,item.color?colourLabel(item.color,lang):''].filter(Boolean).join(' | ');
+  return [p.name[lang],v.label,`${item.quantity} ${unit}`,item.color?colourLabel(item.color,lang):'',item.photo!==undefined?`${lang==='id'?'Foto':'Photo'} ${item.photo+1}`:''].filter(Boolean).join(' | ');
 }
 export function productInquiry(item:QuoteItem,lang:Lang,url?:string) {
   return (lang==='id'?'Halo BOSS BAHAN PVC, mohon penawaran untuk produk berikut:':'Hello BOSS BAHAN PVC, please provide a quotation for the following product:')+'\n\n'+itemText(item,lang)+(url?'\n'+url:'')+'\n\n'+(lang==='id'?'Mohon informasi harga, ketersediaan, dan pengiriman. Terima kasih.':'Please advise pricing, availability and delivery options. Thank you.');

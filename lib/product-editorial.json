@@ -175,7 +175,8 @@
         "Tell us what you are making, your colour requirements and production volume so we can help match the material and specification."
       ]
     },
-    "colorImages": {}
+    "colorImages": {},
+    "previewMode": "photos"
   },
   "21": {
     "slug": "flexible-clear-pvc",
@@ -240,7 +241,8 @@
         "src": "/images/colors/product-27-salmon.webp",
         "kind": "illustration"
       }
-    }
+    },
+    "previewMode": "photos"
   },
   "1": {
     "slug": "mio-standard-0-55-mm",
