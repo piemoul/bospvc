@@ -4,14 +4,14 @@
 - label mode - file stats not available
 
 ## Summary
-- 116 nodes · 262 edges · 8 communities detected
+- 117 nodes · 265 edges · 8 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: references: 73 · imports: 64 · contains: 60 · imports_from: 55 · rationale_for: 4 · shares_data_with: 4 · calls: 2
+- Edge kinds: references: 73 · imports: 65 · contains: 61 · imports_from: 55 · rationale_for: 4 · shares_data_with: 4 · calls: 3
 
 
 ## Graph Freshness
-- Built from Git commit: `be41e15`
+- Built from Git commit: `10fd210`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `useSite()` - 10 edges
@@ -44,16 +44,16 @@ Cohesion: 0.15
 Nodes (6): metadata, SiteContext, SiteProvider(), SiteState, useSite(), BOSS brand identity
 
 ### Community 1 - "Product Preview Navigation"
-Cohesion: 0.19
-Nodes (11): Synchronized product previews, Product, productHref(), colourLabel(), colours, colourSwatch(), previewHref(), ProductPreview (+3 more)
+Cohesion: 0.18
+Nodes (12): Synchronized product previews, Product, productHref(), colourLabel(), colours, colourSwatch(), additionalPhotoPreviews(), previewHref() (+4 more)
 
 ### Community 2 - "Portfolio Rules and Deployment"
 Cohesion: 0.15
 Nodes (17): Material sourcing portfolio, Shared multi-page experience, Compose web service, GET(), ColorImage, overrides, ProductEditorial, config (+9 more)
 
-### Community 3 - "Homepage and Facility Media"
-Cohesion: 0.17
-Nodes (4): viewport, Original facility media, Lang, Three-slide responsive hero
+### Community 3 - "Quotation Draft Composition"
+Cohesion: 0.27
+Nodes (10): Inquiry, Customer-reviewed contact drafts, Validated contact configuration, Lang, QuoteItem, chatLink(), itemText(), mailLink() (+2 more)
 
 ### Community 4 - "Catalog and Material Selection"
 Cohesion: 0.22
@@ -63,9 +63,9 @@ Nodes (10): Inquiry material session, categories, Category, categoryName(), prod
 Cohesion: 0.23
 Nodes (6): Persistent bilingual preference, generateMetadata(), getSiteConfig(), generateMetadata(), Props, generateMetadata()
 
-### Community 6 - "Quotation Draft Composition"
-Cohesion: 0.29
-Nodes (9): Inquiry, Customer-reviewed contact drafts, Validated contact configuration, QuoteItem, chatLink(), itemText(), mailLink(), productInquiry() (+1 more)
+### Community 6 - "Homepage and Facility Media"
+Cohesion: 0.18
+Nodes (3): viewport, Original facility media, Three-slide responsive hero
 
 ### Community 7 - "Workbook and Asset Import"
 Cohesion: 0.40
@@ -85,7 +85,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Loopback Docker review` connect `Portfolio Rules and Deployment` to `Shared Brand Experience`?**
   _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **Why does `Rev1 acceptance checks` connect `Portfolio Rules and Deployment` to `Quotation Draft Composition`, `Product Preview Navigation`, `Catalog and Material Selection`?**
-  _High betweenness centrality (0.078) - this node is a cross-community bridge._
+  _High betweenness centrality (0.077) - this node is a cross-community bridge._
 - **What connects `viewport`, `Props`, `Inquiry` to the rest of the system?**
   _12 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Portfolio Rules and Deployment` be split into smaller, more focused modules?**

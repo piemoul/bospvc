@@ -20,28 +20,28 @@
     "hash": "337a2487eec362677f4d04cafdae2179"
   },
   "app/product-detail.tsx": {
-    "mtime": 1788955484826.1157,
-    "hash": "b239d0be1ad213b75ac52f9c6912acc2"
+    "mtime": 1788957196880.051,
+    "hash": "3539525775139cdc36cb3dccc099fc98"
   },
   "app/quote-form.tsx": {
-    "mtime": 1788952731318.4211,
-    "hash": "ab6dd3e55099bd1674284984ce4e52b2"
+    "mtime": 1788957098780.0166,
+    "hash": "e7308d80d0e11e12fb706b69ce504287"
   },
   "app/storefront.tsx": {
     "mtime": 1788952311715.6555,
     "hash": "ab529538c6b161887a329a3f6e2f451d"
   },
   "lib/catalog.ts": {
-    "mtime": 1788952311158.0625,
-    "hash": "81cb46a6810b060be323568a9689607a"
+    "mtime": 1788957075321.6946,
+    "hash": "726fab0908bde3590069eec8ce9c378e"
   },
   "lib/colours.ts": {
     "mtime": 1788675410909.1577,
     "hash": "4b90cf632a9ff907a1dc0be76d34e026"
   },
   "lib/inquiry.ts": {
-    "mtime": 1788952662988.1638,
-    "hash": "0c88a9e1f35d74dc9e0c152fc7d7a2cb"
+    "mtime": 1788957075323.6953,
+    "hash": "d8cb374ec6d56739b52ba728d1596561"
   },
   "next.config.ts": {
     "mtime": 1788673849614.6223,
@@ -64,16 +64,16 @@
     "hash": "2c98889aad4f5870886dcdf4101ab044"
   },
   "README.md": {
-    "mtime": 1788955526544.5444,
-    "hash": "9d52df16d0af34480a4fe66139dcc0ec"
+    "mtime": 1788957196885.3071,
+    "hash": "abf5278a1108822dec92e5d9f65bbdec"
   },
   "compose.yaml": {
     "mtime": 1788675071757.558,
     "hash": "e3c04ce1eda3e98ce47a78faf45f383a"
   },
   "docs/ARCHITECTURE.md": {
-    "mtime": 1788955526542.4187,
-    "hash": "00ed20a302ec0ffc577e6fe94b4a9a4a"
+    "mtime": 1788957196883.6438,
+    "hash": "be6f2fc8b30c072ad6114db0d1d6e0f8"
   },
   "app/contact-intro.tsx": {
     "mtime": 1788953997560.9192,
@@ -104,8 +104,8 @@
     "hash": "c9b7d3082c89b67f8615415fd45a20d0"
   },
   "app/site-provider.tsx": {
-    "mtime": 1788951708590.7786,
-    "hash": "fa19bdaf4c2f136a704b6492f43c517e"
+    "mtime": 1788957075324.8208,
+    "hash": "5686cadec8dbd74a82d4d071f32d9da0"
   },
   "app/site-shell.tsx": {
     "mtime": 1788951708591.6804,
@@ -128,16 +128,16 @@
     "hash": "999484e47f22e8b7e4640b56a0366e0f"
   },
   "docs/PRODUCT_DATA.md": {
-    "mtime": 1788955526540.8503,
-    "hash": "848dd531327f394846e33cc5c7e8451c"
+    "mtime": 1788957196881.161,
+    "hash": "a0ed431a896a5d7301ba890b2f424f08"
   },
   "rev1/REVISION_MAP.md": {
-    "mtime": 1788955691793.2866,
-    "hash": "709d11bf231b9c52ba1557d8c7b4938a"
+    "mtime": 1788957408381.1597,
+    "hash": "7944cca55353306c5d7db261daaedf12"
   },
   "lib/product-preview.ts": {
-    "mtime": 1788955484824.1113,
-    "hash": "1a20ca7e0f3a4d2e24fe9b9b1369312c"
+    "mtime": 1788957075322.694,
+    "hash": "dffbe6a77df672d0d68e4ad79bfaa29c"
   },
   "scripts/prepare-product-previews.py": {
     "mtime": 1788955484825.114,
