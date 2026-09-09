@@ -89,7 +89,7 @@ This local review is marked `noindex`. Before a public launch, confirm catalog s
 
 ## Rev1 structure and product colors
 
-The complete team PDF was mapped before implementation in [the revision map](rev1/REVISION_MAP.md). Home (`/`), Store (`/store`), product detail (`/products/[slug]`) and Contact (`/contact`) now have separate URLs. Material selections carry across routes; language persists after refresh. The form requires name, business and material/delivery notes, with at least one contact method; email is optional.
+The complete team PDF was mapped before implementation in [the revision map](rev1/REVISION_MAP.md). The three hero contexts are factory pricing, material selection, and sourcing/delivery, using distinct high-resolution warehouse photographs. Navigation consists of three centered dots and horizontal swipe; there is no automatic slide rotation. Home (`/`), Store (`/store`), product detail (`/products/[slug]`) and Contact (`/contact`) now have separate URLs. Material selections carry across routes; language persists after refresh. The form requires name, business and material/delivery notes, with at least one contact method; email is optional.
 
 The portfolio shows material specifications that can be sourced; it contains no inventory totals or WMS integration. MP TECH appears only on the 14 approved groups. Thirty-two generated color images fill missing options, with 61 explicit color mappings overall. Original source photos remain in the gallery. Provenance and prompts are in [the image record](docs/color-illustrations.json), while customer-facing photos have no generation label.
 

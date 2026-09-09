@@ -312,3 +312,18 @@ Verifikasi yang sudah lulus:
 | Privasi alur | Tidak ada email atau pesan WhatsApp yang dikirim selama QA. Data identitas QA dibersihkan. |
 
 Penyelesaian Graphify dan sinkronisasi repository dicatat pada artifact graph serta riwayat Git, sehingga dokumen ini tidak menyimpan hash commit yang berputar.
+
+
+## 12. Penyempurnaan hero setelah preview
+
+Arahan lanjutan pemilik menggantikan rancangan kontrol awal: tiga konteks harus berbeda, copy tetap bersumber dari revisi, navigasi hanya tiga dot di tengah, dan slide dapat digeser. Autoplay, nomor slide, panah dan tombol play/pause dihapus; pause running text header tetap terpisah.
+
+| Slide | Konteks revisi | Headline | Foto asli |
+| --- | --- | --- | --- |
+| 1 | Harga pabrik, produksi/jualan/proyek, eceran-grosir dan penawaran sesuai volume | Bos, cari bahan harga pabrik? Kami siapkan! | ASSETS/Gudang/IMG_7751.JPG |
+| 2 | Kelengkapan bahan, warna, tekstur, ketebalan dan konsultasi pilihan | Bahan lengkap. Pilih spesifikasi. Sesuai kebutuhan. | ASSETS/Gudang/IMG_7752.JPG |
+| 3 | Bahan siap, usaha lancar, koordinasi pengadaan dan pengiriman nasional | Bahan siap. Usaha makin lancar. | ASSETS/Gudang/IMG_7749.JPG |
+
+Sumber foto beresolusi 3024×4032 atau 4032×3024, diekspor menjadi WebP 720/1800 px. Swipe horizontal bekerja lewat pointer events; gerak vertikal tetap untuk scroll. Setiap CTA konsultasi membawa konteks slide masing-masing. Bahasa Inggris mengikuti pembagian konteks yang sama.
+
+Verifikasi lanjutan: swipe 1 ke 2 ke 3 dan klik dot berhasil; gambar aktif berubah sesuai konteks. Pada lebar 320 px hanya ada tiga kontrol dot, judul dan seal tidak bertumpuk, dan foto responsif 720 px dimuat. Production Docker build lulus.

@@ -13,7 +13,7 @@ A bilingual portfolio of materials that can be sourced. Customers select specifi
 - `/products/[slug]`: the server page awaits Next.js route parameters, validates the slug and URL selections, generates localized metadata and renders `ProductDetail`. Unknown slugs return 404.
 - `/contact`: `ContactPageContent` combines `ContactIntro` with `QuoteForm` and shared inquiry selections.
 
-`app/page-interactions.tsx` retains the owner's requested context-menu and zoom restrictions on Home only. Store and product links retain ordinary browser interactions. `app/globals.css` provides responsive styling, Tailwind, the self-hosted wordmark and CSS motion. The hero carousel uses a small React timer, pauses on focus/hover and respects reduced motion.
+`app/page-interactions.tsx` retains the owner's requested context-menu and zoom restrictions on Home only. Store and product links retain ordinary browser interactions. `app/globals.css` provides responsive styling, Tailwind, the self-hosted wordmark and CSS motion. The hero carousel has three centered dot controls and pointer-based horizontal swipe while preserving vertical scrolling, with no timer or automatic slide rotation. CSS transitions respect reduced motion.
 
 ## Catalog data and editable labels
 
@@ -33,7 +33,7 @@ The editorial file controls stable slugs, optional brand labels, allowed inquiry
 
 `CapabilityGallery` reads `lib/gallery.json`: 11 original facility photographs and 6 silent videos. Thumbnails, filtering, navigation and an enlarged dialog remain available. Videos in `public/media` load on selection. WebP assets are served locally and nonhero imagery loads lazily.
 
-The round BOSS logo supplies the header/favicon; the rectangular brand banner appears in About. The hero seal sits beside the headline with BOSS APPROVED above and five stars below. Brand spelling is BOSS BAHAN PVC; Bos addresses the customer.
+The round BOSS logo supplies the header/favicon; the rectangular brand banner appears in About. Three different original high-resolution warehouse images form the hero backgrounds for factory pricing, material selection and sourcing/delivery. Responsive 720/1800 px WebP exports preserve mobile and desktop detail. The hero seal sits beside the headline with BOSS APPROVED above and five stars below. Brand spelling is BOSS BAHAN PVC; Bos addresses the customer.
 
 Source preparation scripts read the owner's local workbook and ASSETS folder. Original media and review PDFs stay outside Git and the Docker context. Committed catalog data and optimized assets are sufficient to run the site.
 
