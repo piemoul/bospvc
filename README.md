@@ -40,6 +40,7 @@ A fresh clone already includes the compiled catalog and optimized website assets
 npm ci
 npm run dev
 npm run typecheck
+node scripts/verify-catalog.mjs
 npm run build
 ```
 
@@ -47,7 +48,7 @@ The development server uses port 3000. Another application may own its IPv6 addr
 
 ## Graphify project map
 
-Graphify **0.17.1** is installed as a development CLI, with a project-scoped Codex skill and hook. It adds no dependency to the website runtime. Read [the architecture overview](docs/ARCHITECTURE.md), [the generated graph report](.graphify/GRAPH_REPORT.md), or open [the interactive project map](docs/project-graph.html) after cloning. The offline map includes 65 nodes, 135 relationships and 9 named communities.
+Graphify **0.17.1** is installed as a development CLI, with a project-scoped Codex skill and hook. It adds no dependency to the website runtime. Read [the architecture overview](docs/ARCHITECTURE.md), [the generated graph report](.graphify/GRAPH_REPORT.md), or open [the interactive project map](docs/project-graph.html) after cloning. The offline map covers the shared layout, separate catalog/product/contact routes, editorial data and inquiry flow.
 
 On another machine:
 
@@ -69,10 +70,10 @@ To refresh the complete map in Codex, invoke `$graphify .`. Use `$graphify . --s
 - Related thickness, size and GSM rows are kept as variants. Groups are organised into automotive, clear/rigid sheets, tarpaulins, interior/household, and bags/textiles.
 - Prices are omitted from the website because this is an inquiry catalog. Ambiguous source dimensions and sales units are marked for confirmation instead of guessed. Availability is subject to confirmation.
 - The original workbook and `ASSETS` files are preserved. Product-specific photos come from the supplied folders and embedded workbook images. The separated `ASSETS/Mika` and `ASSETS/Rigid` directories supply their respective product photos.
-- The round and rectangular brand marks are separated from `ASSETS/LOGO.jpeg`. The round mark is used in the header, favicon, PNG icon and Apple touch icon. The supplied artwork retains its original spelling; the written site brand is **BOSS BAHAN PVC**.
+- The round and rectangular brand marks are separated from `ASSETS/LOGO.jpeg`. The round mark is used in the header, favicon, PNG icon and Apple touch icon. All deployed marks and written branding use **BOSS BAHAN PVC**.
 - Photos are converted to WebP and loaded lazily outside the main hero. The header uses a self-hosted Barlow Condensed font. No animation framework, external font request, third-party analytics, or external image hotlink is used.
-- `public/images/product-25-generated.webp` is an illustrative finished-tarpaulin image made with the built-in image generation tool. It is identified as illustrative in the product detail. The original warehouse photography is not generatively altered. The expanded capabilities gallery includes 11 photos and 6 complete, silent video clips (8.5 MB combined), lazy-loaded thumbnails, filters, and an enlarged view. Video assets load only on selection. Run scripts/prepare-gallery.py to refresh the gallery.
-- To reimport after source changes, run `scripts/inspect-assets.py` followed by `scripts/prepare-catalog.py` with Python and Pillow. The preparation script preserves the generated tarpaulin when present. Review product-specific editorial overrides when the workbook changes.
+- `public/images/product-25-generated.webp` is an illustrative finished-tarpaulin image made with the built-in image generation tool. Customer-facing photos have no illustration label, as requested by the owner. The original warehouse photography is not generatively altered. The expanded capabilities gallery includes 11 photos and 6 complete, silent video clips (8.5 MB combined), lazy-loaded thumbnails, filters, and an enlarged view. Video assets load only on selection. Run scripts/prepare-gallery.py to refresh the gallery.
+- To reimport after source changes, run `scripts/inspect-assets.py` followed by `scripts/prepare-catalog.py` with Python and Pillow. The preparation script preserves the generated tarpaulin when present. Review `lib/product-editorial.json` when the workbook changes; it stores team-editable labels, slugs, units, descriptions and color mappings separately from imported data. See [product data maintenance](docs/PRODUCT_DATA.md).
 
 ## Checks
 
@@ -80,11 +81,17 @@ The top announcement runs as one unbroken line in a 32-second CSS loop, with pau
 
 At the owner's request, the homepage suppresses its context menu, Ctrl/Cmd zoom shortcuts, modified wheel zoom and supported pinch gestures. A page-specific viewport sets the scale to 1, and mobile form fields use 16 px text to avoid focus zoom. These restrictions cover page-controlled interactions; browser-menu and operating-system zoom can override them. Normal scrolling, form entry and keyboard copy/paste remain available.
 
-The production Docker build includes TypeScript validation. Review covers the 390 px mobile and 1440 px desktop layouts, language switching, catalog filtering, specification selection, inquiry composition, contact-link destinations, and image loading. No external email or WhatsApp message is sent by verification.
+The production Docker build includes TypeScript validation. Review covers 320/390 px mobile, 768 px tablet and 1440 px desktop layouts, language switching, catalog filtering, specification selection, inquiry composition, contact-link destinations, and image loading. Run `node scripts/verify-catalog.mjs --live-url http://127.0.0.1:3036` for catalog integrity, all 30 page routes, unknown-product 404, English contact, health and generated-image responses. No external email or WhatsApp message is sent by verification.
 
 The catalog exposes a read-only, feature-detected `search_material_catalog` WebMCP tool. It performs no contact or submission action. The tool is optional for regular browsers.
 
 This local review is marked `noindex`. Before a public launch, confirm catalog specifications and the final contact number, then set the intended indexing policy and domain metadata in `app/layout.tsx`.
+
+## Rev1 structure and product colors
+
+The complete team PDF was mapped before implementation in [the revision map](rev1/REVISION_MAP.md). Home (`/`), Store (`/store`), product detail (`/products/[slug]`) and Contact (`/contact`) now have separate URLs. Material selections carry across routes; language persists after refresh. The form requires name, business and material/delivery notes, with at least one contact method; email is optional.
+
+The portfolio shows material specifications that can be sourced; it contains no inventory totals or WMS integration. MP TECH appears only on the 14 approved groups. Thirty-two generated color images fill missing options, with 61 explicit color mappings overall. Original source photos remain in the gallery. Provenance and prompts are in [the image record](docs/color-illustrations.json), while customer-facing photos have no generation label.
 
 ## Generated image prompt
 

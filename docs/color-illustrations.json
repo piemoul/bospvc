@@ -1,0 +1,230 @@
+{
+  "generator": "Built-in image generation tool; model version not exposed",
+  "displayPolicy": "No generated-image labels on customer-facing photos, as requested by the owner. Provenance retained here for maintenance.",
+  "images": [
+    {
+      "productId": "10",
+      "color": "Dark Brown",
+      "reference": "public/images/product-10.webp",
+      "output": "public/images/colors/product-10-dark-brown.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Dark Brown, approximate base #504134. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "10",
+      "color": "Navy",
+      "reference": "public/images/product-10.webp",
+      "output": "public/images/colors/product-10-navy.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Navy, approximate base #29334c. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "12",
+      "color": "Biru & Oren",
+      "reference": "public/images/product-12.webp",
+      "output": "public/images/colors/product-12-blue-orange.webp",
+      "prompt": "Use case: product-mockup. Edit the tarpaulin photograph. Keep the large front face deep blue #284e8c and recolor the folded reverse face ORANGE #ce763a. Keep the exact woven PE grid, glossy crinkles, corner fold, wood background, crop, and lighting. The corner must visibly reveal the orange reverse side. One square photorealistic illustrative product-color image. No text, watermark, border, brand text, collage or props. Not an inventory photograph."
+    },
+    {
+      "productId": "12",
+      "color": "Biru Terang & Biru",
+      "reference": "public/images/product-12.webp",
+      "output": "public/images/colors/product-12-light-blue-blue.webp",
+      "prompt": "Use case: product-mockup. Edit the tarpaulin photograph. Change the large front face to bright medium blue #619bcd and the folded reverse face to deep blue #284e8c. Keep the exact woven PE grid, glossy crinkles, corner fold, wood background, crop, and lighting. The fold must visibly reveal the darker blue reverse side. No silver remaining. One square photorealistic illustrative product-color image. No text, watermark, border, brand text, collage or props. Not an inventory photograph."
+    },
+    {
+      "productId": "17",
+      "color": "Hijau Hitam",
+      "reference": "public/images/product-17.webp",
+      "output": "public/images/colors/product-17-green-black.webp",
+      "prompt": "Use case: product-mockup. Use the supplied PVC tarpaulin texture as material reference. Create one close-up photo of the same dark green coated woven PVC sheet with one small corner folded over to clearly show a BLACK reverse side. The main face is dark green and reverse BLACK. Preserve the original fine diagonal woven surface and sheen. Full-bleed material composition. One square photorealistic illustrative product-color image. No text, watermark, border, brand text, collage or props. Not an inventory photograph."
+    },
+    {
+      "productId": "17",
+      "color": "Hijau Hijau",
+      "reference": "public/images/product-17.webp",
+      "output": "public/images/colors/product-17-green-green.webp",
+      "prompt": "Use case: product-mockup. Use the supplied PVC tarpaulin texture as material reference. Create one close-up photo of the same dark green coated woven PVC sheet with one small corner folded over to clearly show that the reverse side is also dark green. Preserve the original fine diagonal woven surface, sheen and color. Full-bleed material composition. One square photorealistic illustrative product-color image. No text, watermark, border, brand text, collage or props. Not an inventory photograph."
+    },
+    {
+      "productId": "19",
+      "color": "Black",
+      "reference": "public/images/product-19.webp",
+      "output": "public/images/colors/product-19-black.webp",
+      "prompt": "Use case: product-mockup. Asset type: B2B material catalog illustrative color variant. Generate a single clean close-up illustration of the fine smooth taffeta material seen in the reference sample pack. Show only one gently folded fabric sample, no plastic packaging, labels, ties, display board or other colors. Target material color: Black, approximate base #262729. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "19",
+      "color": "Red",
+      "reference": "public/images/product-19.webp",
+      "output": "public/images/colors/product-19-red.webp",
+      "prompt": "Use case: product-mockup. Asset type: B2B material catalog illustrative color variant. Generate a single clean close-up illustration of the fine smooth taffeta material seen in the reference sample pack. Show only one gently folded fabric sample, no plastic packaging, labels, ties, display board or other colors. Target material color: Red, approximate base #ae3334. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "19",
+      "color": "Royal Blue",
+      "reference": "public/images/product-19.webp",
+      "output": "public/images/colors/product-19-royal-blue.webp",
+      "prompt": "Use case: product-mockup. Asset type: B2B material catalog illustrative color variant. Generate a single clean close-up illustration of the fine smooth taffeta material seen in the reference sample pack. Show only one gently folded fabric sample, no plastic packaging, labels, ties, display board or other colors. Target material color: Royal Blue, approximate base #3554ab. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Canyon Brown",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-canyon-brown.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Canyon Brown, approximate base #936747. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Dark Grey",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-dark-grey.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Dark Grey, approximate base #626361. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Light Grey",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-light-grey.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Light Grey, approximate base #c7c6c1. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Navy",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-navy.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Navy, approximate base #29334c. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Red",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-red.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Red, approximate base #ae3334. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "2",
+      "color": "Yellow",
+      "reference": "public/images/product-2.webp",
+      "output": "public/images/colors/product-2-yellow.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Yellow, approximate base #d6b64e. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "26",
+      "color": "Hitam",
+      "reference": "public/images/product-26.webp",
+      "output": "public/images/colors/product-26-black.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Black, approximate base #262729. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Hijau Botol",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-bottle-green.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Hijau Botol, approximate base #305443. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Merah Cabe",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-bright-red.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Merah Cabe, approximate base #c6372d. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Merah Tua",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-dark-red.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Merah Tua, approximate base #872e34. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Abu",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-grey.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Abu, approximate base #888b88. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Maroon",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-maroon.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Maroon, approximate base #702f43. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Biru Dongker",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-navy.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Biru Dongker, approximate base #29334c. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "27",
+      "color": "Salem",
+      "reference": "public/images/product-27.webp",
+      "output": "public/images/colors/product-27-salmon.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows, hand, skin tone, fingernails and background. Target material color: Salem, approximate base #c38f86. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "4",
+      "color": "Dark Grey",
+      "reference": "public/images/product-4.webp",
+      "output": "public/images/colors/product-4-dark-grey.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog color illustration. Image 1 is the edit target: a close-up photograph of Cherokee PVC synthetic leather. Change only the material color to neutral DARK GREY (approximate base #626361). Preserve the exact irregular coarse leather grain, scale, texture, highlights, shadows, perspective, and full-bleed crop of the original photograph. One square 1024x1024 material photograph, photorealistic, no borders, text, logo, watermark, objects or collage. This will be labeled as an illustrative color option, not an actual stock photograph. Do not smooth or invent a different material texture."
+    },
+    {
+      "productId": "5",
+      "color": "Brown",
+      "reference": "public/images/product-5.webp",
+      "output": "public/images/colors/product-5-brown.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Brown, approximate base #725341. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "5",
+      "color": "Cappucino",
+      "reference": "public/images/product-5.webp",
+      "output": "public/images/colors/product-5-cappuccino.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Cappucino, approximate base #baa388. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "5",
+      "color": "Navy",
+      "reference": "public/images/product-5.webp",
+      "output": "public/images/colors/product-5-navy.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Navy, approximate base #29334c. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "5",
+      "color": "Red",
+      "reference": "public/images/product-5.webp",
+      "output": "public/images/colors/product-5-red.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Red, approximate base #ae3334. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "8",
+      "color": "Brown",
+      "reference": "public/images/product-8.webp",
+      "output": "public/images/colors/product-8-brown.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Brown, approximate base #725341. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "8",
+      "color": "Cappucino",
+      "reference": "public/images/product-8.webp",
+      "output": "public/images/colors/product-8-cappuccino.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Cappucino, approximate base #baa388. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "8",
+      "color": "Navy",
+      "reference": "public/images/product-8.webp",
+      "output": "public/images/colors/product-8-navy.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Navy, approximate base #29334c. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    },
+    {
+      "productId": "8",
+      "color": "Red",
+      "reference": "public/images/product-8.webp",
+      "output": "public/images/colors/product-8-red.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: B2B material catalog illustrative color variant. Image 1 is the edit target. Change ONLY the material surface color. Preserve the exact material grain, embossing pattern, surface sheen, geometry, scale, lighting, crop, shadows. Target material color: Red, approximate base #ae3334. Keep photorealistic natural texture and surface details. Output ONE square material image, no borders, text, logos, watermark, added props or collage. Do not replace the material with a different weave or grain. This is an illustrative color preview, not an actual stock photograph."
+    }
+  ]
+}

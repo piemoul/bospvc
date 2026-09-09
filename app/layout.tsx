@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
+import { getSiteConfig } from '@/lib/site-config';
+import { SiteProvider } from './site-provider';
+import SiteShell from './site-shell';
 import './globals.css';
 export const metadata: Metadata = {
   title: 'BOSS BAHAN PVC | Anda Bosnya. Kami siapkan bahannya.',
@@ -8,6 +10,6 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 export default async function RootLayout({children}:{children:React.ReactNode}) {
-  const lang=(await cookies()).get('boss-language')?.value==='en'?'en':'id';
-  return <html lang={lang}><body>{children}</body></html>;
+  const {lang,whatsapp,salesEmail}=await getSiteConfig();
+  return <html lang={lang}><body><SiteProvider initialLang={lang} whatsapp={whatsapp} salesEmail={salesEmail}><SiteShell>{children}</SiteShell></SiteProvider></body></html>;
 }

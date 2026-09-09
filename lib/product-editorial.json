@@ -1,0 +1,761 @@
+{
+  "2": {
+    "slug": "mio-pro-0-9-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-2-alt-1.webp",
+        "kind": "original"
+      },
+      "Cappucino": {
+        "src": "/images/product-2-alt-2.webp",
+        "kind": "original"
+      },
+      "Brown": {
+        "src": "/images/product-2.webp",
+        "kind": "original"
+      },
+      "Canyon Brown": {
+        "src": "/images/colors/product-2-canyon-brown.webp",
+        "kind": "illustration"
+      },
+      "Dark Grey": {
+        "src": "/images/colors/product-2-dark-grey.webp",
+        "kind": "illustration"
+      },
+      "Light Grey": {
+        "src": "/images/colors/product-2-light-grey.webp",
+        "kind": "illustration"
+      },
+      "Navy": {
+        "src": "/images/colors/product-2-navy.webp",
+        "kind": "illustration"
+      },
+      "Red": {
+        "src": "/images/colors/product-2-red.webp",
+        "kind": "illustration"
+      },
+      "Yellow": {
+        "src": "/images/colors/product-2-yellow.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "4": {
+    "slug": "cherokee-pro-0-9-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-4.webp",
+        "kind": "original"
+      },
+      "Dark Grey": {
+        "src": "/images/colors/product-4-dark-grey.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "12": {
+    "slug": "pe-tarpaulin-a2",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {
+      "Biru & Silver": {
+        "src": "/images/product-12.webp",
+        "kind": "original"
+      },
+      "Biru & Oren": {
+        "src": "/images/colors/product-12-blue-orange.webp",
+        "kind": "illustration"
+      },
+      "Biru Terang & Biru": {
+        "src": "/images/colors/product-12-light-blue-blue.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "20": {
+    "slug": "rigid-clear-sheet",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Lembaran rigid untuk kemasan, pencetakan, vacuum forming, dan sampul. Tersedia pilihan ketebalan 0.08–0.7 mm.",
+        "Untuk kebutuhan lembaran, sampaikan ketebalan, ukuran, kelenturan yang dibutuhkan, dan aplikasi akhir. Pilihan ukuran pada katalog menjadi acuan diskusi pengadaan."
+      ],
+      "en": [
+        "Rigid sheets for packaging, printing, vacuum forming and covers, with thickness options from 0.08–0.7 mm.",
+        "For sheet materials, share the thickness, dimensions, required flexibility and intended application. The listed specifications provide a starting point for sourcing."
+      ]
+    },
+    "colorImages": {}
+  },
+  "17": {
+    "slug": "premium-cp-pvc-tarpaulin",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {
+      "Hijau Hitam": {
+        "src": "/images/colors/product-17-green-black.webp",
+        "kind": "illustration"
+      },
+      "Hijau Hijau": {
+        "src": "/images/colors/product-17-green-green.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "18": {
+    "slug": "spunbond-lining-fabric",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Kain spunbond untuk goodie bag, lapisan tas, dan pelapis sofa. Pilihan gramasi 20, 30, 50, dan 65 GSM.",
+        "Sampaikan jenis produk yang akan dibuat, kebutuhan warna, dan volume produksi agar kami dapat membantu menyesuaikan bahan serta spesifikasinya."
+      ],
+      "en": [
+        "Spunbond fabric for goodie bags, bag linings and sofa linings. Available specifications: 20, 30, 50 and 65 GSM.",
+        "Tell us what you are making, your colour requirements and production volume so we can help match the material and specification."
+      ]
+    },
+    "colorImages": {}
+  },
+  "21": {
+    "slug": "flexible-clear-pvc",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Mika bening fleksibel untuk kemasan, tas transparan, dan pelapis. Pilihan ketebalan 0.05–0.8 mm, dengan ketersediaan sesuai varian.",
+        "Untuk kebutuhan lembaran, sampaikan ketebalan, ukuran, kelenturan yang dibutuhkan, dan aplikasi akhir. Pilihan ukuran pada katalog menjadi acuan diskusi pengadaan."
+      ],
+      "en": [
+        "Flexible clear material for packaging, transparent bags and coverings. Thicknesses from 0.05–0.8 mm; availability depends on the variant.",
+        "For sheet materials, share the thickness, dimensions, required flexibility and intended application. The listed specifications provide a starting point for sourcing."
+      ]
+    },
+    "colorImages": {}
+  },
+  "27": {
+    "slug": "ck-metallic",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Bahan CK Metalik untuk produksi tas dan aksesori. Tersedia dalam pilihan warna untuk kebutuhan konveksi Anda.",
+        "Sampaikan jenis produk yang akan dibuat, kebutuhan warna, dan volume produksi agar kami dapat membantu menyesuaikan bahan serta spesifikasinya."
+      ],
+      "en": [
+        "CK Metallic material for bags and accessories, with colour options for your textile production needs.",
+        "Tell us what you are making, your colour requirements and production volume so we can help match the material and specification."
+      ]
+    },
+    "colorImages": {
+      "Hijau Botol": {
+        "src": "/images/colors/product-27-bottle-green.webp",
+        "kind": "illustration"
+      },
+      "Merah Cabe": {
+        "src": "/images/colors/product-27-bright-red.webp",
+        "kind": "illustration"
+      },
+      "Merah Tua": {
+        "src": "/images/colors/product-27-dark-red.webp",
+        "kind": "illustration"
+      },
+      "Abu": {
+        "src": "/images/colors/product-27-grey.webp",
+        "kind": "illustration"
+      },
+      "Maroon": {
+        "src": "/images/colors/product-27-maroon.webp",
+        "kind": "illustration"
+      },
+      "Biru Dongker": {
+        "src": "/images/colors/product-27-navy.webp",
+        "kind": "illustration"
+      },
+      "Salem": {
+        "src": "/images/colors/product-27-salmon.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "1": {
+    "slug": "mio-standard-0-55-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Cappucino": {
+        "src": "/images/product-1.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "3": {
+    "slug": "nafa-pro-0-9-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-3.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "5": {
+    "slug": "needle-pattern-pro-0-9-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-5.webp",
+        "kind": "original"
+      },
+      "Brown": {
+        "src": "/images/colors/product-5-brown.webp",
+        "kind": "illustration"
+      },
+      "Cappucino": {
+        "src": "/images/colors/product-5-cappuccino.webp",
+        "kind": "illustration"
+      },
+      "Navy": {
+        "src": "/images/colors/product-5-navy.webp",
+        "kind": "illustration"
+      },
+      "Red": {
+        "src": "/images/colors/product-5-red.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "6": {
+    "slug": "checkerboard-0-7-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-6.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "7": {
+    "slug": "vario-coffee-bean-0-8-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-7.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "8": {
+    "slug": "big-dot-pro-0-9-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-8.webp",
+        "kind": "original"
+      },
+      "Brown": {
+        "src": "/images/colors/product-8-brown.webp",
+        "kind": "illustration"
+      },
+      "Cappucino": {
+        "src": "/images/colors/product-8-cappuccino.webp",
+        "kind": "illustration"
+      },
+      "Navy": {
+        "src": "/images/colors/product-8-navy.webp",
+        "kind": "illustration"
+      },
+      "Red": {
+        "src": "/images/colors/product-8-red.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "9": {
+    "slug": "amplas-standard-0-7-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll",
+      "meter"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis untuk kebutuhan jok dan interior otomotif. Pilih tekstur, warna, dan ketebalan sesuai aplikasi Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Upholstery materials for automotive seating and interiors. Select the texture, colour and thickness to suit your application.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/product-9.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "10": {
+    "slug": "plain-gloss-pvc",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "PVC berpermukaan mengilap untuk pelapis meja dan lapisan dalam tas. Pilihan warna untuk kebutuhan produksi dan rumah tangga.",
+        "Untuk pelapisan permukaan dan interior, sampaikan area pemakaian, ukuran, motif atau warna, serta jumlah kebutuhan. Tim kami membantu menyiapkan penawaran yang sesuai."
+      ],
+      "en": [
+        "Gloss-finish PVC for table coverings and bag linings, with colour options for production and household use.",
+        "For surface coverings and interiors, share the application area, dimensions, pattern or colour and required quantity. Our team will help prepare a suitable quotation."
+      ]
+    },
+    "colorImages": {
+      "Green": {
+        "src": "/images/product-10.webp",
+        "kind": "original"
+      },
+      "Blue": {
+        "src": "/images/product-10-alt-1.webp",
+        "kind": "original"
+      },
+      "Black": {
+        "src": "/images/product-10-alt-2.webp",
+        "kind": "original"
+      },
+      "Light Brown": {
+        "src": "/images/product-10-alt-3.webp",
+        "kind": "original"
+      },
+      "Med Brown": {
+        "src": "/images/product-10-alt-4.webp",
+        "kind": "original"
+      },
+      "Maroon": {
+        "src": "/images/product-10-alt-5.webp",
+        "kind": "original"
+      },
+      "Red": {
+        "src": "/images/product-10-alt-6.webp",
+        "kind": "original"
+      },
+      "Dark Brown": {
+        "src": "/images/colors/product-10-dark-brown.webp",
+        "kind": "illustration"
+      },
+      "Navy": {
+        "src": "/images/colors/product-10-navy.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "11": {
+    "slug": "floral-gloss-pvc",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "PVC motif bunga untuk pelapis meja dan lapisan dalam tas. Ketebalan katalog 0.5 mm dengan pilihan warna.",
+        "Untuk pelapisan permukaan dan interior, sampaikan area pemakaian, ukuran, motif atau warna, serta jumlah kebutuhan. Tim kami membantu menyiapkan penawaran yang sesuai."
+      ],
+      "en": [
+        "Floral-pattern PVC for table coverings and bag linings. Listed at 0.5 mm with colour options.",
+        "For surface coverings and interiors, share the application area, dimensions, pattern or colour and required quantity. Our team will help prepare a suitable quotation."
+      ]
+    },
+    "colorImages": {
+      "Green": {
+        "src": "/images/product-11.webp",
+        "kind": "original"
+      },
+      "Red": {
+        "src": "/images/product-11-alt-0.webp",
+        "kind": "original"
+      },
+      "Orange": {
+        "src": "/images/product-11-alt-1.webp",
+        "kind": "original"
+      },
+      "Blue": {
+        "src": "/images/product-11-alt-2.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "13": {
+    "slug": "pe-tarpaulin-a5",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {
+      "Biru & Silver": {
+        "src": "/images/product-13.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "14": {
+    "slug": "pe-tarpaulin-a12",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {}
+  },
+  "15": {
+    "slug": "pe-tarpaulin-a3",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {
+      "Biru & Biru": {
+        "src": "/images/product-15.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "16": {
+    "slug": "pvc-tarpaulin",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material terpal untuk penutup, transportasi, dan kebutuhan luar ruang. Konsultasikan spesifikasi sesuai penggunaan dan volume pengadaan.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Tarpaulin materials for covers, transport and outdoor applications. Discuss the appropriate specification for your use and order volume.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {
+      "Hijau Daun": {
+        "src": "/images/product-16.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "19": {
+    "slug": "automotive-cover-taffeta",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Bahan tafeta untuk penutup kendaraan. Konsultasikan pilihan warna dan kebutuhan pengadaan Anda.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Taffeta material for vehicle covers. Discuss colour options and your procurement requirements.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Black": {
+        "src": "/images/colors/product-19-black.webp",
+        "kind": "illustration"
+      },
+      "Red": {
+        "src": "/images/colors/product-19-red.webp",
+        "kind": "illustration"
+      },
+      "Royal Blue": {
+        "src": "/images/colors/product-19-royal-blue.webp",
+        "kind": "illustration"
+      }
+    }
+  },
+  "22": {
+    "slug": "premium-floor-covering",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Bahan pelapis lantai dengan ketebalan katalog 0.4 mm. Konsultasikan pilihan motif dan ukuran untuk kebutuhan ruang Anda.",
+        "Untuk pelapisan permukaan dan interior, sampaikan area pemakaian, ukuran, motif atau warna, serta jumlah kebutuhan. Tim kami membantu menyiapkan penawaran yang sesuai."
+      ],
+      "en": [
+        "Floor covering material listed at 0.4 mm. Discuss patterns and dimensions to suit your space.",
+        "For surface coverings and interiors, share the application area, dimensions, pattern or colour and required quantity. Our team will help prepare a suitable quotation."
+      ]
+    },
+    "colorImages": {}
+  },
+  "23": {
+    "slug": "economy-floor-covering",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Bahan pelapis lantai ekonomis dalam pilihan panjang roll. Tanyakan motif dan ketersediaan untuk pengadaan usaha Anda.",
+        "Untuk pelapisan permukaan dan interior, sampaikan area pemakaian, ukuran, motif atau warna, serta jumlah kebutuhan. Tim kami membantu menyiapkan penawaran yang sesuai."
+      ],
+      "en": [
+        "Economy floor covering material in several roll lengths. Inquire about patterns and availability for your business.",
+        "For surface coverings and interiors, share the application area, dimensions, pattern or colour and required quantity. Our team will help prepare a suitable quotation."
+      ]
+    },
+    "colorImages": {}
+  },
+  "24": {
+    "slug": "nafa-cover-material",
+    "label": "",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Bahan Nafa untuk sampul rapor, map, dan kebutuhan alat tulis. Pilihan spesifikasi 0.10A dan 0.15A.",
+        "Untuk kebutuhan lembaran, sampaikan ketebalan, ukuran, kelenturan yang dibutuhkan, dan aplikasi akhir. Pilihan ukuran pada katalog menjadi acuan diskusi pengadaan."
+      ],
+      "en": [
+        "Nafa material for report covers, folders and stationery, with 0.10A and 0.15A specification options.",
+        "For sheet materials, share the thickness, dimensions, required flexibility and intended application. The listed specifications provide a starting point for sourcing."
+      ]
+    },
+    "colorImages": {
+      "Clear": {
+        "src": "/images/product-24.webp",
+        "kind": "original"
+      }
+    }
+  },
+  "25": {
+    "slug": "ready-made-pe-tarpaulin",
+    "label": "",
+    "allowedUnits": [
+      "piece"
+    ],
+    "details": {
+      "id": [
+        "Terpal PE lembaran untuk kebutuhan penutup. Pilihan ukuran 2 × 3, 3 × 4, 4 × 6, dan 6 × 8 m. Konfirmasikan grade A2, A5, atau A3 saat konsultasi.",
+        "Sampaikan penggunaan terpal, ukuran area yang akan ditutup, serta kebutuhan roll atau lembaran. Untuk pengadaan proyek, sertakan volume dan lokasi pengiriman."
+      ],
+      "en": [
+        "Ready-made PE tarpaulin for covering applications. Size options: 2 × 3, 3 × 4, 4 × 6 and 6 × 8 m. Confirm A2, A5 or A3 grade during your inquiry.",
+        "Share the tarpaulin application, the area to cover and whether you need rolls or ready-made sheets. For project sourcing, include the quantity and delivery location."
+      ]
+    },
+    "colorImages": {}
+  },
+  "26": {
+    "slug": "automotive-floor-liner-1-3-mm",
+    "label": "MP TECH",
+    "allowedUnits": [
+      "roll"
+    ],
+    "details": {
+      "id": [
+        "Material pelapis dasar lantai mobil dengan ketebalan katalog 1.3 mm. Untuk kebutuhan pemasangan dan pelapisan interior kendaraan.",
+        "Untuk jok dan interior kendaraan, sampaikan area pemasangan, tekstur yang diinginkan, dan jumlah kebutuhan. Tim kami membantu membandingkan pilihan bahan sesuai aplikasinya."
+      ],
+      "en": [
+        "Automotive floor lining material listed at 1.3 mm, for vehicle interior installation and covering applications.",
+        "For vehicle seating and interiors, share the installation area, desired texture and quantity. Our team can help compare materials for your application."
+      ]
+    },
+    "colorImages": {
+      "Capucinno": {
+        "src": "/images/product-26.webp",
+        "kind": "original"
+      },
+      "Abu": {
+        "src": "/images/product-26-alt-0.webp",
+        "kind": "original"
+      },
+      "Hitam": {
+        "src": "/images/colors/product-26-black.webp",
+        "kind": "illustration"
+      }
+    }
+  }
+}

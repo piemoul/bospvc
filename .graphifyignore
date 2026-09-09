@@ -17,3 +17,6 @@ AGENTS.md
 CLAUDE.md
 docs/project-graph.html
 docs/brand-seal-prompt.md
+rev1/*.pdf
+docs/color-illustrations.json
+scripts/verify-catalog.mjs

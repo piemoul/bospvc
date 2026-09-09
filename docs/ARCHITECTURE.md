@@ -1,31 +1,46 @@
 # BOSS BAHAN PVC architecture
 
-BOSS BAHAN PVC is a bilingual B2B portfolio and quotation catalog. The customer selects materials and prepares an inquiry; the application has no cart, checkout, payment service, order backend, or inquiry database.
+A bilingual portfolio of materials that can be sourced. Customers select specifications and prepare a quotation inquiry. Inventory and WMS are outside the website. There is no checkout, payment, order backend or inquiry database.
 
-## Rendering and language
+## Routes and shared state
 
-`app/layout.tsx` provides metadata and the brand favicon. `app/page.tsx` is the server entry point: it reads the language cookie, validates `SALES_EMAIL` and `WHATSAPP_NUMBER`, and passes the contact configuration to `Storefront` in `app/storefront.tsx`. Language switching updates the Indonesian/English content, page title, document language and `boss-language` cookie.
+`app/layout.tsx` calls `lib/site-config.ts` for the language cookie and validated contact environment values. It wraps all routes in `SiteProvider` and `SiteShell`. `app/site-shell.tsx` owns the consistent header, single-line ticker, language switch, responsive navigation, footer and WhatsApp shortcut.
 
-`Storefront` coordinates catalog search, category filtering, product dialogs and the in-memory list of quotation items. It renders `ProductDetail`, `QuoteForm` and `CapabilityGallery`. `app/globals.css` contains the responsive layout, Tailwind imports, self-hosted Barlow Condensed wordmark, single-line announcement ticker and hero seal placement. `app/page-interactions.tsx` implements the owner's requested context-menu and page-zoom restrictions; browser and operating-system overrides remain outside the page's control.
+`app/site-provider.tsx` manages Indonesian/English language and selected inquiry materials across navigation. It persists only validated material selections in sessionStorage. Customer identity fields are not persisted. Language is saved in the `boss-language` cookie and server route metadata uses the same preference.
 
-## Catalog and inquiry flow
+- `/`: `app/storefront.tsx` composes the three-slide `HeroCarousel`, benefits, About, sourcing steps, selected products, facility gallery and compact contact introduction. Legacy `#products` and `#quote` links redirect to the appropriate route.
+- `/store`: `app/store/store-catalog.tsx` supports category, search and sorting parameters with the Next.js-integrated History API. `ProductCard` renders native links to product pages. Load-more limits initial rendering to 12 groups.
+- `/products/[slug]`: the server page awaits Next.js route parameters, validates the slug and URL selections, generates localized metadata and renders `ProductDetail`. Unknown slugs return 404.
+- `/contact`: `ContactPageContent` combines `ContactIntro` with `QuoteForm` and shared inquiry selections.
 
-`lib/catalog.ts` imports `lib/catalog.json` and defines `Product`, `Variant`, `Lang` and `QuoteItem`. The catalog has 27 material groups and 99 variants, without price fields. `lib/colours.ts` supplies localized color names and display swatches.
+`app/page-interactions.tsx` retains the owner's requested context-menu and zoom restrictions on Home only. Store and product links retain ordinary browser interactions. `app/globals.css` provides responsive styling, Tailwind, the self-hosted wordmark and CSS motion. The hero carousel uses a small React timer, pauses on focus/hover and respects reduced motion.
 
-`ProductDetail` in `app/product-detail.tsx` lets visitors choose a variant, color, quantity and requested unit. A selection can become a direct product inquiry or join the quotation request managed by `Storefront`. `QuoteForm` in `app/quote-form.tsx` combines the selected items with the customer's company and delivery requirements, then displays a reviewable draft.
+## Catalog data and editable labels
 
-`lib/inquiry.ts` formats selected items and creates encoded `mailto:` and `wa.me` links. The customer sends the prepared message in their email or WhatsApp application. The quote form can also download a text summary. No background email delivery takes place.
+`lib/catalog.ts` combines the imported `lib/catalog.json` with `lib/product-editorial.json`. The base contains 27 material groups and 99 variants. Historical source statuses are not presented as current inventory. `validQuoteItem` validates product, variant, color, quantity and permitted unit before restored selections enter the interface.
 
-## Media and source preparation
+The editorial file controls stable slugs, optional brand labels, allowed inquiry units, bilingual extended descriptions and explicit color-to-image mappings. It survives workbook reimports because the preparation script writes only the base catalog. MP TECH starts on 14 explicitly selected groups; Nafa Cover Material remains unlabelled. See `docs/PRODUCT_DATA.md` for editing instructions.
 
-`CapabilityGallery` in `app/capability-gallery.tsx` reads `lib/gallery.json` and presents 11 facility photographs and 6 silent videos. It supports filtering, thumbnails, previous/next navigation and an enlarged dialog. Compressed videos in `public/media` load on selection. Optimized WebP product and facility images are in `public/images`.
+`lib/colours.ts` supplies localized names and swatches. A color selection switches the product image through its mapping; original photo thumbnails remain available. `docs/color-illustrations.json` records references and generation prompts for 32 generated color variants. Provenance stays in maintenance data; customer-facing photos have no illustration badge, as requested by the owner.
 
-The original round logo supplies the header and favicon; the separate rectangular banner is used in the brand section. All brand names read BOSS BAHAN PVC. The generated seal sits beside the hero slogan, with BOSS APPROVED on the upper arc and five gold stars on the lower arc. The generated finished-tarpaulin image is identified as illustrative in product details.
+## Quotation flow
 
-`scripts/inspect-assets.py` extracts the original workbook into a local intermediate file. `scripts/prepare-catalog.py` produces the catalog data and optimized product imagery. `scripts/prepare-gallery.py` prepares the facility gallery and compressed videos. These scripts require the owner's original `ASSETS` folder and workbook, which are kept locally and excluded from Git. The committed catalog and optimized public assets are sufficient to run the website.
+`ProductDetail` supports specification, color, quantity and allowed unit selection. Roll and metre requests apply to supported automotive materials, while ready-made tarpaulins use pieces. Selections can open a product-specific WhatsApp/email draft or join the shared inquiry at Contact.
 
-## Deployment and project graph
+`QuoteForm` accepts the customer's name, business and required delivery/material notes. Email is optional; at least an email or phone number is required. Selected items remain editable. Submission prepares an on-page review; it does not send anything. `lib/inquiry.ts` formats descriptions and encoded `mailto:`/`wa.me` links, including product URLs with selected specification, unit and color. The customer sends the message in the external application. A text-summary download is also available.
 
-`Dockerfile` builds the Next.js standalone output and runs it as a non-root user. `compose.yaml` exposes the website at `127.0.0.1:3036` and supplies contact values from the ignored local `.env`. `app/api/health/route.ts` provides the container health endpoint. The current review metadata uses `noindex`.
+## Media
 
-Graphify is a development tool separate from the website runtime. Its project skill is in `.agents/skills/graphify/SKILL.md`; `.graphify/graph.json` and `.graphify/GRAPH_REPORT.md` record the structural and documentation graph. The generated Studio is a local development artifact and is excluded from the website's Docker build.
+`CapabilityGallery` reads `lib/gallery.json`: 11 original facility photographs and 6 silent videos. Thumbnails, filtering, navigation and an enlarged dialog remain available. Videos in `public/media` load on selection. WebP assets are served locally and nonhero imagery loads lazily.
+
+The round BOSS logo supplies the header/favicon; the rectangular brand banner appears in About. The hero seal sits beside the headline with BOSS APPROVED above and five stars below. Brand spelling is BOSS BAHAN PVC; Bos addresses the customer.
+
+Source preparation scripts read the owner's local workbook and ASSETS folder. Original media and review PDFs stay outside Git and the Docker context. Committed catalog data and optimized assets are sufficient to run the site.
+
+## Deployment and verification
+
+`Dockerfile` builds the Next.js standalone output and runs it as a non-root user. `compose.yaml` binds to `127.0.0.1:3036`, with contact values from ignored `.env`. `app/api/health/route.ts` provides container health. Local review remains noindex.
+
+`scripts/verify-catalog.mjs` verifies editorial coverage, unique slugs, supported units, label rules and photo mappings. Its optional `--live-url` mode checks all page routes, unknown-product 404, English metadata/content, health and generated asset responses. Browser QA covers route transitions, language, color selection, inquiry drafts and responsive breakpoints.
+
+Graphify is development tooling only. `.graphify/graph.json` and `GRAPH_REPORT.md` record code/document relationships; `docs/project-graph.html` is the shared offline Studio. Machine-specific lifecycle state and caches are ignored.

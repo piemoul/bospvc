@@ -21,3 +21,4 @@ ASSETS/
 .graphify/studio/
 .graphify/description-instructions/
 .graphify/label-instructions/
+/rev1/*.pdf

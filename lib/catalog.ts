@@ -1,10 +1,27 @@
 import source from './catalog.json';
+import editorial from './product-editorial.json';
 export type Lang = 'id' | 'en';
 export type Category = 'automotive' | 'sheet' | 'tarpaulin' | 'interior' | 'fabric';
 export type Variant = { id: string; label: string; length: string; width: string; weight: string; status: string };
-export type Product = { id: string; name: Record<Lang,string>; category: Category; code: string; description: Record<Lang,string>; images: string[]; colors: string[]; variants: Variant[]; dimensions: string; needsConfirmation: boolean; unit: string; sourceRow: number };
+export type RequestUnit = 'roll' | 'meter' | 'piece';
+export type ColorImage = { src: string; kind: 'original' | 'illustration' };
+export type ProductEditorial = { slug: string; label: string; allowedUnits: RequestUnit[]; details: Record<Lang,string[]>; colorImages: Record<string,ColorImage> };
+export type Product = ProductEditorial & { id: string; name: Record<Lang,string>; category: Category; code: string; description: Record<Lang,string>; images: string[]; colors: string[]; variants: Variant[]; dimensions: string; needsConfirmation: boolean; unit: string; sourceRow: number };
 export type QuoteItem = { productId: string; variantId: string; color: string; quantity: number; unit: 'roll' | 'meter' | 'piece' };
-export const products = source as Product[];
+const overrides = editorial as Record<string,ProductEditorial>;
+export const products: Product[] = source.map(p => ({ ...p, ...overrides[p.id] })) as Product[];
+export const productHref = (p: Product) => `/products/${p.slug}`;
+export function validQuantity(value: number, unit: RequestUnit) {
+  return Number.isFinite(value) && value >= (unit === 'meter' ? 0.1 : 1) && value <= 99999 && (unit === 'meter' || Number.isInteger(value));
+}
+export function validQuoteItem(value: unknown): value is QuoteItem {
+  if (!value || typeof value !== 'object') return false;
+  const item = value as QuoteItem;
+  const product = products.find(p => p.id === item.productId);
+  return !!product && product.variants.some(v => v.id === item.variantId)
+    && product.allowedUnits.includes(item.unit) && validQuantity(item.quantity, item.unit)
+    && typeof item.color === 'string' && (item.color === '' || product.colors.includes(item.color));
+}
 export const categories: {id: Category; idLabel: string; enLabel: string}[] = [
   {id:'automotive',idLabel:'Otomotif',enLabel:'Automotive'},
   {id:'sheet',idLabel:'Mika & Rigid',enLabel:'Clear & Rigid Sheets'},
